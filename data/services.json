@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "safety-consulting",
+    "title": "Safety Consulting",
+    "shortDescription": "Expert safety consulting, OSHA guidance, and risk reduction strategies tailored to your daily operations.",
+    "longDescription": "Get expert safety consulting, OSHA guidance, risk reduction strategies, and program direction tailored to your company and daily operations. We partner with you to identify hazards before they become incidents — keeping your people safe and your business in full compliance. Our consultants bring decades of field experience across construction, manufacturing, oil & gas, and general industry, so you can trust the advice you receive is grounded in real-world practice, not just theory.",
+    "benefits": [
+      "OSHA Alignment",
+      "Risk Reduction",
+      "Custom Strategies",
+      "Daily Operation Integration",
+      "Hazard Identification",
+      "Regulatory Compliance"
+    ]
+  },
+  {
+    "slug": "workplace-safety-training",
+    "title": "Workplace Safety Training",
+    "shortDescription": "Hands-on and classroom safety training to build worker awareness and support OSHA-aligned job performance.",
+    "longDescription": "Hands-on and classroom safety training that builds worker awareness, improves safe habits, and supports OSHA-aligned job performance. We cover equipment operation, hazard communication, confined space entry, forklift certification, First Aid/CPR, and more — delivering every program onsite at your facility or virtually via live webinar. Our instructors tailor each session to your industry and workforce so training feels relevant, not generic.",
+    "benefits": [
+      "Hands-on Instruction",
+      "OSHA Aligned",
+      "Supervisor Development",
+      "First Aid / CPR",
+      "Onsite or Virtual Delivery",
+      "Industry-Specific Content"
+    ]
+  },
+  {
+    "slug": "onsite-safety-inspections",
+    "title": "Onsite Safety Inspections",
+    "shortDescription": "Thorough job-site and facility walk-throughs to identify hazards and document corrective actions.",
+    "longDescription": "Our safety professionals conduct thorough walk-through inspections of your facilities and active job sites to identify hazards, verify code compliance, and document corrective actions with clear priority ratings. Each inspection results in a written report that gives your management team an actionable roadmap — not just a list of problems. We focus on what matters most so you can allocate resources efficiently and demonstrate due diligence to regulators.",
+    "benefits": [
+      "Detailed Written Reports",
+      "Priority-Rated Findings",
+      "OSHA Code Verification",
+      "Corrective Action Plans",
+      "Facility & Job-Site Coverage",
+      "Documented Due Diligence"
+    ]
+  },
+  {
+    "slug": "compliance-audits",
+    "title": "Compliance Audits",
+    "shortDescription": "In-depth OSHA and regulatory compliance audits with a prioritized roadmap to full compliance.",
+    "longDescription": "Our in-depth OSHA and regulatory compliance audits give you a crystal-clear picture of your current exposure and a prioritized roadmap to full compliance. We audit your written programs, recordkeeping, training documentation, physical environment, and PPE protocols against the latest OSHA standards — then deliver a comprehensive findings report with risk ratings and actionable next steps. Most audits are completed in one to two days on site.",
+    "benefits": [
+      "OSHA Standards Benchmarking",
+      "Recordkeeping Review",
+      "Written Program Evaluation",
+      "Risk-Rated Findings",
+      "Prioritized Remediation Plan",
+      "Post-Audit Support"
+    ]
+  },
+  {
+    "slug": "safety-program-development",
+    "title": "Safety Program Development",
+    "shortDescription": "Custom-built written safety programs, policies, and procedures tailored to your industry and workforce.",
+    "longDescription": "A strong written safety program is the foundation of every compliant, high-performing workplace. We custom-build safety programs, policies, and procedures tailored specifically to your industry, workforce size, and regulatory requirements. From Hazard Communication plans and Lockout/Tagout procedures to full safety manuals and emergency action plans — we write programs that are practical, defensible, and built to be used, not filed away.",
+    "benefits": [
+      "Industry-Specific Content",
+      "OSHA-Defensible Programs",
+      "Hazcom & LOTO Procedures",
+      "Emergency Action Plans",
+      "Employee-Ready Language",
+      "Ongoing Update Support"
+    ]
+  },
+  {
+    "slug": "trusted-safety-partner",
+    "title": "Trusted Safety Partner",
+    "shortDescription": "Consistent, reliable safety support that acts as an extension of your own team.",
+    "longDescription": "For companies that need more than a one-time engagement, BHG Safety Partners acts as a fully embedded extension of your team. We provide consistent, reliable safety support that scales with your operations — covering everything from routine inspections and training refreshers to incident investigation, regulatory correspondence, and strategic safety planning. Think of us as your on-call safety department, without the overhead of a full-time hire.",
+    "benefits": [
+      "Embedded Safety Support",
+      "Scalable Engagement",
+      "Incident Investigation",
+      "Regulatory Correspondence",
+      "Strategic Safety Planning",
+      "On-Call Availability"
+    ]
+  }
+]

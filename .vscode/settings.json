@@ -1,0 +1,38 @@
+{
+  // ── Tailwind v4: Stop VS Code linting globals.css ─────────────────────────
+  // VS Code's CSS language server pre-dates Tailwind v4 and flags every v4
+  // directive (@theme, @plugin, @custom-variant, @apply, etc.) as an error.
+  // The only 100% reliable fix is to associate globals.css with a language
+  // that has no linter attached.
+  "files.associations": {
+    // Treat the Tailwind entry file as plain text so no CSS linter runs on it.
+    // You still get full editor features (search, find/replace, git diff).
+    "**/globals.css": "plaintext"
+  },
+
+  // Belt-and-suspenders: also disable the CSS validator and all lint rules
+  // so any other *.css files that happen to contain Tailwind directives are
+  // also clean.
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "css.lint.unknownAtRules": "ignore",
+  "css.lint.unknownProperties": "ignore",
+
+  // ── Tailwind IntelliSense ─────────────────────────────────────────────────
+  // Point the Tailwind CSS IntelliSense extension at the entry CSS file so
+  // class auto-complete still works correctly.
+  "tailwindCSS.experimental.configFile": "src/app/globals.css",
+
+  // ── Editor ───────────────────────────────────────────────────────────────
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

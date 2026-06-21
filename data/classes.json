@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "class-1-forklift",
+    "title": "Class I: Electric Rider Forklift Training",
+    "shortDescription": "Designed for electric rider forklifts used in warehouses and distribution centers.",
+    "longDescription": "Our Class I Forklift Training program is designed for operators of electric motor rider trucks, including counterbalanced rider trucks. Operators learn how to safely navigate busy warehouse floors, manage battery charging and maintenance protocols, execute safe load handling maneuvers, and ensure stability rules. The class includes both theoretical training and hands-on evaluations required for OSHA certification.",
+    "benefits": [
+      "Counterbalance Operations",
+      "Battery Safety & Care",
+      "Stability & Balance Rules",
+      "OSHA Operator Certification",
+      "Warehouse Maneuvering",
+      "Daily Inspection Protocol"
+    ]
+  },
+  {
+    "slug": "class-2-forklift",
+    "title": "Class II: Narrow Aisle Forklift Training",
+    "shortDescription": "Training for narrow aisle lift trucks used in tight warehouse layouts.",
+    "longDescription": "Class II Forklift Training specializes in narrow aisle lift trucks, such as reach trucks and order pickers. Operating in compact storage layouts requires expert spatial awareness and specialized steering techniques. This course focuses on narrow aisle maneuvering skills, high-rack rack and pallet safety methods, stability controls, and picking processes to maximize safety and efficiency in high-density storage facilities.",
+    "benefits": [
+      "Reach Truck Operation",
+      "Order Picker Safety",
+      "High-Rack Placement",
+      "Narrow Aisle Maneuvers",
+      "OSHA Operator Certification",
+      "Spatial Awareness Training"
+    ]
+  },
+  {
+    "slug": "class-3-forklift",
+    "title": "Class III: Electric Pallet Jack & Walkie Training",
+    "shortDescription": "Certification for electric pallet jacks and walk behind lift equipment.",
+    "longDescription": "Class III training covers electric pallet jacks, walk-behind lift equipment, and walkie-riders. These machines are common in grocery, retail, and manufacturing environments. Our course teaches operators walk-behind control safety, safe travel and stopping steps, load capacity tracking, and navigating tight spaces around foot traffic to ensure pedestrian and operator safety.",
+    "benefits": [
+      "Electric Pallet Jacks",
+      "Walk-Behind Lift Controls",
+      "Pedestrian Safety Steps",
+      "Dock Board Safety",
+      "OSHA Operator Certification",
+      "Capacity Guidelines"
+    ]
+  },
+  {
+    "slug": "class-4-forklift",
+    "title": "Class IV: Indoor Cushion Tire Forklift Training",
+    "shortDescription": "Training for indoor engine powered forklifts with cushion tires.",
+    "longDescription": "Class IV Forklift Training covers internal combustion engine trucks equipped with solid cushion tires. These forklifts are commonly powered by LP gas (propane), diesel, or gasoline, and are designed for smooth, indoor industrial floors. Operators learn fuel-powered truck operation, safe indoor refueling procedures, tire maintenance, indoor ventilation rules, and OSHA-compliant stability standards.",
+    "benefits": [
+      "Internal Combustion Controls",
+      "Cushion Tire Handling",
+      "LP Gas/Refueling Safety",
+      "Indoor Surface Safety",
+      "OSHA Operator Certification",
+      "Load Center Calculations"
+    ]
+  },
+  {
+    "slug": "class-5-forklift",
+    "title": "Class V: Outdoor Pneumatic Tire Forklift Training",
+    "shortDescription": "Certification for outdoor forklifts with pneumatic tires and engines.",
+    "longDescription": "Class V Forklift Training is built for outdoor forklifts powered by internal combustion engines and riding on large, heavy-duty pneumatic tires. These trucks operate on rough surfaces, gravel, and outdoor terrain. This course covers outdoor terrain safety, load balance on uneven surfaces, engine diagnostics, mast operations, and specialized visibility guidelines for high-impact industrial operations.",
+    "benefits": [
+      "Outdoor Terrain Driving",
+      "Pneumatic Tire Operations",
+      "Rough Surface Stability",
+      "Engine Care & Maintenance",
+      "OSHA Operator Certification",
+      "High-Capacity Lifting"
+    ]
+  },
+  {
+    "slug": "class-6-forklift",
+    "title": "Class VI: Tow Tractor & Pulling System Training",
+    "shortDescription": "Training for tow tractors and powered pulling equipment systems.",
+    "longDescription": "Class VI training certifies operators for tow tractors, tuggers, and powered pulling equipment systems. Commonly used in airports, large manufacturing plants, and logistics yards, tow tractors haul trailers rather than lift them. This course focuses on towing limits, acceleration/stopping control, hitching safety, and trailing load dynamics to prevent jackknifing and route incidents.",
+    "benefits": [
+      "Tow Tractor Controls",
+      "Towing Capacity Limits",
+      "Hitching & Couplings",
+      "Trailer Turn Trajectory",
+      "OSHA Operator Certification",
+      "Braking & Yard Safety"
+    ]
+  },
+  {
+    "slug": "class-7-forklift",
+    "title": "Class VII: Rough Terrain Forklift Training",
+    "shortDescription": "Certification for rough terrain forklifts used on construction sites.",
+    "longDescription": "Class VII Forklift Training is designed for rough-terrain forklifts, including telehandlers and straight-mast rough terrain trucks. Primarily used in construction, forestry, and agriculture, these heavy machines handle uneven slopes and extreme terrain. Operators learn uneven ground operation, telescopic boom extend/retract limits, stability triangle mechanics, load chart calculations, and wind/weather hazards.",
+    "benefits": [
+      "Telehandler Operation",
+      "Boom Extension Math",
+      "Slope & Angle Safety",
+      "Load Chart Analysis",
+      "OSHA Operator Certification",
+      "Rough Terrain Driving"
+    ]
+  }
+]

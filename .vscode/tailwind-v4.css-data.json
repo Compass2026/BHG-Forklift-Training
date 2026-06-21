@@ -1,0 +1,55 @@
+{
+  "version": 1.1,
+  "atDirectives": [
+    {
+      "name": "@tailwind",
+      "description": "Tailwind CSS directive",
+      "references": [{ "name": "Tailwind CSS", "url": "https://tailwindcss.com" }]
+    },
+    {
+      "name": "@apply",
+      "description": "Tailwind @apply directive — inlines utility classes into custom CSS.",
+      "references": [{ "name": "Tailwind CSS", "url": "https://tailwindcss.com/docs/functions-and-directives#apply" }]
+    },
+    {
+      "name": "@theme",
+      "description": "Tailwind v4 @theme block — defines design tokens as CSS variables.",
+      "references": [{ "name": "Tailwind CSS v4", "url": "https://tailwindcss.com/docs/v4-upgrade" }]
+    },
+    {
+      "name": "@plugin",
+      "description": "Tailwind v4 @plugin directive — registers a Tailwind plugin.",
+      "references": [{ "name": "Tailwind CSS v4", "url": "https://tailwindcss.com/docs/v4-upgrade" }]
+    },
+    {
+      "name": "@custom-variant",
+      "description": "Tailwind v4 @custom-variant directive — defines a custom variant.",
+      "references": [{ "name": "Tailwind CSS v4", "url": "https://tailwindcss.com/docs/v4-upgrade" }]
+    },
+    {
+      "name": "@source",
+      "description": "Tailwind v4 @source directive — specifies content sources for class detection.",
+      "references": [{ "name": "Tailwind CSS v4", "url": "https://tailwindcss.com/docs/v4-upgrade" }]
+    },
+    {
+      "name": "@utility",
+      "description": "Tailwind v4 @utility directive — defines a custom utility class.",
+      "references": [{ "name": "Tailwind CSS v4", "url": "https://tailwindcss.com/docs/v4-upgrade" }]
+    },
+    {
+      "name": "@variant",
+      "description": "Tailwind v4 @variant directive — applies a variant within a rule.",
+      "references": [{ "name": "Tailwind CSS v4", "url": "https://tailwindcss.com/docs/v4-upgrade" }]
+    },
+    {
+      "name": "@layer",
+      "description": "CSS or Tailwind @layer directive.",
+      "references": [{ "name": "MDN", "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@layer" }]
+    },
+    {
+      "name": "@config",
+      "description": "Tailwind @config directive — points to a tailwind.config.js file.",
+      "references": [{ "name": "Tailwind CSS", "url": "https://tailwindcss.com/docs/functions-and-directives#config" }]
+    }
+  ]
+}
