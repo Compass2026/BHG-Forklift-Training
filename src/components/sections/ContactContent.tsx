@@ -17,8 +17,8 @@ const contactDetails = [
     id: "contact-email",
     icon: Mail,
     label: "Email",
-    value: "info@bhgsafety.com",
-    href: "mailto:info@bhgsafety.com",
+    value: "office@bhgspllc.com",
+    href: "mailto:office@bhgspllc.com",
   },
   {
     id: "contact-address",

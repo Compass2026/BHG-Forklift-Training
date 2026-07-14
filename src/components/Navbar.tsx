@@ -188,13 +188,13 @@ export default function Navbar() {
               <span className="h-5 w-px bg-white/20" aria-hidden="true" />
 
               <a
-                href="mailto:office@bhgpllc.com"
+                href="mailto:office@bhgspllc.com"
                 className="group flex items-center gap-2 text-white font-semibold text-sm hover:text-bhg-orange transition-colors duration-200"
               >
                 <span className="flex items-center justify-center w-7 h-7 rounded-full bg-white/10 border border-white/20 group-hover:bg-bhg-orange/30 group-hover:border-bhg-orange/50 group-hover:shadow-[0_0_10px_rgba(249,115,22,0.4)] transition-all duration-200">
                   <Mail className="w-3.5 h-3.5" aria-hidden="true" />
                 </span>
-                office@bhgpllc.com
+                office@bhgspllc.com
               </a>
             </div>
 
@@ -304,9 +304,9 @@ export default function Navbar() {
               <Phone className="w-3 h-3 text-bhg-orange flex-shrink-0" />
               (573) 822-6448
             </a>
-            <a href="mailto:office@bhgpllc.com" className="flex items-center gap-2 text-xs text-bhg-orange font-medium">
+            <a href="mailto:office@bhgspllc.com" className="flex items-center gap-2 text-xs text-bhg-orange font-medium">
               <Mail className="w-3 h-3 text-bhg-orange flex-shrink-0" />
-              office@bhgpllc.com
+              office@bhgspllc.com
             </a>
             <div className="flex items-center gap-4 pt-1">
               <span className="text-[10px] font-semibold text-bhg-orange/60 uppercase tracking-widest">Follow:</span>

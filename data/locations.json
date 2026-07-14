@@ -1008,30 +1008,6 @@
     ]
   },
   {
-    "slug": "alabama/oxford",
-    "stateAbbr": "AL",
-    "stateName": "Alabama",
-    "stateSlug": "alabama",
-    "city": "Oxford",
-    "keywords": [
-      "Oxford OSHA compliance",
-      "onsite safety training Oxford AL",
-      "safety consulting Oxford"
-    ]
-  },
-  {
-    "slug": "alabama/pelham",
-    "stateAbbr": "AL",
-    "stateName": "Alabama",
-    "stateSlug": "alabama",
-    "city": "Pelham",
-    "keywords": [
-      "Pelham OSHA compliance",
-      "onsite safety training Pelham AL",
-      "safety consulting Pelham"
-    ]
-  },
-  {
     "slug": "alabama/pine-hill",
     "stateAbbr": "AL",
     "stateName": "Alabama",
@@ -2196,18 +2172,6 @@
     ]
   },
   {
-    "slug": "arkansas/russellville",
-    "stateAbbr": "AR",
-    "stateName": "Arkansas",
-    "stateSlug": "arkansas",
-    "city": "Russellville",
-    "keywords": [
-      "Russellville OSHA compliance",
-      "onsite safety training Russellville AR",
-      "safety consulting Russellville"
-    ]
-  },
-  {
     "slug": "arkansas/salem",
     "stateAbbr": "AR",
     "stateName": "Arkansas",
@@ -2796,18 +2760,6 @@
     ]
   },
   {
-    "slug": "georgia/columbus",
-    "stateAbbr": "GA",
-    "stateName": "Georgia",
-    "stateSlug": "georgia",
-    "city": "Columbus",
-    "keywords": [
-      "Columbus OSHA compliance",
-      "onsite safety training Columbus GA",
-      "safety consulting Columbus"
-    ]
-  },
-  {
     "slug": "georgia/duluth",
     "stateAbbr": "GA",
     "stateName": "Georgia",
@@ -3297,18 +3249,6 @@
       "La Fayette OSHA compliance",
       "onsite safety training La Fayette GA",
       "safety consulting La Fayette"
-    ]
-  },
-  {
-    "slug": "georgia/lagrange",
-    "stateAbbr": "GA",
-    "stateName": "Georgia",
-    "stateSlug": "georgia",
-    "city": "Lagrange",
-    "keywords": [
-      "Lagrange OSHA compliance",
-      "onsite safety training Lagrange GA",
-      "safety consulting Lagrange"
     ]
   },
   {
@@ -4224,18 +4164,6 @@
     ]
   },
   {
-    "slug": "illinois/aurora",
-    "stateAbbr": "IL",
-    "stateName": "Illinois",
-    "stateSlug": "illinois",
-    "city": "Aurora",
-    "keywords": [
-      "Aurora OSHA compliance",
-      "onsite safety training Aurora IL",
-      "safety consulting Aurora"
-    ]
-  },
-  {
     "slug": "illinois/woodridge",
     "stateAbbr": "IL",
     "stateName": "Illinois",
@@ -4392,18 +4320,6 @@
     ]
   },
   {
-    "slug": "illinois/waukegan",
-    "stateAbbr": "IL",
-    "stateName": "Illinois",
-    "stateSlug": "illinois",
-    "city": "Waukegan",
-    "keywords": [
-      "Waukegan OSHA compliance",
-      "onsite safety training Waukegan IL",
-      "safety consulting Waukegan"
-    ]
-  },
-  {
     "slug": "illinois/lake-in-the-hills",
     "stateAbbr": "IL",
     "stateName": "Illinois",
@@ -4425,18 +4341,6 @@
       "Wheeling OSHA compliance",
       "onsite safety training Wheeling IL",
       "safety consulting Wheeling"
-    ]
-  },
-  {
-    "slug": "illinois/addison",
-    "stateAbbr": "IL",
-    "stateName": "Illinois",
-    "stateSlug": "illinois",
-    "city": "Addison",
-    "keywords": [
-      "Addison OSHA compliance",
-      "onsite safety training Addison IL",
-      "safety consulting Addison"
     ]
   },
   {
@@ -4557,18 +4461,6 @@
       "Glendale Heights OSHA compliance",
       "onsite safety training Glendale Heights IL",
       "safety consulting Glendale Heights"
-    ]
-  },
-  {
-    "slug": "illinois/elgin",
-    "stateAbbr": "IL",
-    "stateName": "Illinois",
-    "stateSlug": "illinois",
-    "city": "Elgin",
-    "keywords": [
-      "Elgin OSHA compliance",
-      "onsite safety training Elgin IL",
-      "safety consulting Elgin"
     ]
   },
   {
@@ -5220,18 +5112,6 @@
     ]
   },
   {
-    "slug": "indiana/bloomington",
-    "stateAbbr": "IN",
-    "stateName": "Indiana",
-    "stateSlug": "indiana",
-    "city": "Bloomington",
-    "keywords": [
-      "Bloomington OSHA compliance",
-      "onsite safety training Bloomington IN",
-      "safety consulting Bloomington"
-    ]
-  },
-  {
     "slug": "indiana/east-chicago",
     "stateAbbr": "IN",
     "stateName": "Indiana",
@@ -5349,18 +5229,6 @@
       "Greenfield OSHA compliance",
       "onsite safety training Greenfield IN",
       "safety consulting Greenfield"
-    ]
-  },
-  {
-    "slug": "indiana/columbus",
-    "stateAbbr": "IN",
-    "stateName": "Indiana",
-    "stateSlug": "indiana",
-    "city": "Columbus",
-    "keywords": [
-      "Columbus OSHA compliance",
-      "onsite safety training Columbus IN",
-      "safety consulting Columbus"
     ]
   },
   {
@@ -5736,18 +5604,6 @@
     ]
   },
   {
-    "slug": "indiana/plainfield",
-    "stateAbbr": "IN",
-    "stateName": "Indiana",
-    "stateSlug": "indiana",
-    "city": "Plainfield",
-    "keywords": [
-      "Plainfield OSHA compliance",
-      "onsite safety training Plainfield IN",
-      "safety consulting Plainfield"
-    ]
-  },
-  {
     "slug": "indiana/plymouth",
     "stateAbbr": "IN",
     "stateName": "Indiana",
@@ -5853,18 +5709,6 @@
       "Tipton OSHA compliance",
       "onsite safety training Tipton IN",
       "safety consulting Tipton"
-    ]
-  },
-  {
-    "slug": "indiana/vincennes",
-    "stateAbbr": "IN",
-    "stateName": "Indiana",
-    "stateSlug": "indiana",
-    "city": "Vincennes",
-    "keywords": [
-      "Vincennes OSHA compliance",
-      "onsite safety training Vincennes IN",
-      "safety consulting Vincennes"
     ]
   },
   {
@@ -6600,18 +6444,6 @@
     ]
   },
   {
-    "slug": "iowa/indianola",
-    "stateAbbr": "IA",
-    "stateName": "Iowa",
-    "stateSlug": "iowa",
-    "city": "Indianola",
-    "keywords": [
-      "Indianola OSHA compliance",
-      "onsite safety training Indianola IA",
-      "safety consulting Indianola"
-    ]
-  },
-  {
     "slug": "iowa/jefferson",
     "stateAbbr": "IA",
     "stateName": "Iowa",
@@ -6900,18 +6732,6 @@
     ]
   },
   {
-    "slug": "iowa/corning",
-    "stateAbbr": "IA",
-    "stateName": "Iowa",
-    "stateSlug": "iowa",
-    "city": "Corning",
-    "keywords": [
-      "Corning OSHA compliance",
-      "onsite safety training Corning IA",
-      "safety consulting Corning"
-    ]
-  },
-  {
     "slug": "iowa/eagle-grove",
     "stateAbbr": "IA",
     "stateName": "Iowa",
@@ -7005,30 +6825,6 @@
       "Ida Grove OSHA compliance",
       "onsite safety training Ida Grove IA",
       "safety consulting Ida Grove"
-    ]
-  },
-  {
-    "slug": "iowa/iowa-falls",
-    "stateAbbr": "IA",
-    "stateName": "Iowa",
-    "stateSlug": "iowa",
-    "city": "Iowa Falls",
-    "keywords": [
-      "Iowa Falls OSHA compliance",
-      "onsite safety training Iowa Falls IA",
-      "safety consulting Iowa Falls"
-    ]
-  },
-  {
-    "slug": "iowa/knoxville",
-    "stateAbbr": "IA",
-    "stateName": "Iowa",
-    "stateSlug": "iowa",
-    "city": "Knoxville",
-    "keywords": [
-      "Knoxville OSHA compliance",
-      "onsite safety training Knoxville IA",
-      "safety consulting Knoxville"
     ]
   },
   {
@@ -8076,18 +7872,6 @@
     ]
   },
   {
-    "slug": "kansas/mulvane",
-    "stateAbbr": "KS",
-    "stateName": "Kansas",
-    "stateSlug": "kansas",
-    "city": "Mulvane",
-    "keywords": [
-      "Mulvane OSHA compliance",
-      "onsite safety training Mulvane KS",
-      "safety consulting Mulvane"
-    ]
-  },
-  {
     "slug": "kansas/neodesha",
     "stateAbbr": "KS",
     "stateName": "Kansas",
@@ -9021,18 +8805,6 @@
       "Edmonson OSHA compliance",
       "onsite safety training Edmonson KY",
       "safety consulting Edmonson"
-    ]
-  },
-  {
-    "slug": "kentucky/flemingsburg",
-    "stateAbbr": "KY",
-    "stateName": "Kentucky",
-    "stateSlug": "kentucky",
-    "city": "Flemingsburg",
-    "keywords": [
-      "Flemingsburg OSHA compliance",
-      "onsite safety training Flemingsburg KY",
-      "safety consulting Flemingsburg"
     ]
   },
   {
@@ -10272,18 +10044,6 @@
     ]
   },
   {
-    "slug": "louisiana/meraux",
-    "stateAbbr": "LA",
-    "stateName": "Louisiana",
-    "stateSlug": "louisiana",
-    "city": "Meraux",
-    "keywords": [
-      "Meraux OSHA compliance",
-      "onsite safety training Meraux LA",
-      "safety consulting Meraux"
-    ]
-  },
-  {
     "slug": "louisiana/moss-bluff",
     "stateAbbr": "LA",
     "stateName": "Louisiana",
@@ -11160,18 +10920,6 @@
     ]
   },
   {
-    "slug": "mississippi/booneville",
-    "stateAbbr": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Booneville",
-    "keywords": [
-      "Booneville OSHA compliance",
-      "onsite safety training Booneville MS",
-      "safety consulting Booneville"
-    ]
-  },
-  {
     "slug": "mississippi/aberdeen",
     "stateAbbr": "MS",
     "stateName": "Mississippi",
@@ -11232,30 +10980,6 @@
     ]
   },
   {
-    "slug": "mississippi/booneville",
-    "stateAbbr": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Booneville",
-    "keywords": [
-      "Booneville OSHA compliance",
-      "onsite safety training Booneville MS",
-      "safety consulting Booneville"
-    ]
-  },
-  {
-    "slug": "mississippi/brookhaven",
-    "stateAbbr": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Brookhaven",
-    "keywords": [
-      "Brookhaven OSHA compliance",
-      "onsite safety training Brookhaven MS",
-      "safety consulting Brookhaven"
-    ]
-  },
-  {
     "slug": "mississippi/bumble-bee",
     "stateAbbr": "MS",
     "stateName": "Mississippi",
@@ -11265,18 +10989,6 @@
       "Bumble Bee OSHA compliance",
       "onsite safety training Bumble Bee MS",
       "safety consulting Bumble Bee"
-    ]
-  },
-  {
-    "slug": "mississippi/canton",
-    "stateAbbr": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Canton",
-    "keywords": [
-      "Canton OSHA compliance",
-      "onsite safety training Canton MS",
-      "safety consulting Canton"
     ]
   },
   {
@@ -11301,18 +11013,6 @@
       "Charleston OSHA compliance",
       "onsite safety training Charleston MS",
       "safety consulting Charleston"
-    ]
-  },
-  {
-    "slug": "mississippi/clarksdale",
-    "stateAbbr": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Clarksdale",
-    "keywords": [
-      "Clarksdale OSHA compliance",
-      "onsite safety training Clarksdale MS",
-      "safety consulting Clarksdale"
     ]
   },
   {
@@ -11349,18 +11049,6 @@
       "Columbia OSHA compliance",
       "onsite safety training Columbia MS",
       "safety consulting Columbia"
-    ]
-  },
-  {
-    "slug": "mississippi/corinth",
-    "stateAbbr": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Corinth",
-    "keywords": [
-      "Corinth OSHA compliance",
-      "onsite safety training Corinth MS",
-      "safety consulting Corinth"
     ]
   },
   {
@@ -11460,18 +11148,6 @@
     ]
   },
   {
-    "slug": "mississippi/forest",
-    "stateAbbr": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Forest",
-    "keywords": [
-      "Forest OSHA compliance",
-      "onsite safety training Forest MS",
-      "safety consulting Forest"
-    ]
-  },
-  {
     "slug": "mississippi/fulton",
     "stateAbbr": "MS",
     "stateName": "Mississippi",
@@ -11493,18 +11169,6 @@
       "Gloster OSHA compliance",
       "onsite safety training Gloster MS",
       "safety consulting Gloster"
-    ]
-  },
-  {
-    "slug": "mississippi/grenada",
-    "stateAbbr": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Grenada",
-    "keywords": [
-      "Grenada OSHA compliance",
-      "onsite safety training Grenada MS",
-      "safety consulting Grenada"
     ]
   },
   {
@@ -11544,18 +11208,6 @@
     ]
   },
   {
-    "slug": "mississippi/indianola",
-    "stateAbbr": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Indianola",
-    "keywords": [
-      "Indianola OSHA compliance",
-      "onsite safety training Indianola MS",
-      "safety consulting Indianola"
-    ]
-  },
-  {
     "slug": "mississippi/itta-bena",
     "stateAbbr": "MS",
     "stateName": "Mississippi",
@@ -11577,18 +11229,6 @@
       "Iuka OSHA compliance",
       "onsite safety training Iuka MS",
       "safety consulting Iuka"
-    ]
-  },
-  {
-    "slug": "mississippi/kosciusko",
-    "stateAbbr": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Kosciusko",
-    "keywords": [
-      "Kosciusko OSHA compliance",
-      "onsite safety training Kosciusko MS",
-      "safety consulting Kosciusko"
     ]
   },
   {
@@ -11745,18 +11385,6 @@
       "Morton OSHA compliance",
       "onsite safety training Morton MS",
       "safety consulting Morton"
-    ]
-  },
-  {
-    "slug": "mississippi/moss-point",
-    "stateAbbr": "MS",
-    "stateName": "Mississippi",
-    "stateSlug": "mississippi",
-    "city": "Moss Point",
-    "keywords": [
-      "Moss Point OSHA compliance",
-      "onsite safety training Moss Point MS",
-      "safety consulting Moss Point"
     ]
   },
   {
@@ -12648,30 +12276,6 @@
     ]
   },
   {
-    "slug": "missouri/independence",
-    "stateAbbr": "MO",
-    "stateName": "Missouri",
-    "stateSlug": "missouri",
-    "city": "Independence",
-    "keywords": [
-      "Independence OSHA compliance",
-      "onsite safety training Independence MO",
-      "safety consulting Independence"
-    ]
-  },
-  {
-    "slug": "missouri/jefferson-city",
-    "stateAbbr": "MO",
-    "stateName": "Missouri",
-    "stateSlug": "missouri",
-    "city": "Jefferson City",
-    "keywords": [
-      "Jefferson City OSHA compliance",
-      "onsite safety training Jefferson City MO",
-      "safety consulting Jefferson City"
-    ]
-  },
-  {
     "slug": "missouri/lake-ozark",
     "stateAbbr": "MO",
     "stateName": "Missouri",
@@ -12720,18 +12324,6 @@
     ]
   },
   {
-    "slug": "missouri/nixa",
-    "stateAbbr": "MO",
-    "stateName": "Missouri",
-    "stateSlug": "missouri",
-    "city": "Nixa",
-    "keywords": [
-      "Nixa OSHA compliance",
-      "onsite safety training Nixa MO",
-      "safety consulting Nixa"
-    ]
-  },
-  {
     "slug": "missouri/pacific",
     "stateAbbr": "MO",
     "stateName": "Missouri",
@@ -12777,18 +12369,6 @@
       "Pleasant Hill OSHA compliance",
       "onsite safety training Pleasant Hill MO",
       "safety consulting Pleasant Hill"
-    ]
-  },
-  {
-    "slug": "missouri/poplar-bluff",
-    "stateAbbr": "MO",
-    "stateName": "Missouri",
-    "stateSlug": "missouri",
-    "city": "Poplar Bluff",
-    "keywords": [
-      "Poplar Bluff OSHA compliance",
-      "onsite safety training Poplar Bluff MO",
-      "safety consulting Poplar Bluff"
     ]
   },
   {
@@ -14760,18 +14340,6 @@
     ]
   },
   {
-    "slug": "north-dakota/west-fargo",
-    "stateAbbr": "ND",
-    "stateName": "North Dakota",
-    "stateSlug": "north-dakota",
-    "city": "West Fargo",
-    "keywords": [
-      "West Fargo OSHA compliance",
-      "onsite safety training West Fargo ND",
-      "safety consulting West Fargo"
-    ]
-  },
-  {
     "slug": "north-dakota/finley",
     "stateAbbr": "ND",
     "stateName": "North Dakota",
@@ -14829,30 +14397,6 @@
       "Lennox OSHA compliance",
       "onsite safety training Lennox ND",
       "safety consulting Lennox"
-    ]
-  },
-  {
-    "slug": "north-dakota/lisbon",
-    "stateAbbr": "ND",
-    "stateName": "North Dakota",
-    "stateSlug": "north-dakota",
-    "city": "Lisbon",
-    "keywords": [
-      "Lisbon OSHA compliance",
-      "onsite safety training Lisbon ND",
-      "safety consulting Lisbon"
-    ]
-  },
-  {
-    "slug": "north-dakota/mandan",
-    "stateAbbr": "ND",
-    "stateName": "North Dakota",
-    "stateSlug": "north-dakota",
-    "city": "Mandan",
-    "keywords": [
-      "Mandan OSHA compliance",
-      "onsite safety training Mandan ND",
-      "safety consulting Mandan"
     ]
   },
   {
@@ -14964,18 +14508,6 @@
     ]
   },
   {
-    "slug": "north-dakota/napoleon",
-    "stateAbbr": "ND",
-    "stateName": "North Dakota",
-    "stateSlug": "north-dakota",
-    "city": "Napoleon",
-    "keywords": [
-      "Napoleon OSHA compliance",
-      "onsite safety training Napoleon ND",
-      "safety consulting Napoleon"
-    ]
-  },
-  {
     "slug": "north-dakota/northwood",
     "stateAbbr": "ND",
     "stateName": "North Dakota",
@@ -14985,18 +14517,6 @@
       "Northwood OSHA compliance",
       "onsite safety training Northwood ND",
       "safety consulting Northwood"
-    ]
-  },
-  {
-    "slug": "north-dakota/oakes",
-    "stateAbbr": "ND",
-    "stateName": "North Dakota",
-    "stateSlug": "north-dakota",
-    "city": "Oakes",
-    "keywords": [
-      "Oakes OSHA compliance",
-      "onsite safety training Oakes ND",
-      "safety consulting Oakes"
     ]
   },
   {
@@ -15105,18 +14625,6 @@
       "Rolette OSHA compliance",
       "onsite safety training Rolette ND",
       "safety consulting Rolette"
-    ]
-  },
-  {
-    "slug": "north-dakota/rugby",
-    "stateAbbr": "ND",
-    "stateName": "North Dakota",
-    "stateSlug": "north-dakota",
-    "city": "Rugby",
-    "keywords": [
-      "Rugby OSHA compliance",
-      "onsite safety training Rugby ND",
-      "safety consulting Rugby"
     ]
   },
   {
@@ -15264,18 +14772,6 @@
     ]
   },
   {
-    "slug": "north-dakota/wahpeton",
-    "stateAbbr": "ND",
-    "stateName": "North Dakota",
-    "stateSlug": "north-dakota",
-    "city": "Wahpeton",
-    "keywords": [
-      "Wahpeton OSHA compliance",
-      "onsite safety training Wahpeton ND",
-      "safety consulting Wahpeton"
-    ]
-  },
-  {
     "slug": "north-dakota/washburn",
     "stateAbbr": "ND",
     "stateName": "North Dakota",
@@ -15297,18 +14793,6 @@
       "Westhope OSHA compliance",
       "onsite safety training Westhope ND",
       "safety consulting Westhope"
-    ]
-  },
-  {
-    "slug": "north-dakota/williston",
-    "stateAbbr": "ND",
-    "stateName": "North Dakota",
-    "stateSlug": "north-dakota",
-    "city": "Williston",
-    "keywords": [
-      "Williston OSHA compliance",
-      "onsite safety training Williston ND",
-      "safety consulting Williston"
     ]
   },
   {
@@ -16101,18 +15585,6 @@
       "Cherokee OSHA compliance",
       "onsite safety training Cherokee OK",
       "safety consulting Cherokee"
-    ]
-  },
-  {
-    "slug": "oklahoma/chickasha",
-    "stateAbbr": "OK",
-    "stateName": "Oklahoma",
-    "stateSlug": "oklahoma",
-    "city": "Chickasha",
-    "keywords": [
-      "Chickasha OSHA compliance",
-      "onsite safety training Chickasha OK",
-      "safety consulting Chickasha"
     ]
   },
   {
@@ -17424,18 +16896,6 @@
     ]
   },
   {
-    "slug": "south-dakota/vermillion",
-    "stateAbbr": "SD",
-    "stateName": "South Dakota",
-    "stateSlug": "south-dakota",
-    "city": "Vermillion",
-    "keywords": [
-      "Vermillion OSHA compliance",
-      "onsite safety training Vermillion SD",
-      "safety consulting Vermillion"
-    ]
-  },
-  {
     "slug": "south-dakota/wall",
     "stateAbbr": "SD",
     "stateName": "South Dakota",
@@ -17508,18 +16968,6 @@
     ]
   },
   {
-    "slug": "south-dakota/timber-lake",
-    "stateAbbr": "SD",
-    "stateName": "South Dakota",
-    "stateSlug": "south-dakota",
-    "city": "Timber Lake",
-    "keywords": [
-      "Timber Lake OSHA compliance",
-      "onsite safety training Timber Lake SD",
-      "safety consulting Timber Lake"
-    ]
-  },
-  {
     "slug": "south-dakota/summerset",
     "stateAbbr": "SD",
     "stateName": "South Dakota",
@@ -17568,18 +17016,6 @@
     ]
   },
   {
-    "slug": "south-dakota/selby",
-    "stateAbbr": "SD",
-    "stateName": "South Dakota",
-    "stateSlug": "south-dakota",
-    "city": "Selby",
-    "keywords": [
-      "Selby OSHA compliance",
-      "onsite safety training Selby SD",
-      "safety consulting Selby"
-    ]
-  },
-  {
     "slug": "south-dakota/rowena",
     "stateAbbr": "SD",
     "stateName": "South Dakota",
@@ -17625,18 +17061,6 @@
       "Revillo OSHA compliance",
       "onsite safety training Revillo SD",
       "safety consulting Revillo"
-    ]
-  },
-  {
-    "slug": "south-dakota/redfield",
-    "stateAbbr": "SD",
-    "stateName": "South Dakota",
-    "stateSlug": "south-dakota",
-    "city": "Redfield",
-    "keywords": [
-      "Redfield OSHA compliance",
-      "onsite safety training Redfield SD",
-      "safety consulting Redfield"
     ]
   },
   {
@@ -18105,18 +17529,6 @@
       "Shelbyville OSHA compliance",
       "onsite safety training Shelbyville TN",
       "safety consulting Shelbyville"
-    ]
-  },
-  {
-    "slug": "tennessee/brentwood",
-    "stateAbbr": "TN",
-    "stateName": "Tennessee",
-    "stateSlug": "tennessee",
-    "city": "Brentwood",
-    "keywords": [
-      "Brentwood OSHA compliance",
-      "onsite safety training Brentwood TN",
-      "safety consulting Brentwood"
     ]
   },
   {
@@ -18789,18 +18201,6 @@
       "Clinton OSHA compliance",
       "onsite safety training Clinton TN",
       "safety consulting Clinton"
-    ]
-  },
-  {
-    "slug": "tennessee/collierville",
-    "stateAbbr": "TN",
-    "stateName": "Tennessee",
-    "stateSlug": "tennessee",
-    "city": "Collierville",
-    "keywords": [
-      "Collierville OSHA compliance",
-      "onsite safety training Collierville TN",
-      "safety consulting Collierville"
     ]
   },
   {
@@ -19644,18 +19044,6 @@
     ]
   },
   {
-    "slug": "texas/carrollton",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Carrollton",
-    "keywords": [
-      "Carrollton OSHA compliance",
-      "onsite safety training Carrollton TX",
-      "safety consulting Carrollton"
-    ]
-  },
-  {
     "slug": "texas/rowlett",
     "stateAbbr": "TX",
     "stateName": "Texas",
@@ -19665,42 +19053,6 @@
       "Rowlett OSHA compliance",
       "onsite safety training Rowlett TX",
       "safety consulting Rowlett"
-    ]
-  },
-  {
-    "slug": "texas/denton",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Denton",
-    "keywords": [
-      "Denton OSHA compliance",
-      "onsite safety training Denton TX",
-      "safety consulting Denton"
-    ]
-  },
-  {
-    "slug": "texas/abilene",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Abilene",
-    "keywords": [
-      "Abilene OSHA compliance",
-      "onsite safety training Abilene TX",
-      "safety consulting Abilene"
-    ]
-  },
-  {
-    "slug": "texas/edinburg",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Edinburg",
-    "keywords": [
-      "Edinburg OSHA compliance",
-      "onsite safety training Edinburg TX",
-      "safety consulting Edinburg"
     ]
   },
   {
@@ -19716,18 +19068,6 @@
     ]
   },
   {
-    "slug": "texas/wichita-falls",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Wichita Falls",
-    "keywords": [
-      "Wichita Falls OSHA compliance",
-      "onsite safety training Wichita Falls TX",
-      "safety consulting Wichita Falls"
-    ]
-  },
-  {
     "slug": "texas/leander",
     "stateAbbr": "TX",
     "stateName": "Texas",
@@ -19737,42 +19077,6 @@
       "Leander OSHA compliance",
       "onsite safety training Leander TX",
       "safety consulting Leander"
-    ]
-  },
-  {
-    "slug": "texas/longview",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Longview",
-    "keywords": [
-      "Longview OSHA compliance",
-      "onsite safety training Longview TX",
-      "safety consulting Longview"
-    ]
-  },
-  {
-    "slug": "texas/amarillo",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Amarillo",
-    "keywords": [
-      "Amarillo OSHA compliance",
-      "onsite safety training Amarillo TX",
-      "safety consulting Amarillo"
-    ]
-  },
-  {
-    "slug": "texas/killeen",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Killeen",
-    "keywords": [
-      "Killeen OSHA compliance",
-      "onsite safety training Killeen TX",
-      "safety consulting Killeen"
     ]
   },
   {
@@ -19797,258 +19101,6 @@
       "Katy OSHA compliance",
       "onsite safety training Katy TX",
       "safety consulting Katy"
-    ]
-  },
-  {
-    "slug": "texas/league-city",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "League City",
-    "keywords": [
-      "League City OSHA compliance",
-      "onsite safety training League City TX",
-      "safety consulting League City"
-    ]
-  },
-  {
-    "slug": "texas/pearland",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Pearland",
-    "keywords": [
-      "Pearland OSHA compliance",
-      "onsite safety training Pearland TX",
-      "safety consulting Pearland"
-    ]
-  },
-  {
-    "slug": "texas/grand-prairie",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Grand Prairie",
-    "keywords": [
-      "Grand Prairie OSHA compliance",
-      "onsite safety training Grand Prairie TX",
-      "safety consulting Grand Prairie"
-    ]
-  },
-  {
-    "slug": "texas/frisco",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Frisco",
-    "keywords": [
-      "Frisco OSHA compliance",
-      "onsite safety training Frisco TX",
-      "safety consulting Frisco"
-    ]
-  },
-  {
-    "slug": "texas/mckinney",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "McKinney",
-    "keywords": [
-      "McKinney OSHA compliance",
-      "onsite safety training McKinney TX",
-      "safety consulting McKinney"
-    ]
-  },
-  {
-    "slug": "texas/garland",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Garland",
-    "keywords": [
-      "Garland OSHA compliance",
-      "onsite safety training Garland TX",
-      "safety consulting Garland"
-    ]
-  },
-  {
-    "slug": "texas/irving",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Irving",
-    "keywords": [
-      "Irving OSHA compliance",
-      "onsite safety training Irving TX",
-      "safety consulting Irving"
-    ]
-  },
-  {
-    "slug": "texas/mesquite",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Mesquite",
-    "keywords": [
-      "Mesquite OSHA compliance",
-      "onsite safety training Mesquite TX",
-      "safety consulting Mesquite"
-    ]
-  },
-  {
-    "slug": "texas/pasadena",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Pasadena",
-    "keywords": [
-      "Pasadena OSHA compliance",
-      "onsite safety training Pasadena TX",
-      "safety consulting Pasadena"
-    ]
-  },
-  {
-    "slug": "texas/laredo",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Laredo",
-    "keywords": [
-      "Laredo OSHA compliance",
-      "onsite safety training Laredo TX",
-      "safety consulting Laredo"
-    ]
-  },
-  {
-    "slug": "texas/el-paso",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "El Paso",
-    "keywords": [
-      "El Paso OSHA compliance",
-      "onsite safety training El Paso TX",
-      "safety consulting El Paso"
-    ]
-  },
-  {
-    "slug": "texas/corpus-christi",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Corpus Christi",
-    "keywords": [
-      "Corpus Christi OSHA compliance",
-      "onsite safety training Corpus Christi TX",
-      "safety consulting Corpus Christi"
-    ]
-  },
-  {
-    "slug": "texas/brownsville",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Brownsville",
-    "keywords": [
-      "Brownsville OSHA compliance",
-      "onsite safety training Brownsville TX",
-      "safety consulting Brownsville"
-    ]
-  },
-  {
-    "slug": "texas/mcallen",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "McAllen",
-    "keywords": [
-      "McAllen OSHA compliance",
-      "onsite safety training McAllen TX",
-      "safety consulting McAllen"
-    ]
-  },
-  {
-    "slug": "texas/lubbock",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Lubbock",
-    "keywords": [
-      "Lubbock OSHA compliance",
-      "onsite safety training Lubbock TX",
-      "safety consulting Lubbock"
-    ]
-  },
-  {
-    "slug": "texas/san-angelo",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "San Angelo",
-    "keywords": [
-      "San Angelo OSHA compliance",
-      "onsite safety training San Angelo TX",
-      "safety consulting San Angelo"
-    ]
-  },
-  {
-    "slug": "texas/midland",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Midland",
-    "keywords": [
-      "Midland OSHA compliance",
-      "onsite safety training Midland TX",
-      "safety consulting Midland"
-    ]
-  },
-  {
-    "slug": "texas/abilene",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Abilene",
-    "keywords": [
-      "Abilene OSHA compliance",
-      "onsite safety training Abilene TX",
-      "safety consulting Abilene"
-    ]
-  },
-  {
-    "slug": "texas/waco",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Waco",
-    "keywords": [
-      "Waco OSHA compliance",
-      "onsite safety training Waco TX",
-      "safety consulting Waco"
-    ]
-  },
-  {
-    "slug": "texas/tyler",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Tyler",
-    "keywords": [
-      "Tyler OSHA compliance",
-      "onsite safety training Tyler TX",
-      "safety consulting Tyler"
-    ]
-  },
-  {
-    "slug": "texas/beaumont",
-    "stateAbbr": "TX",
-    "stateName": "Texas",
-    "stateSlug": "texas",
-    "city": "Beaumont",
-    "keywords": [
-      "Beaumont OSHA compliance",
-      "onsite safety training Beaumont TX",
-      "safety consulting Beaumont"
     ]
   },
   {

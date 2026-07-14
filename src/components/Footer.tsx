@@ -10,11 +10,11 @@ const serviceLinks = [
 ];
 
 const areasServed = [
-  "Houston, TX",
-  "Dallas, TX",
-  "San Antonio, TX",
-  "Austin, TX",
-  "Fort Worth, TX",
+  "Chicago, IL",
+  "Indianapolis, IN",
+  "St. Louis, MO",
+  "Omaha, NE",
+  "Des Moines, IA",
   "Nationwide",
 ];
 
@@ -98,13 +98,13 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@bhgsafety.com"
+                  href="mailto:office@bhgspllc.com"
                   className="flex items-start gap-3 text-sm text-gray-400 hover:text-white transition-colors duration-150 group"
                 >
                   <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-white/5 group-hover:bg-bhg-orange/20 transition-colors flex-shrink-0">
                     <Mail className="w-3.5 h-3.5 text-bhg-orange" />
                   </div>
-                  <span className="leading-relaxed">info@bhgsafety.com</span>
+                  <span className="leading-relaxed">office@bhgspllc.com</span>
                 </a>
               </li>
             </ul>
