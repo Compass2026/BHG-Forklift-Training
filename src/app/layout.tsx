@@ -41,6 +41,7 @@ const organizationSchema = {
   description:
     "BHG Safety Partners delivers expert safety consulting, OSHA compliance audits, onsite safety training, and safety program development to businesses across Missouri, Illinois, and the Midwest.",
   telephone: "+15738226448",
+  email: "office@bhgspllc.com",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Hannibal",
@@ -50,6 +51,7 @@ const organizationSchema = {
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+15738226448",
+    email: "office@bhgspllc.com",
     contactType: "customer service",
     areaServed: "US",
     availableLanguage: "English",

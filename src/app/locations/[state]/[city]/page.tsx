@@ -93,6 +93,7 @@ export default async function LocationPage({
     logo: "https://www.bhgsafetypartners.com/bhg-logo.png",
     image: "https://www.bhgsafetypartners.com/bhg-logo.png",
     telephone: "+15738226448",
+    email: "office@bhgspllc.com",
     description: `BHG Safety Partners provides expert safety consulting, OSHA compliance audits, and onsite safety training in ${location.city}, ${location.stateName}.`,
     address: {
       "@type": "PostalAddress",
