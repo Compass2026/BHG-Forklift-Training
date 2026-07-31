@@ -5,6 +5,7 @@ import ServiceGrid from "@/components/sections/ServiceGrid";
 import AboutContactSplit from "@/components/sections/AboutContactSplit";
 import Schema from "@/components/Schema";
 import locationsData from "../../../../../data/locations.json";
+import { SITE_URL } from "@/lib/site";
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -89,9 +90,9 @@ export default async function LocationPage({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "BHG Safety Partners",
-    url: `https://www.bhgsafetypartners.com/locations/${location.slug}`,
-    logo: "https://www.bhgsafetypartners.com/bhg-logo.png",
-    image: "https://www.bhgsafetypartners.com/bhg-logo.png",
+    url: `${SITE_URL}/locations/${location.slug}`,
+    logo: `${SITE_URL}/bhg-logo.png`,
+    image: `${SITE_URL}/bhg-logo.png`,
     telephone: "+15738226448",
     email: "office@bhgspllc.com",
     description: `BHG Safety Partners provides expert safety consulting, OSHA compliance audits, and onsite safety training in ${location.city}, ${location.stateName}.`,

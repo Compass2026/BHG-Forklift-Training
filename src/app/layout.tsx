@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Schema from "@/components/Schema";
 import MobileQuoteButton from "@/components/MobileQuoteButton";
+import { SITE_URL } from "@/lib/site";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -13,6 +14,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "BHG Safety Partners | Safety Training & Compliance Experts",
   description:
     "BHG Safety Partners delivers industry-leading safety training, OSHA compliance, and workplace hazard assessments to protect your workforce and your business.",
@@ -36,8 +38,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "BHG Safety Partners",
-  url: "https://www.bhgsafetypartners.com",
-  logo: "https://www.bhgsafetypartners.com/bhg-logo.png",
+  url: SITE_URL,
+  logo: `${SITE_URL}/bhg-logo.png`,
   description:
     "BHG Safety Partners delivers expert safety consulting, OSHA compliance audits, onsite safety training, and safety program development to businesses across Missouri, Illinois, and the Midwest.",
   telephone: "+15738226448",
