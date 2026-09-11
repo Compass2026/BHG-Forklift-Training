@@ -226,7 +226,9 @@ export default async function LocationPage({
       <ServiceGrid />
 
       {/* ── About + Contact Form ── */}
-      <AboutContactSplit />
+      <AboutContactSplit
+        source={`the ${location.city}, ${location.stateAbbr} location page`}
+      />
     </>
   );
 }

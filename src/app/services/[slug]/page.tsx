@@ -200,7 +200,7 @@ export default async function ServiceDetailPage({
 
             {/* ── Right: Lead Capture Form ── */}
             <div>
-              <ServiceContactForm />
+              <ServiceContactForm serviceName={service.title} />
             </div>
 
           </div>

@@ -1,7 +1,10 @@
 "use client";
 
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-import { useState } from "react";
+import { useActionState, useState } from "react";
+
+import { submitContactForm } from "@/app/actions/contact";
+import { initialContactFormState } from "@/lib/contact-email";
 
 // ─── Contact Info ─────────────────────────────────────────────────────────────
 
@@ -40,6 +43,10 @@ const contactDetails = [
 
 export default function ContactContent() {
   const [focused, setFocused] = useState<string | null>(null);
+  const [state, formAction, pending] = useActionState(
+    submitContactForm,
+    initialContactFormState,
+  );
 
   const inputClass = (name: string) =>
     `w-full px-4 py-3 rounded-xl border text-sm text-bhg-black placeholder-gray-400 bg-white outline-none transition-all duration-200 ${
@@ -148,11 +155,18 @@ export default function ContactContent() {
               day.
             </p>
 
-            <form
-              aria-label="Contact form"
-              onSubmit={(e) => e.preventDefault()}
-              className="space-y-4"
-            >
+            <form aria-label="Contact form" action={formAction} className="space-y-4">
+              <input type="hidden" name="source" value="the Contact page" />
+              {/* Honeypot — hidden from people, catnip for bots */}
+              <input
+                type="text"
+                name="website"
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden="true"
+                className="hidden"
+              />
+
               {/* Full Name */}
               <div>
                 <label
@@ -163,12 +177,22 @@ export default function ContactContent() {
                 </label>
                 <input
                   id="contact-name"
+                  name="name"
                   type="text"
+                  required
+                  autoComplete="name"
+                  disabled={pending}
+                  aria-invalid={state.errors.name ? true : undefined}
                   placeholder="Jane Smith"
                   className={inputClass("name")}
                   onFocus={() => setFocused("name")}
                   onBlur={() => setFocused(null)}
                 />
+                {state.errors.name && (
+                  <p className="mt-1.5 text-xs font-medium text-red-600">
+                    {state.errors.name}
+                  </p>
+                )}
               </div>
 
               {/* Company Name */}
@@ -181,7 +205,10 @@ export default function ContactContent() {
                 </label>
                 <input
                   id="contact-company"
+                  name="company"
                   type="text"
+                  autoComplete="organization"
+                  disabled={pending}
                   placeholder="Acme Industries"
                   className={inputClass("company")}
                   onFocus={() => setFocused("company")}
@@ -199,12 +226,22 @@ export default function ContactContent() {
                 </label>
                 <input
                   id="contact-email-input"
+                  name="email"
                   type="email"
+                  required
+                  autoComplete="email"
+                  disabled={pending}
+                  aria-invalid={state.errors.email ? true : undefined}
                   placeholder="jane@acmeindustries.com"
                   className={inputClass("email")}
                   onFocus={() => setFocused("email")}
                   onBlur={() => setFocused(null)}
                 />
+                {state.errors.email && (
+                  <p className="mt-1.5 text-xs font-medium text-red-600">
+                    {state.errors.email}
+                  </p>
+                )}
               </div>
 
               {/* Phone Number */}
@@ -217,7 +254,10 @@ export default function ContactContent() {
                 </label>
                 <input
                   id="contact-phone-input"
+                  name="phone"
                   type="tel"
+                  autoComplete="tel"
+                  disabled={pending}
                   placeholder="(555) 000-0000"
                   className={inputClass("phone")}
                   onFocus={() => setFocused("phone")}
@@ -235,6 +275,8 @@ export default function ContactContent() {
                 </label>
                 <select
                   id="contact-location"
+                  name="location"
+                  disabled={pending}
                   className={`${inputClass("location")} appearance-none`}
                   onFocus={() => setFocused("location")}
                   onBlur={() => setFocused(null)}
@@ -256,8 +298,10 @@ export default function ContactContent() {
                 </label>
                 <input
                   id="contact-operators"
+                  name="operators"
                   type="number"
                   min="1"
+                  disabled={pending}
                   placeholder="e.g. 10"
                   className={inputClass("operators")}
                   onFocus={() => setFocused("operators")}
@@ -275,22 +319,46 @@ export default function ContactContent() {
                 </label>
                 <textarea
                   id="contact-message"
+                  name="message"
                   rows={4}
+                  required
+                  disabled={pending}
+                  aria-invalid={state.errors.message ? true : undefined}
                   placeholder="Tell us about your safety training needs..."
                   className={`${inputClass("message")} resize-none`}
                   onFocus={() => setFocused("message")}
                   onBlur={() => setFocused(null)}
                 />
+                {state.errors.message && (
+                  <p className="mt-1.5 text-xs font-medium text-red-600">
+                    {state.errors.message}
+                  </p>
+                )}
               </div>
 
               {/* Submit */}
               <button
                 type="submit"
                 id="contact-submit"
-                className="w-full py-3.5 rounded-xl bg-bhg-orange hover:bg-bhg-orange/95 text-white font-black text-sm shadow-md shadow-bhg-orange/20 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 mt-2 uppercase tracking-wider"
+                disabled={pending}
+                className="w-full py-3.5 rounded-xl bg-bhg-orange hover:bg-bhg-orange/95 text-white font-black text-sm shadow-md shadow-bhg-orange/20 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 mt-2 uppercase tracking-wider disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:translate-y-0"
               >
-                Request Quote
+                {pending ? "Sending…" : "Request Quote"}
               </button>
+
+              {/* Submission status */}
+              <p
+                aria-live="polite"
+                className={`text-sm font-medium ${
+                  state.status === "success"
+                    ? "text-green-700"
+                    : state.status === "error"
+                      ? "text-red-600"
+                      : ""
+                }`}
+              >
+                {state.message}
+              </p>
             </form>
           </div>
 
