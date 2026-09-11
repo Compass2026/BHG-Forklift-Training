@@ -1,11 +1,22 @@
 "use client";
 
-import { useState } from "react";
+import { useActionState, useState } from "react";
+
+import { submitContactForm } from "@/app/actions/contact";
+import { initialContactFormState } from "@/lib/contact-email";
 
 // ─── Standalone contact form card — reused across service detail pages ─────────
 
-export default function ServiceContactForm() {
+export default function ServiceContactForm({
+  serviceName,
+}: {
+  serviceName?: string;
+}) {
   const [focused, setFocused] = useState<string | null>(null);
+  const [state, formAction, pending] = useActionState(
+    submitContactForm,
+    initialContactFormState,
+  );
 
   const inputClass = (name: string) =>
     `w-full px-4 py-3 rounded-xl border text-sm text-bhg-black placeholder-gray-400 bg-white outline-none transition-all duration-200 ${
@@ -32,9 +43,28 @@ export default function ServiceContactForm() {
 
       <form
         aria-label="Service inquiry form"
-        onSubmit={(e) => e.preventDefault()}
+        action={formAction}
         className="space-y-4"
       >
+        <input
+          type="hidden"
+          name="source"
+          value={
+            serviceName
+              ? `the ${serviceName} service page`
+              : "a service page"
+          }
+        />
+        {/* Honeypot — hidden from people, catnip for bots */}
+        <input
+          type="text"
+          name="website"
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+          className="hidden"
+        />
+
         {/* Company Name */}
         <div>
           <label
@@ -45,7 +75,10 @@ export default function ServiceContactForm() {
           </label>
           <input
             id="svc-contact-company"
+            name="company"
             type="text"
+            autoComplete="organization"
+            disabled={pending}
             placeholder="Acme Industries"
             className={inputClass("company")}
             onFocus={() => setFocused("company")}
@@ -63,12 +96,22 @@ export default function ServiceContactForm() {
           </label>
           <input
             id="svc-contact-name"
+            name="name"
             type="text"
+            required
+            autoComplete="name"
+            disabled={pending}
+            aria-invalid={state.errors.name ? true : undefined}
             placeholder="Jane Smith"
             className={inputClass("name")}
             onFocus={() => setFocused("name")}
             onBlur={() => setFocused(null)}
           />
+          {state.errors.name && (
+            <p className="mt-1.5 text-xs font-medium text-red-600">
+              {state.errors.name}
+            </p>
+          )}
         </div>
 
         {/* Email */}
@@ -81,12 +124,22 @@ export default function ServiceContactForm() {
           </label>
           <input
             id="svc-contact-email"
+            name="email"
             type="email"
+            required
+            autoComplete="email"
+            disabled={pending}
+            aria-invalid={state.errors.email ? true : undefined}
             placeholder="jane@acmeindustries.com"
             className={inputClass("email")}
             onFocus={() => setFocused("email")}
             onBlur={() => setFocused(null)}
           />
+          {state.errors.email && (
+            <p className="mt-1.5 text-xs font-medium text-red-600">
+              {state.errors.email}
+            </p>
+          )}
         </div>
 
         {/* Phone */}
@@ -99,7 +152,10 @@ export default function ServiceContactForm() {
           </label>
           <input
             id="svc-contact-phone"
+            name="phone"
             type="tel"
+            autoComplete="tel"
+            disabled={pending}
             placeholder="(555) 000-0000"
             className={inputClass("phone")}
             onFocus={() => setFocused("phone")}
@@ -117,22 +173,46 @@ export default function ServiceContactForm() {
           </label>
           <textarea
             id="svc-contact-message"
+            name="message"
             rows={4}
+            required
+            disabled={pending}
+            aria-invalid={state.errors.message ? true : undefined}
             placeholder="Tell us about your safety training needs..."
             className={`${inputClass("message")} resize-none`}
             onFocus={() => setFocused("message")}
             onBlur={() => setFocused(null)}
           />
+          {state.errors.message && (
+            <p className="mt-1.5 text-xs font-medium text-red-600">
+              {state.errors.message}
+            </p>
+          )}
         </div>
 
         {/* Submit */}
         <button
           type="submit"
           id="svc-contact-submit"
-          className="w-full py-3.5 rounded-xl bg-bhg-orange text-white font-semibold text-sm shadow-md shadow-bhg-orange/25 hover:bg-orange-500 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 mt-2"
+          disabled={pending}
+          className="w-full py-3.5 rounded-xl bg-bhg-orange text-white font-semibold text-sm shadow-md shadow-bhg-orange/25 hover:bg-orange-500 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 mt-2 disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:translate-y-0"
         >
-          Send Message
+          {pending ? "Sending…" : "Send Message"}
         </button>
+
+        {/* Submission status */}
+        <p
+          aria-live="polite"
+          className={`text-sm font-medium ${
+            state.status === "success"
+              ? "text-green-700"
+              : state.status === "error"
+                ? "text-red-600"
+                : ""
+          }`}
+        >
+          {state.message}
+        </p>
       </form>
     </div>
   );

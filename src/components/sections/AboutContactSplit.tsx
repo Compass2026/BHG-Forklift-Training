@@ -1,9 +1,20 @@
 "use client";
 
-import { useState } from "react";
+import { useActionState, useState } from "react";
 
-export default function AboutContactSplit() {
+import { submitContactForm } from "@/app/actions/contact";
+import { initialContactFormState } from "@/lib/contact-email";
+
+export default function AboutContactSplit({
+  source = "the home page",
+}: {
+  source?: string;
+}) {
   const [focused, setFocused] = useState<string | null>(null);
+  const [state, formAction, pending] = useActionState(
+    submitContactForm,
+    initialContactFormState,
+  );
 
   const inputClass = (name: string) =>
     `w-full px-4 py-3 rounded-xl border text-sm text-bhg-black placeholder-gray-400 bg-white outline-none transition-all duration-200 ${
@@ -105,11 +116,18 @@ export default function AboutContactSplit() {
               business day.
             </p>
 
-            <form
-              aria-label="Contact form"
-              onSubmit={(e) => e.preventDefault()}
-              className="space-y-4"
-            >
+            <form aria-label="Contact form" action={formAction} className="space-y-4">
+              <input type="hidden" name="source" value={source} />
+              {/* Honeypot — hidden from people, catnip for bots */}
+              <input
+                type="text"
+                name="website"
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden="true"
+                className="hidden"
+              />
+
               {/* Company Name */}
               <div>
                 <label
@@ -120,7 +138,10 @@ export default function AboutContactSplit() {
                 </label>
                 <input
                   id="contact-company"
+                  name="company"
                   type="text"
+                  autoComplete="organization"
+                  disabled={pending}
                   placeholder="Acme Industries"
                   className={inputClass("company")}
                   onFocus={() => setFocused("company")}
@@ -138,12 +159,22 @@ export default function AboutContactSplit() {
                 </label>
                 <input
                   id="contact-name"
+                  name="name"
                   type="text"
+                  required
+                  autoComplete="name"
+                  disabled={pending}
+                  aria-invalid={state.errors.name ? true : undefined}
                   placeholder="Jane Smith"
                   className={inputClass("name")}
                   onFocus={() => setFocused("name")}
                   onBlur={() => setFocused(null)}
                 />
+                {state.errors.name && (
+                  <p className="mt-1.5 text-xs font-medium text-red-600">
+                    {state.errors.name}
+                  </p>
+                )}
               </div>
 
               {/* Email */}
@@ -156,12 +187,22 @@ export default function AboutContactSplit() {
                 </label>
                 <input
                   id="contact-email"
+                  name="email"
                   type="email"
+                  required
+                  autoComplete="email"
+                  disabled={pending}
+                  aria-invalid={state.errors.email ? true : undefined}
                   placeholder="jane@acmeindustries.com"
                   className={inputClass("email")}
                   onFocus={() => setFocused("email")}
                   onBlur={() => setFocused(null)}
                 />
+                {state.errors.email && (
+                  <p className="mt-1.5 text-xs font-medium text-red-600">
+                    {state.errors.email}
+                  </p>
+                )}
               </div>
 
               {/* Address */}
@@ -174,7 +215,10 @@ export default function AboutContactSplit() {
                 </label>
                 <input
                   id="contact-address"
+                  name="address"
                   type="text"
+                  autoComplete="street-address"
+                  disabled={pending}
                   placeholder="123 Main St, Houston, TX 77001"
                   className={inputClass("address")}
                   onFocus={() => setFocused("address")}
@@ -192,24 +236,50 @@ export default function AboutContactSplit() {
                 </label>
                 <textarea
                   id="contact-message"
+                  name="message"
                   rows={4}
+                  required
+                  disabled={pending}
+                  aria-invalid={state.errors.message ? true : undefined}
                   placeholder="Tell us about your safety training needs..."
                   className={`${inputClass("message")} resize-none`}
                   onFocus={() => setFocused("message")}
                   onBlur={() => setFocused(null)}
                 />
+                {state.errors.message && (
+                  <p className="mt-1.5 text-xs font-medium text-red-600">
+                    {state.errors.message}
+                  </p>
+                )}
               </div>
 
               {/* Submit — outline that fills on hover */}
               <button
                 type="submit"
                 id="contact-submit"
+                disabled={pending}
                 className="w-full py-3.5 rounded-xl border-2 border-bhg-orange text-bhg-orange font-semibold text-sm
                   hover:bg-bhg-orange hover:text-white hover:-translate-y-0.5 active:translate-y-0
-                  transition-all duration-200 mt-2"
+                  transition-all duration-200 mt-2
+                  disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-transparent
+                  disabled:hover:text-bhg-orange disabled:hover:translate-y-0"
               >
-                Send Message
+                {pending ? "Sending…" : "Send Message"}
               </button>
+
+              {/* Submission status */}
+              <p
+                aria-live="polite"
+                className={`text-sm font-medium ${
+                  state.status === "success"
+                    ? "text-green-700"
+                    : state.status === "error"
+                      ? "text-red-600"
+                      : ""
+                }`}
+              >
+                {state.message}
+              </p>
             </form>
           </div>
 
