@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Onsite Forklift Training & Certification | BHG Forklift Training",
   description:
-    "Onsite, OSHA-aligned forklift operator training and evaluations for Classes 1–7 at your facility. Based in Hannibal, MO, serving employers across the Midwest.",
+    "Onsite, OSHA-aligned forklift operator training and evaluations for Classes 1–7 at your facility. Based in Hannibal, MO, serving employers in 17 states.",
   openGraph: {
     siteName: SITE_NAME,
     type: "website",

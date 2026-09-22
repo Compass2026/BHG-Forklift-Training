@@ -64,7 +64,7 @@ export function organizationSchema() {
     url: SITE_URL,
     logo: `${SITE_URL}/bhg-logo.png`,
     description:
-      "BHG Forklift Training delivers onsite, OSHA-aligned forklift operator training and evaluations for OSHA truck Classes I through VII, from Hannibal, Missouri to employers across the Midwest.",
+      "BHG Forklift Training delivers onsite, OSHA-aligned forklift operator training and evaluations for OSHA truck Classes I through VII, from Hannibal, Missouri to employers across 17 states in the Midwest and South.",
     telephone: CONTACT.phoneE164,
     email: CONTACT.email,
     address: postalAddress,
@@ -79,7 +79,7 @@ export function organizationSchema() {
       email: CONTACT.email,
       contactType: "customer service",
       areaServed: "US",
-      availableLanguage: "English",
+      availableLanguage: ["English", "Spanish"],
     },
   };
 }

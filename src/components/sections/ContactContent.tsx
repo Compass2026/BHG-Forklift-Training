@@ -75,7 +75,7 @@ export default function ContactContent() {
                 Midwest
                 <span className="absolute -bottom-1 left-0 h-1 w-full rounded-full bg-bhg-orange/30" />
               </span>
-              , Serving Nationwide.
+              , Serving 17 States.
             </h2>
 
             <div className="space-y-5">
