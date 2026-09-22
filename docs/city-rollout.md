@@ -4,7 +4,7 @@ Ranked list of the next city pages for bhgforklifttraining.com, built from measu
 
 ## Summary
 
-- **12 cities are live** (`src/lib/live-cities.ts`): Houston, Chicago, Memphis, Atlanta, San Antonio, Indianapolis, Dallas, Oklahoma City, Nashville, Tulsa, St. Louis and Kansas City. They were chosen from this same data: the top forklift-demand cities plus the home market.
+- **22 cities are live** (`src/lib/live-cities.ts`): the 12 launch cities plus all of Wave 1, published 2026-09-22. The launch cities are: Houston, Chicago, Memphis, Atlanta, San Antonio, Indianapolis, Dallas, Oklahoma City, Nashville, Tulsa, St. Louis and Kansas City. They were chosen from this same data: the top forklift-demand cities plus the home market.
 - **245 candidates scored** (below): the top 15 cities per state from `data/locations.json`, plus Hannibal, MO and Quincy, IL, minus the 12 live cities.
 - **30 candidates have measurable forklift demand** (at least one keyword at 10+ searches/month). The other 213 measured zero, including Hannibal and Quincy.
 - **Waves 1-4 hold 32 pages**: all 30 cities with demand, plus Hannibal and Quincy as home-area overrides. At 2-3 pages/week, that is about 12-14 weeks of publishing.
@@ -42,7 +42,7 @@ Volumes come in steps of 10 and tier + population add at most 8, so **demand dec
 
 Rank = suggested publish order. Demand = searches/month (US).
 
-### Wave 1: 10 pages
+### Wave 1: 10 pages (published 2026-09-22)
 
 | Rank | City | State | Slug | Demand | Top keyword | Tier | Notes |
 |---:|---|---|---|---:|---|:-:|---|
@@ -143,8 +143,8 @@ The full list is in `data/city-rollout.json` (rows with `wave: null`).
 ## Caveats
 
 - **Volumes are low and coarse.** Below the top 20, a 10-20 difference is noise. Treat Waves 2-4 as roughly equal priority, and let practical factors (existing clients, travel routing) reorder within a wave.
-- **El Paso** leads the candidates, but most of its `forklift certification el paso` volume is flagged as partly Spanish-language search, and it is the farthest city from Hannibal. Publish it only if BHG will travel there, and mention Spanish-language training if BHG offers it.
-- **Texas and the Gulf South dominate the list.** Seven of the top 10 candidates are Tier 3. Confirm BHG will travel to each before publishing. Houston, Dallas and San Antonio are already live, so Fort Worth, Austin and Arlington extend an existing Texas presence.
+- **El Paso** leads the candidates, and much of its `forklift certification el paso` volume is flagged as partly Spanish-language search. BHG confirmed (2026-09-22) that it trains in Spanish, so the El Paso page says so.
+- **Texas and the Gulf South dominate the list.** Seven of the top 10 candidates are Tier 3. BHG confirmed (2026-09-22) that it travels to all 17 service-area states, so tiers now only break ties.
 - **Kansas City** is live on the Missouri side. Unsuffixed metro queries (`forklift training kansas city` 50/mo) aren't counted for any candidate. A Kansas-side page (e.g. Olathe or Overland Park) would need its own content, because OSHA's Wichita office covers Johnson and Wyandotte counties.
 - **Ambiguous names queried with a state suffix** under-count real demand, because many local searchers omit the state.
 - **Labs-only rows** (population rank 9-15 outside MO/IL/TX, from the bhgsafety.com data) may miss small volumes that Google Ads would report.

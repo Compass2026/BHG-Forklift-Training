@@ -79,8 +79,8 @@ export default function AboutContactSplit({
               <p>
                 From Class 1 electric riders in the warehouse to Class 7 rough
                 terrain forklifts on the job site, we cover every OSHA truck class,
-                from our base in Hannibal, Missouri to employers across the
-                Midwest.
+                from our base in Hannibal, Missouri to employers across 17 states
+                in the Midwest and South, in English or Spanish.
               </p>
             </div>
 

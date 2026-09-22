@@ -45,6 +45,12 @@ export const faqs: Faq[] = [
     id: "faq-5",
     question: "Do you come to our facility?",
     answer:
-      "Yes. Our training is onsite: we come to your warehouse, plant or job site so operators train and are evaluated on your own equipment, in the aisles, docks and yards where they work. We are based in Hannibal, Missouri and travel to employers across the Midwest.",
+      "Yes. Our training is onsite: we come to your warehouse, plant or job site so operators train and are evaluated on your own equipment, in the aisles, docks and yards where they work. We are based in Hannibal, Missouri and travel to employers across our 17-state service area in the Midwest and South.",
+  },
+  {
+    id: "faq-6",
+    question: "Can you train our operators in Spanish?",
+    answer:
+      "Yes. We deliver forklift training in English and Spanish, so operators can go through the formal instruction, hands-on practice and workplace evaluation in the language they understand best.",
   },
 ];

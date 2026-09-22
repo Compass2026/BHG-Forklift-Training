@@ -2,15 +2,25 @@ import type { CityContent } from "./types";
 import classesData from "../../../data/classes.json";
 
 import georgiaAtlanta from "./georgia--atlanta";
+import georgiaAugusta from "./georgia--augusta";
 import illinoisChicago from "./illinois--chicago";
+import illinoisQuincy from "./illinois--quincy";
 import indianaIndianapolis from "./indiana--indianapolis";
+import louisianaBatonRouge from "./louisiana--baton-rouge";
+import louisianaNewOrleans from "./louisiana--new-orleans";
+import missouriHannibal from "./missouri--hannibal";
 import missouriKansasCity from "./missouri--kansas-city";
 import missouriStLouis from "./missouri--st-louis";
+import nebraskaOmaha from "./nebraska--omaha";
 import oklahomaOklahomaCity from "./oklahoma--oklahoma-city";
 import oklahomaTulsa from "./oklahoma--tulsa";
 import tennesseeMemphis from "./tennessee--memphis";
 import tennesseeNashville from "./tennessee--nashville";
+import texasArlington from "./texas--arlington";
+import texasAustin from "./texas--austin";
 import texasDallas from "./texas--dallas";
+import texasElPaso from "./texas--el-paso";
+import texasFortWorth from "./texas--fort-worth";
 import texasHouston from "./texas--houston";
 import texasSanAntonio from "./texas--san-antonio";
 
@@ -49,15 +59,25 @@ function validateCityContent(content: CityContent): string[] {
 const cityContent: Record<string, CityContent> = Object.fromEntries(
   [
     georgiaAtlanta,
+    georgiaAugusta,
     illinoisChicago,
+    illinoisQuincy,
     indianaIndianapolis,
+    louisianaBatonRouge,
+    louisianaNewOrleans,
+    missouriHannibal,
     missouriKansasCity,
     missouriStLouis,
+    nebraskaOmaha,
     oklahomaOklahomaCity,
     oklahomaTulsa,
     tennesseeMemphis,
     tennesseeNashville,
+    texasArlington,
+    texasAustin,
     texasDallas,
+    texasElPaso,
+    texasFortWorth,
     texasHouston,
     texasSanAntonio,
   ].map((content) => {

@@ -39,19 +39,29 @@ export const STATE_SLUGS = [
   "texas",
 ] as const;
 
-// Launch set, chosen 2026-09-22 from measured forklift search demand
-// (see docs/city-rollout.md), plus St. Louis and Kansas City for the home market.
+// Launch set (12) chosen 2026-09-22 from measured forklift search demand, plus
+// Wave 1 of docs/city-rollout.md (10), published 2026-09-22.
 export const LIVE_CITY_SLUGS: readonly string[] = [
   "georgia/atlanta",
+  "georgia/augusta",
   "illinois/chicago",
+  "illinois/quincy",
   "indiana/indianapolis",
+  "louisiana/baton-rouge",
+  "louisiana/new-orleans",
+  "missouri/hannibal",
   "missouri/kansas-city",
   "missouri/st-louis",
+  "nebraska/omaha",
   "oklahoma/oklahoma-city",
   "oklahoma/tulsa",
   "tennessee/memphis",
   "tennessee/nashville",
+  "texas/arlington",
+  "texas/austin",
   "texas/dallas",
+  "texas/el-paso",
+  "texas/fort-worth",
   "texas/houston",
   "texas/san-antonio",
 ];
