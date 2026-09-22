@@ -31,7 +31,7 @@ const content: CityContent = {
     {
       name: "Regional warehouses and distribution",
       detail:
-        "The Freightway calls transportation, distribution and logistics one of the region's highest-growth clusters, with 185 million square feet of industrial inventory and 4.5 million more under construction as of Q4 2025. New buildings bring high racking, busy dock doors and trailer loading, where dock-plate use and trailer creep are central to operator training.",
+        "The St. Louis Regional Freightway counted another 4.5 million square feet of industrial space under construction as of Q4 2025. New buildings bring high racking, busy dock doors and trailer loading, where dock-plate use and trailer creep are central to operator training.",
     },
   ],
   oshaOffice: {
