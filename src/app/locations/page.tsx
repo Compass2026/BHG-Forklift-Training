@@ -1,20 +1,9 @@
 import type { Metadata } from "next";
-import Schema from "@/components/Schema";
-import { breadcrumbSchema } from "@/lib/schema";
 import Link from "next/link";
 import { MapPin, ArrowRight } from "lucide-react";
-import locationsData from "../../../data/locations.json";
-
-// ─── Types ────────────────────────────────────────────────────────────────────
-
-interface LocationEntry {
-  slug: string;
-  stateAbbr: string;
-  stateName: string;
-  stateSlug: string;
-  city: string;
-  keywords: string[];
-}
+import Schema from "@/components/Schema";
+import { breadcrumbSchema } from "@/lib/schema";
+import { getLiveCitiesByState, serviceStates } from "@/lib/locations";
 
 // ─── SEO ──────────────────────────────────────────────────────────────────────
 
@@ -33,36 +22,18 @@ export const metadata: Metadata = {
   },
 };
 
-// ─── Helpers ─────────────────────────────────────────────────────────────────
-
-/** Groups location entries by stateName */
-function groupByState(
-  locations: LocationEntry[]
-): Record<string, LocationEntry[]> {
-  return locations.reduce(
-    (acc, loc) => {
-      if (!acc[loc.stateName]) acc[loc.stateName] = [];
-      acc[loc.stateName].push(loc);
-      return acc;
-    },
-    {} as Record<string, LocationEntry[]>
-  );
-}
-
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function LocationsPage() {
-  const grouped = groupByState(locationsData as LocationEntry[]);
-  const stateNames = Object.keys(grouped).sort();
+
+  const crumbs = breadcrumbSchema([
+    { name: "Home", path: "/" },
+    { name: "Locations", path: "/locations" },
+  ]);
 
   return (
     <>
-      <Schema
-        data={breadcrumbSchema([
-          { name: "Home", path: "/" },
-          { name: "Locations", path: "/locations" },
-        ])}
-      />
+      <Schema data={crumbs} />
       {/* ── Page Header ── */}
       <section
         className="relative bg-bhg-black overflow-hidden"
@@ -96,8 +67,8 @@ export default function LocationsPage() {
             id="locations-heading"
             className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight"
           >
-            Midwest Areas{" "}
-            <span className="text-bhg-orange">We Serve</span>
+            Forklift Training{" "}
+            <span className="text-bhg-orange">Service Areas</span>
           </h1>
           <p className="mt-5 text-lg text-white/70 max-w-xl mx-auto leading-relaxed">
             We bring forklift operator training and hands-on evaluations
@@ -117,9 +88,8 @@ export default function LocationsPage() {
           </h2>
 
           <div className="space-y-16">
-            {stateNames.map((stateName) => {
-              const cities = grouped[stateName];
-              const stateSlug = cities[0]?.stateSlug ?? stateName.toLowerCase().replace(/\s+/g, "-");
+            {serviceStates.map(({ stateSlug, stateName }) => {
+              const cities = getLiveCitiesByState(stateSlug);
 
               return (
                 <div key={stateName}>
@@ -136,7 +106,7 @@ export default function LocationsPage() {
                       href={`/locations/${stateSlug}`}
                       className="text-xs text-gray-400 hover:text-bhg-orange transition-colors"
                     >
-                      {cities.length} {cities.length === 1 ? "area" : "areas"} →
+                      All of {stateName} →
                     </Link>
                   </div>
 
@@ -146,11 +116,10 @@ export default function LocationsPage() {
                     role="list"
                   >
                     {cities.map((loc) => {
-                      const [stateSlug, citySlug] = loc.slug.split("/");
                       return (
                         <li key={loc.slug}>
                           <Link
-                            href={`/locations/${stateSlug}/${citySlug}`}
+                            href={`/locations/${loc.slug}`}
                             id={`location-link-${loc.slug.replace("/", "-")}`}
                             className="group flex items-center justify-between bg-white rounded-2xl border border-gray-100 shadow-sm px-6 py-5 hover:shadow-md hover:border-bhg-orange/30 hover:-translate-y-0.5 transition-all duration-200"
                           >

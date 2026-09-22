@@ -2,58 +2,37 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MapPin, ArrowRight, ChevronRight } from "lucide-react";
-import locationsData from "../../../../data/locations.json";
 import Schema from "@/components/Schema";
 import { breadcrumbSchema } from "@/lib/schema";
 import { CONTACT } from "@/lib/site";
-
-// ─── Types ────────────────────────────────────────────────────────────────────
-
-interface LocationEntry {
-  slug: string;
-  stateAbbr: string;
-  stateName: string;
-  stateSlug: string;
-  city: string;
-  keywords: string[];
-}
+import classesData from "../../../../data/classes.json";
+import {
+  findServiceState,
+  getLiveCitiesByState,
+  serviceStates,
+} from "@/lib/locations";
 
 interface PageProps {
   params: Promise<{ state: string }>;
 }
 
-// ─── Helpers ─────────────────────────────────────────────────────────────────
-
-function sortCitiesAlpha(cities: LocationEntry[]): LocationEntry[] {
-  return [...cities].sort((a, b) => a.city.localeCompare(b.city));
-}
-
-function getCitiesByStateSlug(stateSlug: string): LocationEntry[] {
-  return (locationsData as LocationEntry[]).filter(
-    (loc) => loc.stateSlug === stateSlug
-  );
-}
-
 // ─── Static Params ────────────────────────────────────────────────────────────
 
+// All 17 service-area states keep a hub, even before their first city page.
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
-  const slugs = [
-    ...new Set(
-      (locationsData as LocationEntry[]).map((loc) => loc.stateSlug)
-    ),
-  ];
-  return slugs.map((s) => ({ state: s }));
+  return serviceStates.map((s) => ({ state: s.stateSlug }));
 }
 
 // ─── SEO ──────────────────────────────────────────────────────────────────────
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { state: stateSlug } = await params;
-  const cities = getCitiesByStateSlug(stateSlug);
-  if (!cities.length) return {};
+  const serviceState = findServiceState(stateSlug);
+  if (!serviceState) return {};
 
-  const { stateName } = cities[0];
-
+  const { stateName } = serviceState;
   const title = `Forklift Training & Certification in ${stateName} | BHG`;
   const description = `Onsite forklift operator training and hands-on OSHA evaluations for employers across ${stateName}, covering truck Classes 1–7 at your own facility.`;
 
@@ -70,27 +49,28 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
   };
 }
+}
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default async function StateHubPage({ params }: PageProps) {
   const { state: stateSlug } = await params;
-  const raw = getCitiesByStateSlug(stateSlug);
+  const serviceState = findServiceState(stateSlug);
 
-  if (!raw.length) notFound();
+  if (!serviceState) notFound();
 
-  const { stateName, stateAbbr } = raw[0];
-  const cities = sortCitiesAlpha(raw);
+  const { stateName, stateAbbr } = serviceState;
+  const cities = getLiveCitiesByState(stateSlug);
+
+  const crumbs = breadcrumbSchema([
+    { name: "Home", path: "/" },
+    { name: "Locations", path: "/locations" },
+    { name: stateName, path: `/locations/${stateSlug}` },
+  ]);
 
   return (
     <>
-      <Schema
-        data={breadcrumbSchema([
-          { name: "Home", path: "/" },
-          { name: "Locations", path: "/locations" },
-          { name: stateName, path: `/locations/${stateSlug}` },
-        ])}
-      />
+      <Schema data={crumbs} />
       {/* ── Breadcrumb ── */}
       <nav
         className="bg-white border-b border-gray-100 pt-24"
@@ -138,7 +118,7 @@ export default async function StateHubPage({ params }: PageProps) {
           <div className="inline-flex items-center gap-2 bg-bhg-orange/10 border border-bhg-orange/20 rounded-full px-4 py-1.5 mb-6">
             <MapPin className="w-3.5 h-3.5 text-bhg-orange" aria-hidden="true" />
             <span className="text-xs font-semibold tracking-widest uppercase text-bhg-orange">
-              {stateAbbr} · {cities.length} Cities
+              {stateAbbr} · Service Area
             </span>
           </div>
 
@@ -174,49 +154,85 @@ export default async function StateHubPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* ── City Grid ── */}
-      <section
-        className="bg-bhg-gray-light py-20"
-        aria-labelledby="city-grid-heading"
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Section header */}
-          <div className="flex items-center gap-4 mb-10">
-            <h2
-              id="city-grid-heading"
-              className="text-2xl font-bold text-bhg-black"
-            >
-              Cities We Serve in {stateName}
-            </h2>
-            <span className="flex-1 h-px bg-gray-200" />
-            <span className="text-xs font-semibold text-gray-400 tabular-nums">
-              {cities.length} locations
-            </span>
-          </div>
+      {/* ── City Pages ── */}
+      {cities.length > 0 && (
+        <section
+          className="bg-bhg-gray-light py-20"
+          aria-labelledby="city-grid-heading"
+        >
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center gap-4 mb-10">
+              <h2
+                id="city-grid-heading"
+                className="text-2xl font-bold text-bhg-black"
+              >
+                Forklift Training by City in {stateName}
+              </h2>
+              <span className="flex-1 h-px bg-gray-200" />
+            </div>
 
-          {/* Alphabetical grid */}
-          <ul
-            className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-x-4 gap-y-1"
-            role="list"
-          >
-            {cities.map((loc) => {
-              const [, citySlug] = loc.slug.split("/");
-              return (
+            <ul
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"
+              role="list"
+            >
+              {cities.map((loc) => (
                 <li key={loc.slug}>
                   <Link
-                    href={`/locations/${stateSlug}/${citySlug}`}
+                    href={`/locations/${loc.slug}`}
                     id={`city-link-${loc.slug.replace("/", "-")}`}
-                    className="group flex items-center gap-2 py-2 px-1 text-sm text-bhg-gray-dark hover:text-bhg-orange transition-colors duration-150"
+                    className="group flex items-center justify-between bg-white rounded-2xl border border-gray-100 shadow-sm px-6 py-5 hover:shadow-md hover:border-bhg-orange/30 hover:-translate-y-0.5 transition-all duration-200"
                   >
-                    <span
-                      className="w-1 h-1 rounded-full bg-bhg-orange/30 flex-shrink-0 group-hover:bg-bhg-orange transition-colors duration-150"
+                    <div className="flex items-center gap-3">
+                      <div className="w-8 h-8 rounded-lg bg-bhg-orange/10 flex items-center justify-center flex-shrink-0 group-hover:bg-bhg-orange/20 transition-colors">
+                        <MapPin
+                          className="w-4 h-4 text-bhg-orange"
+                          strokeWidth={2}
+                          aria-hidden="true"
+                        />
+                      </div>
+                      <div>
+                        <p className="text-sm font-semibold text-bhg-black group-hover:text-bhg-orange transition-colors">
+                          {loc.city}
+                        </p>
+                        <p className="text-xs text-gray-400">{loc.stateAbbr}</p>
+                      </div>
+                    </div>
+                    <ArrowRight
+                      className="w-4 h-4 text-bhg-orange flex-shrink-0 group-hover:translate-x-1 transition-transform"
                       aria-hidden="true"
                     />
-                    {loc.city}
                   </Link>
                 </li>
-              );
-            })}
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
+      {/* ── Classes ── */}
+      <section
+        className="bg-white py-16 border-t border-gray-100"
+        aria-labelledby="state-classes-heading"
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2
+            id="state-classes-heading"
+            className="text-2xl font-bold text-bhg-black"
+          >
+            Forklift Classes We Teach in {stateName}
+          </h2>
+          <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3" role="list">
+            {classesData.map((c) => (
+              <li key={c.slug}>
+                <Link
+                  href={`/classes/${c.slug}`}
+                  className="flex items-center gap-2 text-sm font-semibold text-bhg-black hover:text-bhg-orange transition-colors"
+                >
+                  <ArrowRight className="w-4 h-4 text-bhg-orange shrink-0" aria-hidden="true" />
+                  {c.title}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </section>
@@ -226,7 +242,7 @@ export default async function StateHubPage({ params }: PageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-bhg-gray-dark mb-2 text-base">
             Don&apos;t see your city? We serve businesses across all of{" "}
-            {stateName} and the broader Midwest.
+            {stateName}, not just the cities listed here.
           </p>
           <p className="text-gray-400 text-sm mb-8">
             Contact us and we&apos;ll come to you.
@@ -236,7 +252,7 @@ export default async function StateHubPage({ params }: PageProps) {
             id="state-hub-cta"
             className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-bhg-orange text-white font-semibold text-sm shadow-lg shadow-bhg-orange/30 hover:bg-orange-500 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
           >
-            Get a Free Quote
+            Request Forklift Training
             <ArrowRight className="w-4 h-4" aria-hidden="true" />
           </Link>
         </div>
