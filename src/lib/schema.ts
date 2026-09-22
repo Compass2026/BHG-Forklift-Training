@@ -83,3 +83,38 @@ export function organizationSchema() {
     },
   };
 }
+
+export type BlogPostingInput = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  updated: string;
+  author: string;
+};
+
+/** BlogPosting for a single article; the publisher is the business itself. */
+export function blogPostingSchema(post: BlogPostingInput) {
+  const url = absoluteUrl(`/blog/${post.slug}`);
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    url,
+    mainEntityOfPage: url,
+    datePublished: post.date,
+    dateModified: post.updated,
+    author: {
+      "@type": "Organization",
+      name: post.author || SITE_NAME,
+      url: SITE_URL,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/bhg-logo.png` },
+    },
+    image: `${SITE_URL}/bhg-logo.png`,
+  };
+}

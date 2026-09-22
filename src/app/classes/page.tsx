@@ -6,6 +6,7 @@ import ServiceGrid from "@/components/sections/ServiceGrid";
 import FAQSection from "@/components/sections/FAQSection";
 import Schema from "@/components/Schema";
 import { faqs } from "@/lib/faqs";
+import { getAllPosts } from "@/lib/mdx";
 import { breadcrumbSchema, faqPageSchema } from "@/lib/schema";
 
 // ─── SEO ──────────────────────────────────────────────────────────────────────
@@ -49,6 +50,8 @@ const trainingParts = [
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function ClassesPage() {
+  const posts = getAllPosts();
+
   return (
     <>
       <Schema
@@ -131,6 +134,37 @@ export default function ClassesPage() {
 
       {/* ── FAQ ── */}
       <FAQSection faqs={faqs} />
+
+      {/* ── Related reading ── */}
+      {posts.length > 0 && (
+        <section className="bg-white py-16" aria-labelledby="classes-reading-heading">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2
+              id="classes-reading-heading"
+              className="text-2xl font-bold text-bhg-black"
+            >
+              Forklift Certification Guides
+            </h2>
+            <ul className="mt-8 grid gap-6 md:grid-cols-3" role="list">
+              {posts.map((post) => (
+                <li key={post.slug}>
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="group block h-full rounded-2xl border border-gray-200 p-6 hover:border-bhg-orange transition-colors"
+                  >
+                    <span className="text-base font-bold text-bhg-black group-hover:text-bhg-orange transition-colors">
+                      {post.title}
+                    </span>
+                    <span className="mt-2 block text-sm text-gray-600 leading-relaxed">
+                      {post.excerpt}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
     </>
   );
 }

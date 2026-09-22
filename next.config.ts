@@ -18,6 +18,12 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       { source: "/services", destination: "/classes", permanent: true },
+      // This post was a copy of the same article on bhgsafety.com.
+      {
+        source: "/blog/why-onsite-safety-training-matters",
+        destination: "https://bhgsafety.com/blog/why-onsite-safety-training-matters",
+        permanent: true,
+      },
       ...PARENT_SERVICE_SLUGS.map((slug) => ({
         source: `/services/${slug}`,
         destination: `https://bhgsafety.com/services/${slug}`,
