@@ -8,7 +8,7 @@ const content: CityContent = {
   lede:
     "Forklift operator training and evaluations for St. Louis river terminals, plants and warehouses, done at your facility on your own trucks, by a training provider based upriver in Hannibal.",
   intro: [
-    "St. Louis is one of the few places where forklifts work at the edge of the Mississippi River every day. The City of St. Louis describes the Port of Metropolitan St. Louis as the second-largest inland port system in the country, a 70-mile stretch covering both banks with 15 barge-transfer facilities in its central section. The St. Louis Regional Freightway counts 46 docks and terminals along the city's 19 miles of riverfront, handling grain, feed, salt, fertilizer, chemicals, coal, steel and petroleum products.",
+    "In St. Louis, a lot of forklift work happens on the Mississippi riverfront. The City of St. Louis describes the Port of Metropolitan St. Louis as the second-largest inland port system in the country: a 70-mile corridor covering both banks, with 15 barge-transfer facilities along its 15-mile core. The St. Louis Regional Freightway counts 46 docks and terminals along the city's 19 miles of riverfront, handling grain, feed, salt, fertilizer, chemicals, coal, steel and petroleum products.",
     "Away from the river, the Freightway lists beverages, pharmaceuticals, chemicals, detergents, aerospace, metals and petroleum products as the region's industrial concentrations, and reports 185 million square feet of industrial space as of late 2025. That puts electric counterbalance trucks and pallet jacks in packaging halls and warehouses, propane trucks in plants, and pneumatic-tire forklifts on terminal yards and in steel and scrap handling.",
     "BHG Forklift Training is based in Hannibal, Missouri, and travels to your St. Louis-area facility. We deliver the three parts OSHA's forklift standard, 29 CFR 1910.178(l), requires: formal instruction, practical hands-on training, and an evaluation of each operator's performance in your workplace, on your own trucks. BHG covers all seven OSHA truck classes, so a terminal with yard trucks outside and a warehouse inside can be handled in one visit. Your company then certifies its operators.",
   ],
@@ -16,12 +16,12 @@ const content: CityContent = {
     {
       name: "Mississippi River barge terminals",
       detail:
-        "The City of St. Louis says the port's 15 barge-transfer facilities can handle 150 barges a day at full capacity, and it is the northernmost ice- and lock-free port on the Mississippi. Forklifts on these docks work near unguarded water edges and on uneven, wet surfaces, so travel paths, load visibility and pneumatic-tire truck handling come first in training.",
+        "The City of St. Louis says the port's 15 barge-transfer facilities can handle 150 barges a day at full capacity, and it is the northernmost ice- and lock-free port on the Mississippi. Forklifts on these docks work near dock edges above the water and on uneven, wet surfaces, so travel paths, load visibility and pneumatic-tire truck handling come first in training.",
     },
     {
       name: "St. Louis Municipal River Terminal",
       detail:
-        "The city-owned terminal is a 40-acre public dock with a 2,000-foot dock, a 90,000-square-foot warehouse and rail access, handling cargo from scrap metal and steel coils to fertilizer and project cargo. Moving coils, bundles and bagged goods between barge, rail and warehouse takes operators who can judge heavy, off-center loads and share the yard with rail and crane work.",
+        "The city-owned terminal is a 40-acre public dock with a 2,000-foot dock, a 90,000-square-foot warehouse and rail access, handling cargo from scrap metal and coils to fertilizer and project cargo. Moving coils, bundles and bagged goods between barge, rail and warehouse takes operators who can judge heavy, off-center loads and share the yard with rail and crane work.",
     },
     {
       name: "Beverage, chemical and consumer-products plants",
