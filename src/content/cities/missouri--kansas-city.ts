@@ -8,20 +8,20 @@ const content: CityContent = {
   lede:
     "Forklift operator training and evaluations for Kansas City's underground warehouses, auto plant suppliers and distribution centers, delivered at your facility on the trucks your crews use.",
   intro: [
-    "Kansas City has forklift work you will not find in many other cities: warehouses inside a mined-out limestone bluff. Hunt Midwest's SubTropolis, north of the Missouri River, has 10 million square feet developed underground, with food and beverage distribution, pharmaceutical storage and automotive tenants working among 25-foot square rock pillars. Operators there deal with blind corners at every pillar, fixed clearances and an enclosed space where engine exhaust has to be managed.",
-    "On the surface, Ford's Kansas City Assembly Plant in Claycomo builds the F-150, Transit and E-Transit with about 9,200 employees, and it feeds a network of parts suppliers and sequencing warehouses around the metro. Across the state line in Edgerton, Kansas, Logistics Park Kansas City has more than 15.5 million square feet of distribution buildings next to a BNSF intermodal terminal.",
-    "BHG Forklift Training travels from Hannibal, Missouri to your Kansas City facility. We provide the formal instruction, hands-on practice and workplace evaluation that 29 CFR 1910.178(l) requires, on your own trucks and in your own aisles, docks or caverns, so you can certify each operator for the equipment and conditions they actually work in.",
+    "Kansas City has forklift work you will not find in many other cities: warehouses inside a mined-out limestone bluff. Hunt Midwest's SubTropolis has 10 million square feet developed underground, serving food and beverage, pharmaceutical and automotive companies among the 25-foot square rock pillars left by room-and-pillar mining. Operators there deal with blind corners at every pillar, fixed clearances and an enclosed space where engine exhaust has to be managed.",
+    "On the surface, Ford's Kansas City Assembly Plant in Claycomo builds the F-150, Transit and E-Transit with 9,205 employees, the kind of line that depends on a steady flow of parts moved by forklift and tugger. Across the state line in Edgerton, Kansas, the BNSF-served Logistics Park Kansas City has more than 15.5 million square feet of distribution buildings, where trailers and rail-served docks keep counterbalance trucks and pallet jacks busy around the clock.",
+    "BHG Forklift Training travels from Hannibal, Missouri to your Kansas City facility. We provide the formal instruction, hands-on practice and workplace evaluation that 29 CFR 1910.178(l) requires, on your own trucks and in your own aisles, docks or caverns, so you can certify each operator for the equipment and conditions they actually work in, whether that is a surface dock or a pillar-lined aisle underground.",
   ],
   materialHandling: [
     {
       name: "SubTropolis underground business complex",
       detail:
-        "Hunt Midwest's 14-million-square-foot former limestone mine keeps near-constant temperature and humidity, and its developed buildings have clear heights of about 14 to 17 feet. Pillars every few dozen feet limit sightlines at intersections, and any propane or gas truck adds exhaust to an enclosed space, so pedestrian rules, horn use and truck selection all matter in training.",
+        "Hunt Midwest's 14-million-square-foot former limestone mine keeps near-constant temperature and humidity, and its listed buildings offer clear heights of roughly 14 to 17 feet. The 25-foot square pillars block sightlines at every intersection, and any propane or gas truck adds exhaust to an enclosed space, so pedestrian rules, horn use and truck selection all matter in training.",
     },
     {
       name: "Ford Kansas City Assembly Plant and its suppliers",
       detail:
-        "Ford lists 9,205 employees and 1,269 acres at the Claycomo plant, which builds the F-150, Transit and E-Transit. Plant and supplier work means tuggers pulling trains of parts carts, sit-down trucks feeding the line, and constant crossing with pedestrian aisles.",
+        "Ford lists 9,205 employees and 1,269 acres at the Claycomo plant, which builds the F-150, Transit and E-Transit. Feeding an assembly line of that size means tuggers pulling trains of parts carts, sit-down trucks feeding the line, and constant crossing with pedestrian aisles.",
     },
     {
       name: "Logistics Park Kansas City, Edgerton, Kansas",
@@ -38,7 +38,7 @@ const content: CityContent = {
   localConsiderations: [
     "The metro straddles two states and two OSHA area offices. A company with a warehouse in Kansas City, Missouri and another in Edgerton or Kansas City, Kansas answers to the Kansas City Area Office for one site and the Wichita Area Office for the other, though both enforce the same federal forklift standard.",
     "NWS Kansas City normals (1991-2020) put the typical early-July high at 87 to 88 degrees and the typical early-January low near 20 degrees. Outdoor dock and yard crews see both extremes, so training should cover heat breaks in summer, and ice on dock plates, ramps and trailer floors in winter.",
-    "Underground sites such as SubTropolis hold a steady temperature year round, but they add their own conditions: fixed rock clearances, limited daylight and air that does not clear on its own. Operators moving between surface and underground buildings need to be evaluated in the conditions where they actually work.",
+    "Underground sites such as SubTropolis hold a steady temperature year round, but they add their own conditions: fixed rock clearances, pillar-lined intersections and exhaust from any engine-powered truck in an enclosed space. Hunt Midwest quotes one tenant that chose SubTropolis for its proximity to Ford's Kansas City Assembly Plant. Operators moving between surface and underground buildings need to be evaluated in the conditions where they actually work.",
   ],
   serviceArea: [
     "Independence",
