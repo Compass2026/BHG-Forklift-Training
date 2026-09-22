@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import { CheckCircle, Clock, Award, ShieldAlert, Users, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import classesData from "../../../../data/classes.json";
+import Schema from "@/components/Schema";
+import { breadcrumbSchema } from "@/lib/schema";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -12,6 +14,8 @@ interface ForkliftClass {
   shortDescription: string;
   longDescription: string;
   benefits: string[];
+  seoTitle: string;
+  metaDescription: string;
 }
 
 // ─── Static Params ────────────────────────────────────────────────────────────
@@ -30,15 +34,16 @@ export async function generateMetadata({
   const { slug } = await params;
   const course = (classesData as ForkliftClass[]).find((c) => c.slug === slug);
 
-  if (!course) {
-    return {
-      title: "Class Not Found | BHG Safety Partners",
-    };
-  }
+  if (!course) return {};
 
   return {
-    title: `${course.title} | BHG Safety Partners`,
-    description: course.shortDescription,
+    title: course.seoTitle,
+    description: course.metaDescription,
+    openGraph: {
+      title: course.seoTitle,
+      description: course.metaDescription,
+      type: "website",
+    },
     alternates: {
       canonical: `/classes/${course.slug}`,
     },
@@ -69,8 +74,17 @@ export default async function ClassDetailPage({
     "OSHA standard 29 CFR 1910.178 compliance review",
   ];
 
+  const otherClasses = (classesData as ForkliftClass[]).filter((c) => c.slug !== course.slug);
+
   return (
     <div className="bg-gray-50 min-h-screen pb-12">
+      <Schema
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Forklift Classes", path: "/classes" },
+          { name: course.title, path: `/classes/${course.slug}` },
+        ])}
+      />
       {/* ── Hero Header ── */}
       <header className="bg-gray-950 py-20 border-b border-gray-800 text-center relative overflow-hidden">
         {/* Subtle orange ambient glow */}
@@ -81,10 +95,10 @@ export default async function ClassDetailPage({
         
         <div className="relative max-w-4xl mx-auto px-4">
           <Link
-            href="/services"
+            href="/classes"
             className="inline-flex items-center gap-2 text-xs font-bold text-gray-400 hover:text-bhg-orange transition-colors mb-6 uppercase tracking-wider"
           >
-            ← Back to Classes
+            ← All Forklift Classes
           </Link>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight uppercase leading-none">
             {course.title}
@@ -96,7 +110,7 @@ export default async function ClassDetailPage({
       </header>
 
       {/* ── Course Overview Layout (2-Column Grid) ── */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
           
           {/* Left Column (Content) */}
@@ -156,6 +170,26 @@ export default async function ClassDetailPage({
                 </div>
               </div>
             </section>
+
+            {/* Other classes */}
+            <section className="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm">
+              <h2 className="text-xl font-black text-gray-900 uppercase tracking-tight mb-6 border-l-4 border-bhg-orange pl-3">
+                Other Forklift Classes
+              </h2>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {otherClasses.map((c) => (
+                  <li key={c.slug}>
+                    <Link
+                      href={`/classes/${c.slug}`}
+                      className="flex items-center gap-2 text-sm font-semibold text-gray-800 hover:text-bhg-orange transition-colors"
+                    >
+                      <ArrowRight className="w-4 h-4 text-bhg-orange shrink-0" aria-hidden="true" />
+                      {c.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
           </div>
 
           {/* Right Column (Sticky CTA Card) */}
@@ -164,7 +198,7 @@ export default async function ClassDetailPage({
               <div>
                 {/* Sticky Header */}
                 <h3 className="text-xl font-black text-gray-900 uppercase tracking-tight leading-snug">
-                  Schedule Your Team's Training
+                  Schedule Your Team&apos;s Training
                 </h3>
                 
                 {/* Prompt */}
@@ -197,7 +231,7 @@ export default async function ClassDetailPage({
           </div>
 
         </div>
-      </main>
+      </div>
     </div>
   );
 }

@@ -44,8 +44,8 @@ export default function HeroGlass({
   ),
   subheadline = "On-Site, Hands On, OSHA Certified Forklift Training. Tailored to your team and industry.",
   body = "With over 45 years of combined experience, BHG Forklift Training delivers top-tier safety training, operator certifications, and OSHA compliance support — helping businesses across the Midwest protect their people and stay compliant.",
-  ctaPrimary = { href: "/contact", label: "Click here" },
-  ctaSecondary = { href: "/services", label: "Learn More" },
+  ctaPrimary = { href: "/contact", label: "Request Training" },
+  ctaSecondary = { href: "/classes", label: "View Forklift Classes" },
   showScrollNudge = true,
 }: HeroGlassProps) {
   return (

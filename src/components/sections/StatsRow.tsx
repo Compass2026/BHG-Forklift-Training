@@ -59,7 +59,7 @@ export default function StatsRow() {
         </div>
 
         <div id="stats-heading" className="sr-only">
-          BHG Safety Partners by the numbers
+          BHG Forklift Training by the numbers
         </div>
 
         <dl className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">

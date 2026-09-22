@@ -1,23 +1,18 @@
 import type { Metadata } from "next";
+import Schema from "@/components/Schema";
+import { breadcrumbSchema } from "@/lib/schema";
 import ContactContent from "@/components/sections/ContactContent";
 
 // ─── SEO ──────────────────────────────────────────────────────────────────────
 
 export const metadata: Metadata = {
-  title: "Contact Us | BHG Safety Partners",
+  title: "Contact BHG Forklift Training | Schedule Onsite Training",
   description:
-    "Get in touch with BHG Safety Partners. Call (573) 822-6448, email us, or fill out our contact form for a free safety consulting consultation — we respond within one business day.",
-  keywords: [
-    "contact BHG Safety Partners",
-    "safety consulting quote",
-    "OSHA training contact",
-    "safety training inquiry midwest",
-    "(573) 822-6448",
-  ],
+    "Call (573) 822-6448, email info@bhgsafety.com or send the form to schedule onsite forklift operator training and evaluations for your team.",
   openGraph: {
-    title: "Contact Us | BHG Safety Partners",
+    title: "Contact BHG Forklift Training | Schedule Onsite Training",
     description:
-      "Reach BHG Safety Partners by phone, email, or contact form. Free consultations for all new clients.",
+      "Call (573) 822-6448, email info@bhgsafety.com or send the form to schedule onsite forklift operator training and evaluations for your team.",
     type: "website",
   },
   alternates: {
@@ -30,6 +25,12 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
+      <Schema
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Contact", path: "/contact" },
+        ])}
+      />
       {/* ── Page Header ── */}
       <section
         className="relative bg-bhg-black overflow-hidden"

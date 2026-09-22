@@ -1,16 +1,21 @@
 import Link from "next/link";
+import Schema from "@/components/Schema";
+import { breadcrumbSchema } from "@/lib/schema";
 import { getAllPosts } from "@/lib/mdx";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "BHG Safety Insights & News | BHG Safety Partners",
+  title: "Forklift Safety & Training Blog | BHG Forklift Training",
   description:
-    "Expert articles on OSHA compliance, onsite safety training, workplace hazard prevention, and safety culture from the BHG Safety Partners team.",
+    "Practical articles on forklift operator training, OSHA certification requirements and warehouse safety from the BHG Forklift Training instructors.",
   openGraph: {
-    title: "BHG Safety Insights & News | BHG Safety Partners",
+    title: "Forklift Safety & Training Blog | BHG Forklift Training",
     description:
-      "Expert articles on OSHA compliance and workplace safety training from BHG Safety Partners.",
+      "Practical articles on forklift operator training, OSHA certification requirements and warehouse safety from the BHG Forklift Training instructors.",
     type: "website",
+  },
+  alternates: {
+    canonical: "/blog",
   },
 };
 
@@ -29,6 +34,12 @@ export default function BlogIndexPage() {
 
   return (
     <div className="bg-bhg-gray-light min-h-screen">
+      <Schema
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Blog", path: "/blog" },
+        ])}
+      />
       {/* ── Page Header ──────────────────────────────────────────── */}
       <section className="bg-bhg-black py-20 px-6">
         <div className="max-w-5xl mx-auto text-center">
@@ -36,11 +47,11 @@ export default function BlogIndexPage() {
             Resources
           </span>
           <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
-            BHG Safety Insights &amp; News
+            Forklift Safety &amp; Training Blog
           </h1>
           <p className="mt-4 text-gray-400 max-w-2xl mx-auto text-lg">
-            Practical guidance on OSHA compliance, onsite training, and building
-            a lasting safety culture across your Midwest operation.
+            Practical guidance on forklift operator training, OSHA
+            certification requirements and safer material handling.
           </p>
         </div>
       </section>

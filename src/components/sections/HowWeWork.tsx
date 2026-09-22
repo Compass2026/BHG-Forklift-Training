@@ -5,9 +5,9 @@ const steps = [
     id: "step-choose",
     step: "01",
     icon: FileSearch,
-    title: "Choose Your Service",
+    title: "Choose Your Classes",
     description:
-      "Browse our full catalog of safety services and select the program that best fits your industry, workforce size, and compliance needs.",
+      "Tell us which trucks your operators run, from electric pallet jacks to rough terrain telehandlers, and we match the training to each class.",
   },
   {
     id: "step-schedule",

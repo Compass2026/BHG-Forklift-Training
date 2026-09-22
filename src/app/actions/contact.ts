@@ -1,5 +1,6 @@
 "use server";
 
+import { CONTACT } from "@/lib/site";
 import { Resend } from "resend";
 
 import {
@@ -96,4 +97,4 @@ const SUCCESS_MESSAGE =
   "Thanks — your message is on its way. We'll be in touch within one business day.";
 
 const FALLBACK_MESSAGE =
-  "Something went wrong sending your message. Please call (573) 822-6448 or email office@bhgspllc.com and we'll pick it up right away.";
+  `Something went wrong sending your message. Please call ${CONTACT.phone} or email ${CONTACT.email} and we'll pick it up right away.`;

@@ -10,6 +10,24 @@ export interface PostMeta {
   date: string;
   excerpt: string;
   author: string;
+  /** Last substantive edit (YYYY-MM-DD). Falls back to `date`. */
+  updated: string;
+  /** Optional <title> override when the headline is too long for 65 characters. */
+  seoTitle?: string;
+}
+
+function toMeta(slug: string, data: Record<string, unknown>): PostMeta {
+  const str = (v: unknown) => (typeof v === "string" ? v : "");
+  const date = str(data.date);
+  return {
+    slug,
+    title: str(data.title) || slug,
+    date,
+    excerpt: str(data.excerpt),
+    author: str(data.author),
+    updated: str(data.updated) || date,
+    seoTitle: str(data.seoTitle) || undefined,
+  };
 }
 
 /**
@@ -22,15 +40,7 @@ export function getAllPosts(): PostMeta[] {
   const posts: PostMeta[] = files.map((filename) => {
     const slug = filename.replace(/\.(mdx|md)$/, "");
     const raw = fs.readFileSync(path.join(BLOG_DIR, filename), "utf-8");
-    const { data } = matter(raw);
-
-    return {
-      slug,
-      title: data.title ?? slug,
-      date: data.date ?? "",
-      excerpt: data.excerpt ?? "",
-      author: data.author ?? "",
-    };
+    return toMeta(slug, matter(raw).data);
   });
 
   // Sort newest first
@@ -60,13 +70,12 @@ export function getPostBySlug(slug: string): PostMeta {
   }
 
   const raw = fs.readFileSync(filePath, "utf-8");
-  const { data } = matter(raw);
+  return toMeta(slug, matter(raw).data);
+}
 
-  return {
-    slug,
-    title: data.title ?? slug,
-    date: data.date ?? "",
-    excerpt: data.excerpt ?? "",
-    author: data.author ?? "",
-  };
+/** The post's <title>: the headline plus as much branding as fits in 65 characters. */
+export function postTitle(post: PostMeta): string {
+  if (post.seoTitle) return post.seoTitle;
+  const candidates = [`${post.title} | BHG Forklift Training`, `${post.title} | BHG`];
+  return candidates.find((t) => t.length <= 65) ?? post.title;
 }
