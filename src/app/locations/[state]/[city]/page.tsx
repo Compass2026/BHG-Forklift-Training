@@ -5,7 +5,9 @@ import ServiceGrid from "@/components/sections/ServiceGrid";
 import AboutContactSplit from "@/components/sections/AboutContactSplit";
 import Schema from "@/components/Schema";
 import locationsData from "../../../../../data/locations.json";
-import { SITE_URL } from "@/lib/site";
+import { CONTACT, SITE_NAME, SITE_URL } from "@/lib/site";
+import { breadcrumbSchema, postalAddress } from "@/lib/schema";
+import forkliftClasses from "../../../../../data/classes.json";
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -13,6 +15,7 @@ interface LocationEntry {
   slug: string;
   stateAbbr: string;
   stateName: string;
+  stateSlug: string;
   city: string;
   keywords: string[];
 }
@@ -20,6 +23,17 @@ interface LocationEntry {
 type PageParams = Promise<{ state: string; city: string }>;
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
+
+/** Longest title that fits in 65 characters for this city. */
+function cityTitle(city: string, stateAbbr: string): string {
+  const candidates = [
+    `Forklift Training & Certification in ${city}, ${stateAbbr} | BHG`,
+    `Forklift Training in ${city}, ${stateAbbr} | BHG Forklift Training`,
+    `Forklift Training in ${city}, ${stateAbbr} | BHG`,
+    `Forklift Training in ${city}, ${stateAbbr}`,
+  ];
+  return candidates.find((t) => t.length <= 65) ?? candidates[candidates.length - 1];
+}
 
 function findLocation(state: string, city: string): LocationEntry | undefined {
   const expectedSlug = `${state}/${city}`;
@@ -47,19 +61,14 @@ export async function generateMetadata({
   const { state, city } = await params;
   const location = findLocation(state, city);
 
-  if (!location) {
-    return {
-      title: "Location Not Found | BHG Safety Partners",
-    };
-  }
+  if (!location) return {};
 
-  const title = `Safety Training & OSHA Compliance in ${location.city}, ${location.stateAbbr} | BHG Safety Partners`;
-  const description = `BHG Safety Partners provides expert safety consulting, OSHA compliance audits, and onsite safety training in ${location.city}, ${location.stateName}. Protect your workforce and reduce liability today.`;
+  const title = cityTitle(location.city, location.stateAbbr);
+  const description = `Onsite forklift operator training and OSHA evaluations in ${location.city}, ${location.stateName}, for truck Classes 1–7 on your own equipment.`;
 
   return {
     title,
     description,
-    keywords: location.keywords,
     openGraph: {
       title,
       description,
@@ -89,19 +98,14 @@ export default async function LocationPage({
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "BHG Safety Partners",
+    name: SITE_NAME,
     url: `${SITE_URL}/locations/${location.slug}`,
     logo: `${SITE_URL}/bhg-logo.png`,
     image: `${SITE_URL}/bhg-logo.png`,
-    telephone: "+15738226448",
-    email: "office@bhgspllc.com",
-    description: `BHG Safety Partners provides expert safety consulting, OSHA compliance audits, and onsite safety training in ${location.city}, ${location.stateName}.`,
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Hannibal",
-      addressRegion: "MO",
-      addressCountry: "US",
-    },
+    telephone: CONTACT.phoneE164,
+    email: CONTACT.email,
+    description: `Onsite forklift operator training and evaluations in ${location.city}, ${location.stateName}.`,
+    address: postalAddress,
     areaServed: {
       "@type": "City",
       name: location.city,
@@ -112,22 +116,30 @@ export default async function LocationPage({
     },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Safety Services",
-      itemListElement: [
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Safety Consulting" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Workplace Safety Training" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Onsite Safety Inspections" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Compliance Audits" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Safety Program Development" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Trusted Safety Partner" } },
-      ],
+      name: "Forklift Operator Training",
+      itemListElement: forkliftClasses.map((c) => ({
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: c.title,
+          url: `${SITE_URL}/classes/${c.slug}`,
+        },
+      })),
     },
   };
 
   return (
     <>
-      {/* ── LocalBusiness JSON-LD ── */}
+      {/* ── LocalBusiness + BreadcrumbList JSON-LD ── */}
       <Schema data={localBusinessSchema} />
+      <Schema
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Locations", path: "/locations" },
+          { name: location.stateName, path: `/locations/${location.stateSlug}` },
+          { name: location.city, path: `/locations/${location.slug}` },
+        ])}
+      />
 
       {/* ── Local Hero ── */}
       <section
@@ -169,7 +181,7 @@ export default async function LocationPage({
             id="local-hero-heading"
             className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight max-w-3xl"
           >
-            Expert Safety Consulting &amp; Training in{" "}
+            Onsite Forklift Training in{" "}
             <span className="relative inline-block">
               <span className="text-bhg-orange">{location.city}</span>
             </span>
@@ -179,19 +191,19 @@ export default async function LocationPage({
 
           {/* Subheading */}
           <p className="mt-6 text-lg text-white/70 max-w-2xl leading-relaxed">
-            BHG Safety Partners brings decades of hands-on safety expertise
-            directly to businesses in {location.city} and the surrounding{" "}
-            {location.stateName} region. OSHA compliance, training, audits, and
-            more — we protect your people.
+            BHG Forklift Training brings operator training and hands-on
+            evaluations to warehouses, plants and job sites in {location.city}{" "}
+            and the surrounding {location.stateName} region, on the trucks your
+            team already runs.
           </p>
 
           {/* Trust signals */}
           <ul className="mt-10 flex flex-wrap gap-4" role="list">
             {[
-              "OSHA-Aligned Training",
-              "Onsite Inspections",
-              "Compliance Audits",
-              "No Long-Term Contracts",
+              "OSHA Classes 1–7",
+              "Training at Your Facility",
+              "Hands-On Evaluations",
+              "Certification Records",
             ].map((item) => (
               <li
                 key={item}
@@ -216,7 +228,7 @@ export default async function LocationPage({
               id={`local-cta-${state}-${city}`}
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-bhg-orange text-white font-semibold text-sm shadow-lg shadow-bhg-orange/30 hover:bg-orange-500 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
-              Get a Free Consultation
+              Request Forklift Training
             </a>
           </div>
         </div>

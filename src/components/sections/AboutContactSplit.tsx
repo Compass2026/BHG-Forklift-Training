@@ -65,11 +65,10 @@ export default function AboutContactSplit({
 
             <div className="space-y-5 text-gray-600 leading-relaxed text-base">
               <p>
-                At BHG Safety Partners, we provide customized safety consulting
-                services that protect your workforce, reduce liability, and ensure
-                full regulatory compliance. With decades of hands-on experience
-                across construction, manufacturing, oil &amp; gas, and general
-                industry — we bring the expertise your team needs.
+                BHG Forklift Training trains and evaluates forklift operators at
+                your facility, on your own trucks. Our instructors bring decades of
+                hands-on experience in warehouses, distribution centers,
+                manufacturing plants and construction sites.
               </p>
               <p>
                 Our approach is simple: we listen first. Every business faces
@@ -78,11 +77,10 @@ export default function AboutContactSplit({
                 so you&apos;re never paying for a one-size-fits-all solution.
               </p>
               <p>
-                From OSHA compliance and industrial hygiene surveys to onsite
-                safety inspections and written safety program development, BHG
-                Safety Partners is the trusted partner companies across Texas and
-                nationwide rely on to keep their people safe and their operations
-                running.
+                From Class 1 electric riders in the warehouse to Class 7 rough
+                terrain forklifts on the job site, we cover every OSHA truck class,
+                from our base in Hannibal, Missouri to employers across the
+                Midwest.
               </p>
             </div>
 

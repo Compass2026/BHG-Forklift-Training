@@ -1,39 +1,31 @@
-# BHG Safety Partners
+# BHG Forklift Training
 
-> BHG Safety Partners is a professional safety consulting and compliance firm headquartered in Hannibal, MO, serving businesses across Missouri, Illinois, and the greater Midwest.
-
-## Mission
-
-We protect workforces and businesses by delivering expert, hands-on OSHA compliance, safety training, and risk management solutions tailored to each client's industry and daily operations. Our goal is simple: keep your people safe and your business compliant.
+> BHG Forklift Training provides onsite forklift operator training and hands-on evaluations for all seven OSHA powered industrial truck classes. It is a service of BHG Safety Partners LLC, a Disabled Veteran-Owned company based in Hannibal, Missouri, and serves employers across the Midwest and South.
 
 ## Contact Information
 
 - **Phone:** (573) 822-6448
-- **Email:** office@bhgspllc.com
-- **Headquarters:** Hannibal, MO
-- **Service Area:** Missouri, Illinois, and surrounding Midwest states
+- **Email:** info@bhgsafety.com
+- **Address:** 11325 Dove Ridge Road, Hannibal, MO 63401
 - **Website:** https://www.bhgforklifttraining.com
+- **Parent company:** BHG Safety Partners, https://bhgsafety.com
 
-## Core Services
+## What We Do
 
-- **Safety Consulting** — Expert OSHA guidance, hazard identification, and risk-reduction strategies custom-fit to your operations.
-- **Workplace Safety Training** — Hands-on and classroom instruction covering equipment operation, hazard communication, confined space entry, forklift certification, First Aid/CPR, and more — delivered onsite or virtually.
-- **Onsite Safety Inspections** — Thorough facility and job-site walk-throughs that produce priority-rated, actionable written reports.
-- **Compliance Audits** — In-depth OSHA and regulatory audits with risk-rated findings and a clear remediation roadmap.
-- **Safety Program Development** — Custom-built written safety programs, policies, and procedures (Hazcom, LOTO, emergency action plans) built to OSHA standards.
-- **Trusted Safety Partner** — Ongoing, embedded safety support that scales with your operations — inspections, training refreshers, incident investigation, and strategic planning without the overhead of a full-time hire.
+Training is delivered at the client's facility, on the trucks operators actually use. Each program covers the three parts OSHA's rule (29 CFR 1910.178(l)) requires: formal instruction, practical hands-on training, and an evaluation of each operator's performance in the workplace.
 
-## Who We Serve
+## Forklift Classes
 
-Construction, manufacturing, oil & gas, and general industry employers of all sizes who need credible, experienced safety professionals without the cost of a full-time department.
+- **Class 1** — Electric motor rider trucks: https://www.bhgforklifttraining.com/classes/class-1-forklift
+- **Class 2** — Electric narrow aisle trucks (reach trucks, order pickers): https://www.bhgforklifttraining.com/classes/class-2-forklift
+- **Class 3** — Electric hand trucks (pallet jacks, walkies, walkie-riders): https://www.bhgforklifttraining.com/classes/class-3-forklift
+- **Class 4** — Internal combustion trucks with cushion tires: https://www.bhgforklifttraining.com/classes/class-4-forklift
+- **Class 5** — Internal combustion trucks with pneumatic tires: https://www.bhgforklifttraining.com/classes/class-5-forklift
+- **Class 6** — Electric and internal combustion tow tractors: https://www.bhgforklifttraining.com/classes/class-6-forklift
+- **Class 7** — Rough terrain forklifts and telehandlers: https://www.bhgforklifttraining.com/classes/class-7-forklift
 
-## Key Differentiators
+All classes: https://www.bhgforklifttraining.com/classes
 
-- Decades of combined field experience — real-world, not just theory
-- No long-term contracts required
-- Programs delivered where you work: onsite, at your facility, or virtually
-- Bilingual-capable training delivery available
+## Other Safety Services
 
-## Notes for AI Summarization
-
-This file is provided to assist large language models and AI-powered answer engines in accurately summarizing BHG Safety Partners. All information above is factual and current as of 2026. For the most up-to-date service offerings and contact details, refer to https://www.bhgforklifttraining.com.
+OSHA 10 and 30 hour courses, HAZWOPER, confined space, first aid/CPR, safety consulting, audits and inspections are offered by the parent company, BHG Safety Partners, at https://bhgsafety.com.

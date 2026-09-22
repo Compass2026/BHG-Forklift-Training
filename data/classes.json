@@ -11,7 +11,9 @@
       "OSHA Operator Certification",
       "Warehouse Maneuvering",
       "Daily Inspection Protocol"
-    ]
+    ],
+    "seoTitle": "Class 1 Forklift Training: Electric Rider Trucks | BHG",
+    "metaDescription": "Onsite Class 1 forklift training for electric motor rider trucks: battery charging, stability, load handling and the hands-on evaluation OSHA 1910.178 requires."
   },
   {
     "slug": "class-2-forklift",
@@ -25,7 +27,9 @@
       "Narrow Aisle Maneuvers",
       "OSHA Operator Certification",
       "Spatial Awareness Training"
-    ]
+    ],
+    "seoTitle": "Class 2 Forklift Training: Reach Trucks & Order Pickers | BHG",
+    "metaDescription": "Class 2 narrow aisle training for reach trucks and order pickers: high-rack load handling, tight-aisle steering and the OSHA operator evaluation."
   },
   {
     "slug": "class-3-forklift",
@@ -39,7 +43,9 @@
       "Dock Board Safety",
       "OSHA Operator Certification",
       "Capacity Guidelines"
-    ]
+    ],
+    "seoTitle": "Class 3 Forklift Training: Electric Pallet Jacks | BHG",
+    "metaDescription": "Class 3 training for electric pallet jacks, walkies and walkie-riders: walk-behind controls, travel and stopping, pedestrian safety and an onsite evaluation."
   },
   {
     "slug": "class-4-forklift",
@@ -53,7 +59,9 @@
       "Indoor Surface Safety",
       "OSHA Operator Certification",
       "Load Center Calculations"
-    ]
+    ],
+    "seoTitle": "Class 4 Forklift Training: Cushion Tire IC Forklifts | BHG",
+    "metaDescription": "Class 4 training for propane, gas and diesel cushion-tire forklifts on indoor floors: refueling, ventilation, stability and a hands-on operator evaluation."
   },
   {
     "slug": "class-5-forklift",
@@ -67,7 +75,9 @@
       "Engine Care & Maintenance",
       "OSHA Operator Certification",
       "High-Capacity Lifting"
-    ]
+    ],
+    "seoTitle": "Class 5 Forklift Training: Pneumatic Tire Forklifts | BHG",
+    "metaDescription": "Class 5 forklift training for pneumatic-tire, engine-powered trucks used outdoors: uneven surfaces, load balance, visibility and a hands-on OSHA evaluation."
   },
   {
     "slug": "class-6-forklift",
@@ -81,7 +91,9 @@
       "Trailer Turn Trajectory",
       "OSHA Operator Certification",
       "Braking & Yard Safety"
-    ]
+    ],
+    "seoTitle": "Class 6 Tow Tractor & Tugger Training | BHG Forklift",
+    "metaDescription": "Class 6 training for electric and engine-powered tow tractors and tuggers: towing limits, hitching, stopping distance and trailing loads, at your facility."
   },
   {
     "slug": "class-7-forklift",
@@ -95,6 +107,8 @@
       "Load Chart Analysis",
       "OSHA Operator Certification",
       "Rough Terrain Driving"
-    ]
+    ],
+    "seoTitle": "Class 7 Forklift Training: Rough Terrain & Telehandler | BHG",
+    "metaDescription": "Class 7 rough terrain forklift and telehandler training for construction and agriculture: load charts, boom limits, slopes, weather and an onsite evaluation."
   }
 ]

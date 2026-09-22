@@ -2,12 +2,12 @@ import Image from "next/image";
 import { CheckCircle, Quote } from "lucide-react";
 
 const highlights = [
-  "Expert Safety Training",
-  "Customized Safety Programs",
-  "OSHA Compliance Support",
-  "Industrial Hygiene Surveys",
-  "Onsite Safety Inspections",
-  "Written Safety Program Development",
+  "Onsite Operator Training",
+  "Hands-On Evaluations",
+  "All 7 OSHA Truck Classes",
+  "Training on Your Own Equipment",
+  "Certification Documentation",
+  "Refresher & Re-Evaluation Training",
 ];
 
 export default function Testimonial() {
@@ -40,7 +40,7 @@ export default function Testimonial() {
             <div className="relative rounded-2xl overflow-hidden aspect-[3/4] shadow-2xl">
               <Image
                 src="/safety-professional.png"
-                alt="BHG Safety Partners safety professional on a job site"
+                alt="BHG Forklift Training instructor on a job site"
                 fill
                 className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 50vw"

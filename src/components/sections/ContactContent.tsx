@@ -1,5 +1,6 @@
 "use client";
 
+import { CONTACT } from "@/lib/site";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { useActionState, useState } from "react";
 
@@ -13,15 +14,15 @@ const contactDetails = [
     id: "contact-phone",
     icon: Phone,
     label: "Phone",
-    value: "(573) 822-6448",
-    href: "tel:+15738226448",
+    value: CONTACT.phone,
+    href: CONTACT.phoneHref,
   },
   {
     id: "contact-email",
     icon: Mail,
     label: "Email",
-    value: "office@bhgspllc.com",
-    href: "mailto:office@bhgspllc.com",
+    value: CONTACT.email,
+    href: `mailto:${CONTACT.email}`,
   },
   {
     id: "contact-address",

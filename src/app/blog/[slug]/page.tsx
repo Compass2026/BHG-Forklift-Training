@@ -1,4 +1,6 @@
-import { getAllPosts, getPostBySlug } from "@/lib/mdx";
+import { getAllPosts, getPostBySlug, postTitle } from "@/lib/mdx";
+import Schema from "@/components/Schema";
+import { breadcrumbSchema } from "@/lib/schema";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -22,8 +24,11 @@ export async function generateMetadata({
   const post = getPostBySlug(slug);
 
   return {
-    title: `${post.title} | BHG Safety Partners`,
+    title: postTitle(post),
     description: post.excerpt,
+    alternates: {
+      canonical: `/blog/${post.slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -64,6 +69,13 @@ export default async function BlogPostPage({
 
   return (
     <div className="bg-white min-h-screen">
+      <Schema
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Blog", path: "/blog" },
+          { name: post.title, path: `/blog/${post.slug}` },
+        ])}
+      />
       {/* ── Article Header ─────────────────────────────────────── */}
       <header className="bg-bhg-black py-16 px-6">
         <div className="max-w-3xl mx-auto">
@@ -81,7 +93,7 @@ export default async function BlogPostPage({
                   href="/blog"
                   className="hover:text-bhg-orange transition-colors"
                 >
-                  Insights
+                  Blog
                 </Link>
               </li>
               <li aria-hidden="true">/</li>

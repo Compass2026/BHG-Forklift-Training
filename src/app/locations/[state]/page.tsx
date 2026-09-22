@@ -3,6 +3,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MapPin, ArrowRight, ChevronRight } from "lucide-react";
 import locationsData from "../../../../data/locations.json";
+import Schema from "@/components/Schema";
+import { breadcrumbSchema } from "@/lib/schema";
+import { CONTACT } from "@/lib/site";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -49,21 +52,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const cities = getCitiesByStateSlug(stateSlug);
   if (!cities.length) return {};
 
-  const { stateName, stateAbbr } = cities[0];
+  const { stateName } = cities[0];
+
+  const title = `Forklift Training & Certification in ${stateName} | BHG`;
+  const description = `Onsite forklift operator training and hands-on OSHA evaluations for employers across ${stateName}, covering truck Classes 1–7 at your own facility.`;
 
   return {
-    title: `Safety Training & Consulting in ${stateName} | BHG Safety Partners`,
-    description: `BHG Safety Partners delivers onsite OSHA safety training and compliance consulting across ${cities.length} cities in ${stateName}. Find your city and request a free consultation.`,
-    keywords: [
-      `${stateName} safety training`,
-      `${stateAbbr} OSHA compliance`,
-      `onsite safety consulting ${stateName}`,
-      `workplace safety ${stateName}`,
-      `BHG Safety ${stateName}`,
-    ],
+    title,
+    description,
     openGraph: {
-      title: `Safety Training & Consulting in ${stateName} | BHG Safety Partners`,
-      description: `Expert onsite safety training across ${cities.length} cities in ${stateName}.`,
+      title,
+      description,
       type: "website",
     },
     alternates: {
@@ -85,6 +84,13 @@ export default async function StateHubPage({ params }: PageProps) {
 
   return (
     <>
+      <Schema
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Locations", path: "/locations" },
+          { name: stateName, path: `/locations/${stateSlug}` },
+        ])}
+      />
       {/* ── Breadcrumb ── */}
       <nav
         className="bg-white border-b border-gray-100 pt-24"
@@ -140,14 +146,14 @@ export default async function StateHubPage({ params }: PageProps) {
             id="state-hero-heading"
             className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight"
           >
-            Safety Training &amp; Consulting{" "}
+            Forklift Training{" "}
             <span className="text-bhg-orange">in {stateName}</span>
           </h1>
 
           <p className="mt-5 text-lg text-white/70 max-w-2xl mx-auto leading-relaxed">
-            BHG Safety Partners brings expert OSHA compliance, onsite safety
-            training, and industrial hygiene consulting directly to your
-            facility anywhere in {stateName}.
+            BHG Forklift Training brings forklift operator training and
+            hands-on evaluations for OSHA truck Classes 1–7 to your facility
+            anywhere in {stateName}.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -155,14 +161,14 @@ export default async function StateHubPage({ params }: PageProps) {
               href="/contact"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-bhg-orange text-white font-semibold text-sm shadow-lg shadow-bhg-orange/30 hover:bg-orange-500 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
-              Request a Free Consultation
+              Request Forklift Training
               <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </Link>
             <a
-              href="tel:+15738226448"
+              href={CONTACT.phoneHref}
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl border border-white/20 text-white/80 hover:text-white hover:border-white/40 font-medium text-sm transition-all duration-200"
             >
-              (573) 822-6448
+              {CONTACT.phone}
             </a>
           </div>
         </div>

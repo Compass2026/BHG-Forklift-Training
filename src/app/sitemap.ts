@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
 import locationsData from "../../data/locations.json";
-import servicesData from "../../data/services.json";
 import { SITE_URL } from "@/lib/site";
 
 const BASE_URL = SITE_URL;
@@ -16,12 +15,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${BASE_URL}/about`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE_URL}/services`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
@@ -46,14 +39,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // ── Dynamic service spoke pages (/services/[slug]) ─────────────────────────
-  const serviceRoutes: MetadataRoute.Sitemap = servicesData.map((service) => ({
-    url: `${BASE_URL}/services/${service.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly",
-    priority: 0.8,
-  }));
-
   // ── Dynamic location hub pages (/locations/[state]/[city]) ────────────────
   const locationRoutes: MetadataRoute.Sitemap = locationsData.map((loc) => ({
     url: `${BASE_URL}/locations/${loc.slug}`,
@@ -62,5 +47,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...serviceRoutes, ...locationRoutes];
+  return [...staticRoutes, ...locationRoutes];
 }

@@ -3,17 +3,12 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Phone, MapPin, Mail, Menu, X, Search } from "lucide-react";
-
-// ─── Inline SVG social icons (lucide-react doesn't include these) ─────────────
-const FbIcon  = () => <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>;
-const TwIcon  = () => <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>;
-const YtIcon  = () => <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="currentColor" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon fill="white" points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>;
-const IgIcon  = () => <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>;
+import { CONTACT } from "@/lib/site";
 
 const navLinks = [
   { label: "Home",             href: "/" },
   { label: "About Us",         href: "/about" },
-  { label: "Forklift Classes", href: "/services" },
+  { label: "Forklift Classes", href: "/classes" },
   { label: "Locations",        href: "/locations", isDropdown: true },
   { label: "Contact",          href: "/contact" },
 ];
@@ -167,13 +162,13 @@ export default function Navbar() {
             {/* Left: contact info */}
             <div className="flex items-center gap-5">
               <a
-                href="tel:+15738226448"
+                href={CONTACT.phoneHref}
                 className="group flex items-center gap-2 text-white font-semibold text-sm hover:text-bhg-orange transition-colors duration-200"
               >
                 <span className="flex items-center justify-center w-7 h-7 rounded-full bg-white/10 border border-white/20 group-hover:bg-bhg-orange/30 group-hover:border-bhg-orange/50 group-hover:shadow-[0_0_10px_rgba(249,115,22,0.4)] transition-all duration-200">
                   <Phone className="w-3.5 h-3.5" aria-hidden="true" />
                 </span>
-                (573) 822-6448
+                {CONTACT.phone}
               </a>
 
               <span className="h-5 w-px bg-white/20" aria-hidden="true" />
@@ -182,43 +177,21 @@ export default function Navbar() {
                 <span className="flex items-center justify-center w-7 h-7 rounded-full bg-white/10 border border-white/20">
                   <MapPin className="w-3.5 h-3.5" aria-hidden="true" />
                 </span>
-                11325 Dove Ridge Road, Hannibal MO 63401
+                {CONTACT.street}, {CONTACT.city} {CONTACT.region} {CONTACT.postalCode}
               </span>
 
               <span className="h-5 w-px bg-white/20" aria-hidden="true" />
 
               <a
-                href="mailto:office@bhgspllc.com"
+                href={`mailto:${CONTACT.email}`}
                 className="group flex items-center gap-2 text-white font-semibold text-sm hover:text-bhg-orange transition-colors duration-200"
               >
                 <span className="flex items-center justify-center w-7 h-7 rounded-full bg-white/10 border border-white/20 group-hover:bg-bhg-orange/30 group-hover:border-bhg-orange/50 group-hover:shadow-[0_0_10px_rgba(249,115,22,0.4)] transition-all duration-200">
                   <Mail className="w-3.5 h-3.5" aria-hidden="true" />
                 </span>
-                office@bhgspllc.com
+                {CONTACT.email}
               </a>
             </div>
-
-            {/* Right: social + CTA badge */}
-            <div className="flex items-center gap-4">
-              {[
-                { Icon: FbIcon, label: "Facebook",  href: "https://facebook.com" },
-                { Icon: TwIcon, label: "Twitter",   href: "https://twitter.com" },
-                { Icon: YtIcon, label: "YouTube",   href: "https://youtube.com" },
-                { Icon: IgIcon, label: "Instagram", href: "https://instagram.com" },
-              ].map(({ Icon, label, href }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="flex items-center justify-center w-7 h-7 rounded-full bg-white/10 border border-white/20 text-white/80 hover:bg-bhg-orange/30 hover:border-bhg-orange/50 hover:text-white hover:shadow-[0_0_10px_rgba(249,115,22,0.4)] transition-all duration-200"
-                >
-                  <Icon />
-                </a>
-              ))}
-            </div>
-
 
           </div>
         </div>
@@ -241,7 +214,7 @@ export default function Navbar() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/bhg-logo-transparent.png"
-                alt="BHG Safety Partners LLC"
+                alt="BHG Forklift Training"
                 className="h-28 w-auto object-contain group-hover:opacity-90 transition-opacity duration-200"
               />
             </Link>
@@ -300,34 +273,14 @@ export default function Navbar() {
 
           {/* Mobile contact strip */}
           <div className="bg-gray-900 border-b border-gray-700 px-4 py-3 space-y-2">
-            <a href="tel:+15738226448" className="flex items-center gap-2 text-xs text-bhg-orange font-medium">
+            <a href={CONTACT.phoneHref} className="flex items-center gap-2 text-xs text-bhg-orange font-medium">
               <Phone className="w-3 h-3 text-bhg-orange flex-shrink-0" />
-              (573) 822-6448
+              {CONTACT.phone}
             </a>
-            <a href="mailto:office@bhgspllc.com" className="flex items-center gap-2 text-xs text-bhg-orange font-medium">
+            <a href={`mailto:${CONTACT.email}`} className="flex items-center gap-2 text-xs text-bhg-orange font-medium">
               <Mail className="w-3 h-3 text-bhg-orange flex-shrink-0" />
-              office@bhgspllc.com
+              {CONTACT.email}
             </a>
-            <div className="flex items-center gap-4 pt-1">
-              <span className="text-[10px] font-semibold text-bhg-orange/60 uppercase tracking-widest">Follow:</span>
-              {[
-                { Icon: FbIcon, label: "Facebook",  href: "https://facebook.com" },
-                { Icon: TwIcon, label: "Twitter",   href: "https://twitter.com" },
-                { Icon: YtIcon, label: "YouTube",   href: "https://youtube.com" },
-                { Icon: IgIcon, label: "Instagram", href: "https://instagram.com" },
-              ].map(({ Icon, label, href }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="text-bhg-orange hover:text-orange-400 transition-colors"
-                >
-                  <Icon />
-                </a>
-              ))}
-            </div>
           </div>
 
           <nav className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1">

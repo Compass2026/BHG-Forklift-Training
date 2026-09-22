@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Schema from "@/components/Schema";
+import { breadcrumbSchema } from "@/lib/schema";
 import Link from "next/link";
 import { MapPin, ArrowRight } from "lucide-react";
 import locationsData from "../../../data/locations.json";
@@ -17,20 +19,13 @@ interface LocationEntry {
 // ─── SEO ──────────────────────────────────────────────────────────────────────
 
 export const metadata: Metadata = {
-  title: "Midwest Locations We Serve | BHG Safety Partners",
+  title: "Forklift Training Service Area: 17 States | BHG Forklift",
   description:
-    "BHG Safety Partners delivers onsite safety training and OSHA compliance consulting across Missouri, Illinois, and the broader Midwest. Find your area and get a free consultation today.",
-  keywords: [
-    "midwest safety consulting locations",
-    "Missouri safety training",
-    "Illinois OSHA compliance",
-    "onsite safety training near me",
-    "BHG Safety service area",
-  ],
+    "BHG Forklift Training delivers onsite forklift operator training and evaluations across 17 states from Hannibal, MO. Find your state and request training.",
   openGraph: {
-    title: "Midwest Locations We Serve | BHG Safety Partners",
+    title: "Forklift Training Service Area: 17 States | BHG Forklift",
     description:
-      "Onsite safety training and OSHA compliance across Missouri, Illinois, and the Midwest.",
+      "BHG Forklift Training delivers onsite forklift operator training and evaluations across 17 states from Hannibal, MO. Find your state and request training.",
     type: "website",
   },
   alternates: {
@@ -62,6 +57,12 @@ export default function LocationsPage() {
 
   return (
     <>
+      <Schema
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Locations", path: "/locations" },
+        ])}
+      />
       {/* ── Page Header ── */}
       <section
         className="relative bg-bhg-black overflow-hidden"
@@ -99,8 +100,8 @@ export default function LocationsPage() {
             <span className="text-bhg-orange">We Serve</span>
           </h1>
           <p className="mt-5 text-lg text-white/70 max-w-xl mx-auto leading-relaxed">
-            We bring expert safety training and OSHA compliance consulting
-            directly to your facility — no travel hassle for your team.
+            We bring forklift operator training and hands-on evaluations
+            directly to your facility — no travel for your team.
           </p>
         </div>
       </section>
@@ -195,7 +196,7 @@ export default function LocationsPage() {
               id="locations-cta"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-bhg-orange text-white font-semibold text-sm shadow-lg shadow-bhg-orange/30 hover:bg-orange-500 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
-              Request a Consultation
+              Request Forklift Training
               <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </Link>
           </div>

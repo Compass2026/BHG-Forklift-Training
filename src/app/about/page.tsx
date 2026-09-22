@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Schema from "@/components/Schema";
+import { breadcrumbSchema } from "@/lib/schema";
 import { ShieldCheck, Award, Users } from "lucide-react";
 import HeroGlass from "@/components/sections/HeroGlass";
 import StatsRow from "@/components/sections/StatsRow";
@@ -6,20 +8,13 @@ import StatsRow from "@/components/sections/StatsRow";
 // ─── SEO ──────────────────────────────────────────────────────────────────────
 
 export const metadata: Metadata = {
-  title: "About Us | BHG Safety Partners",
+  title: "About BHG Forklift Training | Onsite Forklift Instructors",
   description:
-    "Learn about BHG Safety Partners — a Disabled Veteran-Owned business with over 45 years of experience delivering OSHA compliance, safety training, and industrial hygiene services across the Midwest.",
-  keywords: [
-    "BHG Safety Partners about",
-    "disabled veteran-owned safety company",
-    "OSHA compliance experts",
-    "safety training history",
-    "midwest safety consulting",
-  ],
+    "BHG Forklift Training is a Disabled Veteran-Owned team from Hannibal, MO that trains and evaluates forklift operators onsite for OSHA Classes 1 through 7.",
   openGraph: {
-    title: "About Us | BHG Safety Partners",
+    title: "About BHG Forklift Training | Onsite Forklift Instructors",
     description:
-      "A Disabled Veteran-Owned business with over 45 years of experience in safety training and OSHA compliance.",
+      "BHG Forklift Training is a Disabled Veteran-Owned team from Hannibal, MO that trains and evaluates forklift operators onsite for OSHA Classes 1 through 7.",
     type: "website",
   },
   alternates: {
@@ -55,6 +50,12 @@ const values = [
 export default function AboutPage() {
   return (
     <>
+      <Schema
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "About", path: "/about" },
+        ])}
+      />
       {/* ── Hero ── */}
       <HeroGlass
         eyebrow="On-Site Safety Specialists"
@@ -67,7 +68,7 @@ export default function AboutPage() {
         subheadline="On-site, OSHA-compliant forklift and material handling training."
         body="We provide comprehensive, on-site safety training and operator evaluations designed to keep your workforce safe and your operations fully compliant. Our team of instructors brings decades of real-world warehouse, construction, and logistics experience to every training program we deliver."
         ctaPrimary={{ href: "/contact", label: "Schedule Training" }}
-        ctaSecondary={{ href: "/services", label: "Our Classes" }}
+        ctaSecondary={{ href: "/classes", label: "Our Classes" }}
         showScrollNudge={false}
       />
 
@@ -100,9 +101,9 @@ export default function AboutPage() {
 
               <div className="prose prose-gray max-w-none text-bhg-gray-dark">
                 <p>
-                  BHG Safety Partners was born from a simple, non-negotiable
+                  BHG Forklift Training was born from a simple, non-negotiable
                   belief: workplace safety is not a compliance checkbox — it is a
-                  moral obligation. Specialized in forklift and material handling operations, we provide on-site, OSHA-compliant safety training across the nation. Founded by industry veterans with more than 45 years of combined logistics and safety experience, our firm has grown into one of the industry's most trusted partners.
+                  moral obligation. Specialized in forklift and material handling operations, we provide on-site, OSHA-compliant safety training across the nation. Founded by industry veterans with more than 45 years of combined logistics and safety experience, our firm has grown into one of the industry&apos;s most trusted partners.
                 </p>
                 <p>
                   Our roots are in the field. Our safety instructors spent decades managing logistics yards, driving heavy equipment on active construction sites, and supervising busy distribution warehouses before stepping into the classroom. That real-world, hands-on experience shapes every class and operator evaluation we deliver.
