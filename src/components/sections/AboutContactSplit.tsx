@@ -71,10 +71,10 @@ export default function AboutContactSplit({
                 manufacturing plants and construction sites.
               </p>
               <p>
-                Our approach is simple: we listen first. Every business faces
-                unique hazards and operational pressures. We tailor every training
-                program, audit, and consultation to fit your exact environment —
-                so you&apos;re never paying for a one-size-fits-all solution.
+                Our approach is simple: we listen first. Every facility has its
+                own trucks, layout and traffic patterns. We build each session
+                around your equipment, your aisles and docks, and your shifts —
+                so your operators train for the work they actually do.
               </p>
               <p>
                 From Class 1 electric riders in the warehouse to Class 7 rough

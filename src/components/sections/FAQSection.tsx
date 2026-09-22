@@ -5,7 +5,13 @@ import Image from "next/image";
 import { Plus, Minus } from "lucide-react";
 import type { Faq } from "@/lib/faqs";
 
-export default function FAQSection({ faqs }: { faqs: Faq[] }) {
+export default function FAQSection({
+  faqs,
+  heading = "Forklift Training Questions",
+}: {
+  faqs: Faq[];
+  heading?: string;
+}) {
   const [openId, setOpenId] = useState<string | null>(faqs[0]?.id ?? null);
 
   const toggle = (id: string) => setOpenId((prev) => (prev === id ? null : id));
@@ -42,7 +48,7 @@ export default function FAQSection({ faqs }: { faqs: Faq[] }) {
               id="faq-heading"
               className="text-3xl sm:text-4xl font-bold text-bhg-black mb-5 leading-tight"
             >
-              Forklift Training Questions
+              {heading}
             </h2>
             <p className="text-gray-500 leading-relaxed mb-8 text-base max-w-md">
               We get a lot of the same great questions from new clients. Here are

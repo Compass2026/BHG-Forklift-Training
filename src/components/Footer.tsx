@@ -14,12 +14,12 @@ const classLinks = [
 ];
 
 const areasServed = [
-  "Chicago, IL",
-  "Indianapolis, IN",
-  "St. Louis, MO",
-  "Omaha, NE",
-  "Des Moines, IA",
-  "Nationwide",
+  { label: "Chicago, IL", href: "/locations/illinois/chicago" },
+  { label: "Houston, TX", href: "/locations/texas/houston" },
+  { label: "Memphis, TN", href: "/locations/tennessee/memphis" },
+  { label: "St. Louis, MO", href: "/locations/missouri/st-louis" },
+  { label: "Kansas City, MO", href: "/locations/missouri/kansas-city" },
+  { label: "All locations", href: "/locations" },
 ];
 
 export default function Footer() {
@@ -83,12 +83,14 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3">
               {areasServed.map((area) => (
-                <li
-                  key={area}
-                  className="flex items-center gap-2 text-sm text-gray-400"
-                >
-                  <MapPin className="w-3.5 h-3.5 text-bhg-orange flex-shrink-0" />
-                  {area}
+                <li key={area.href}>
+                  <Link
+                    href={area.href}
+                    className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors duration-150"
+                  >
+                    <MapPin className="w-3.5 h-3.5 text-bhg-orange flex-shrink-0" />
+                    {area.label}
+                  </Link>
                 </li>
               ))}
             </ul>

@@ -1,12 +1,13 @@
 import type { MetadataRoute } from "next";
-import locationsData from "../../data/locations.json";
 import classesData from "../../data/classes.json";
 import { SITE_URL as BASE_URL } from "@/lib/site";
 import { getAllPosts } from "@/lib/mdx";
+import { liveLocations, serviceStates } from "@/lib/locations";
+import { getCityContent } from "@/content/cities";
 
-// lastModified is only set where we know a real date (blog posts). Stamping
-// every URL with the build time tells Google nothing and trains it to ignore
-// the field.
+// lastModified is only set where we know a real date (blog posts, city
+// content). Stamping every URL with the build time tells Google nothing and
+// trains it to ignore the field.
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
 
@@ -35,18 +36,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   // ── State hubs (/locations/[state]) ────────────────────────────────────────
-  const stateSlugs = [...new Set(locationsData.map((loc) => loc.stateSlug))].sort();
-  const stateRoutes: MetadataRoute.Sitemap = stateSlugs.map((slug) => ({
-    url: `${BASE_URL}/locations/${slug}`,
+  const stateRoutes: MetadataRoute.Sitemap = serviceStates.map((s) => ({
+    url: `${BASE_URL}/locations/${s.stateSlug}`,
     changeFrequency: "monthly",
     priority: 0.5,
   }));
 
-  // ── City pages (/locations/[state]/[city]) ─────────────────────────────────
-  const locationRoutes: MetadataRoute.Sitemap = locationsData.map((loc) => ({
+  // ── Published city pages (/locations/[state]/[city]) ───────────────────────
+  const locationRoutes: MetadataRoute.Sitemap = liveLocations.map((loc) => ({
     url: `${BASE_URL}/locations/${loc.slug}`,
+    lastModified: getCityContent(loc.slug)?.updated,
     changeFrequency: "monthly",
-    priority: 0.5,
+    priority: 0.6,
   }));
 
   // ── Blog posts (/blog/[slug]) ──────────────────────────────────────────────
