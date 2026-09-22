@@ -16,7 +16,8 @@
     "source": "Google Ads (this repo, 2026-09-22)",
     "notes": "Home base (BHG HQ). Home-area override: in Wave 1 whatever its measured demand. Queried as \"hannibal mo\".",
     "wave": 1,
-    "rank": 1
+    "rank": 1,
+    "status": "live"
   },
   {
     "slug": "illinois/quincy",
@@ -35,7 +36,8 @@
     "source": "Google Ads (this repo, 2026-09-22)",
     "notes": "Home area, across the river from Hannibal. Home-area override. Queried as \"quincy il\" (Quincy, MA is larger).",
     "wave": 1,
-    "rank": 2
+    "rank": 2,
+    "status": "live"
   },
   {
     "slug": "texas/el-paso",
@@ -54,7 +56,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Most \"forklift certification el paso\" volume is flagged as partly Spanish-language search.",
     "wave": 1,
-    "rank": 3
+    "rank": 3,
+    "status": "live"
   },
   {
     "slug": "texas/fort-worth",
@@ -73,7 +76,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": 1,
-    "rank": 4
+    "rank": 4,
+    "status": "live"
   },
   {
     "slug": "louisiana/new-orleans",
@@ -92,7 +96,8 @@
     "source": "Google Ads (this repo, 2026-09-22)",
     "notes": "",
     "wave": 1,
-    "rank": 5
+    "rank": 5,
+    "status": "live"
   },
   {
     "slug": "texas/austin",
@@ -111,7 +116,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": 1,
-    "rank": 6
+    "rank": 6,
+    "status": "live"
   },
   {
     "slug": "nebraska/omaha",
@@ -130,7 +136,8 @@
     "source": "Google Ads (this repo, 2026-09-22)",
     "notes": "",
     "wave": 1,
-    "rank": 7
+    "rank": 7,
+    "status": "live"
   },
   {
     "slug": "georgia/augusta",
@@ -149,7 +156,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"augusta ga\").",
     "wave": 1,
-    "rank": 8
+    "rank": 8,
+    "status": "live"
   },
   {
     "slug": "louisiana/baton-rouge",
@@ -168,7 +176,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": 1,
-    "rank": 9
+    "rank": 9,
+    "status": "live"
   },
   {
     "slug": "texas/arlington",
@@ -187,7 +196,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"arlington tx\").",
     "wave": 1,
-    "rank": 10
+    "rank": 10,
+    "status": "live"
   },
   {
     "slug": "alabama/birmingham",
@@ -206,7 +216,8 @@
     "source": "Google Ads (this repo, 2026-09-22)",
     "notes": "",
     "wave": 2,
-    "rank": 11
+    "rank": 11,
+    "status": "planned"
   },
   {
     "slug": "illinois/aurora",
@@ -225,7 +236,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"aurora il\").",
     "wave": 2,
-    "rank": 12
+    "rank": 12,
+    "status": "planned"
   },
   {
     "slug": "tennessee/knoxville",
@@ -244,7 +256,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": 2,
-    "rank": 13
+    "rank": 13,
+    "status": "planned"
   },
   {
     "slug": "tennessee/jackson",
@@ -263,7 +276,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"jackson tn\").",
     "wave": 2,
-    "rank": 14
+    "rank": 14,
+    "status": "planned"
   },
   {
     "slug": "mississippi/jackson",
@@ -282,7 +296,8 @@
     "source": "Google Ads (this repo, 2026-09-22)",
     "notes": "",
     "wave": 2,
-    "rank": 15
+    "rank": 15,
+    "status": "planned"
   },
   {
     "slug": "georgia/columbus",
@@ -301,7 +316,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"columbus ga\").",
     "wave": 2,
-    "rank": 16
+    "rank": 16,
+    "status": "planned"
   },
   {
     "slug": "louisiana/shreveport",
@@ -320,7 +336,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": 2,
-    "rank": 17
+    "rank": 17,
+    "status": "planned"
   },
   {
     "slug": "alabama/mobile",
@@ -339,7 +356,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"mobile al\").",
     "wave": 2,
-    "rank": 18
+    "rank": 18,
+    "status": "planned"
   },
   {
     "slug": "louisiana/lafayette",
@@ -358,7 +376,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"lafayette la\").",
     "wave": 2,
-    "rank": 19
+    "rank": 19,
+    "status": "planned"
   },
   {
     "slug": "georgia/albany",
@@ -377,7 +396,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"albany ga\").",
     "wave": 2,
-    "rank": 20
+    "rank": 20,
+    "status": "planned"
   },
   {
     "slug": "missouri/springfield",
@@ -396,7 +416,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"springfield mo\").",
     "wave": 3,
-    "rank": 21
+    "rank": 21,
+    "status": "planned"
   },
   {
     "slug": "illinois/elgin",
@@ -415,7 +436,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": 3,
-    "rank": 22
+    "rank": 22,
+    "status": "planned"
   },
   {
     "slug": "illinois/peoria",
@@ -434,7 +456,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"peoria il\").",
     "wave": 3,
-    "rank": 23
+    "rank": 23,
+    "status": "planned"
   },
   {
     "slug": "iowa/des-moines",
@@ -453,7 +476,8 @@
     "source": "Google Ads (this repo, 2026-09-22)",
     "notes": "",
     "wave": 3,
-    "rank": 24
+    "rank": 24,
+    "status": "planned"
   },
   {
     "slug": "indiana/fort-wayne",
@@ -472,7 +496,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": 3,
-    "rank": 25
+    "rank": 25,
+    "status": "planned"
   },
   {
     "slug": "kentucky/lexington",
@@ -491,7 +516,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": 3,
-    "rank": 26
+    "rank": 26,
+    "status": "planned"
   },
   {
     "slug": "georgia/athens",
@@ -510,7 +536,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"athens ga\").",
     "wave": 3,
-    "rank": 27
+    "rank": 27,
+    "status": "planned"
   },
   {
     "slug": "texas/corpus-christi",
@@ -529,7 +556,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": 3,
-    "rank": 28
+    "rank": 28,
+    "status": "planned"
   },
   {
     "slug": "louisiana/monroe",
@@ -548,7 +576,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"monroe la\").",
     "wave": 3,
-    "rank": 29
+    "rank": 29,
+    "status": "planned"
   },
   {
     "slug": "texas/lubbock",
@@ -567,7 +596,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": 3,
-    "rank": 30
+    "rank": 30,
+    "status": "planned"
   },
   {
     "slug": "georgia/marietta",
@@ -586,7 +616,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"marietta ga\").",
     "wave": 4,
-    "rank": 31
+    "rank": 31,
+    "status": "planned"
   },
   {
     "slug": "texas/amarillo",
@@ -605,7 +636,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": 4,
-    "rank": 32
+    "rank": 32,
+    "status": "planned"
   },
   {
     "slug": "illinois/joliet",
@@ -624,7 +656,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "illinois/rockford",
@@ -643,7 +676,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "missouri/columbia",
@@ -662,7 +696,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"columbia mo\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "illinois/springfield",
@@ -681,7 +716,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"springfield il\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "missouri/independence",
@@ -700,7 +736,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"independence mo\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "missouri/lee-s-summit",
@@ -719,7 +756,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "missouri/o-fallon",
@@ -738,7 +776,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"ofallon mo\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "illinois/champaign",
@@ -757,7 +796,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "missouri/st-joseph",
@@ -776,7 +816,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"st joseph mo\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "illinois/waukegan",
@@ -795,7 +836,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "missouri/st-charles",
@@ -814,7 +856,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"st charles mo\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "illinois/cicero",
@@ -833,7 +876,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"cicero il\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "missouri/blue-springs",
@@ -852,7 +896,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "illinois/bloomington",
@@ -871,7 +916,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"bloomington il\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "missouri/joplin",
@@ -890,7 +936,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "illinois/naperville",
@@ -909,7 +956,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "missouri/chesterfield",
@@ -928,7 +976,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "illinois/evanston",
@@ -947,7 +996,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "missouri/jefferson-city",
@@ -966,7 +1016,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"jefferson city mo\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "illinois/decatur",
@@ -985,7 +1036,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"decatur il\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "missouri/cape-girardeau",
@@ -1004,7 +1056,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "illinois/schaumburg",
@@ -1023,7 +1076,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "missouri/florissant",
@@ -1042,7 +1096,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/little-rock",
@@ -1061,7 +1116,8 @@
     "source": "Google Ads (this repo, 2026-09-22)",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/wichita",
@@ -1080,7 +1136,8 @@
     "source": "Google Ads (this repo, 2026-09-22)",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/louisville",
@@ -1099,7 +1156,8 @@
     "source": "Google Ads (this repo, 2026-09-22)",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/fort-smith",
@@ -1118,7 +1176,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/cedar-rapids",
@@ -1137,7 +1196,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/overland-park",
@@ -1156,7 +1216,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/lincoln",
@@ -1175,7 +1236,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"lincoln ne\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/fayetteville",
@@ -1194,7 +1256,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"fayetteville ar\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "indiana/evansville",
@@ -1213,7 +1276,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/davenport",
@@ -1232,7 +1296,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/kansas-city",
@@ -1251,7 +1316,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"kansas city ks\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/bowling-green",
@@ -1270,7 +1336,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/bellevue",
@@ -1289,7 +1356,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"bellevue ne\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "oklahoma/norman",
@@ -1308,7 +1376,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"norman ok\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/springdale",
@@ -1327,7 +1396,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"springdale ar\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "indiana/south-bend",
@@ -1346,7 +1416,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/sioux-city",
@@ -1365,7 +1436,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/olathe",
@@ -1384,7 +1456,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/owensboro",
@@ -1403,7 +1476,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/grand-island",
@@ -1422,7 +1496,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "oklahoma/broken-arrow",
@@ -1441,7 +1516,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "tennessee/chattanooga",
@@ -1460,7 +1536,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/jonesboro",
@@ -1479,7 +1556,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "indiana/carmel",
@@ -1498,7 +1576,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"carmel in\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/iowa-city",
@@ -1517,7 +1596,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/topeka",
@@ -1536,7 +1616,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/covington",
@@ -1555,7 +1636,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"covington ky\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/kearney",
@@ -1574,7 +1656,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"kearney ne\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "oklahoma/lawton",
@@ -1593,7 +1676,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "tennessee/clarksville",
@@ -1612,7 +1696,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/north-little-rock",
@@ -1631,7 +1716,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "indiana/fishers",
@@ -1650,7 +1736,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/waterloo",
@@ -1669,7 +1756,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"waterloo ia\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/lawrence",
@@ -1688,7 +1776,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"lawrence ks\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/richmond",
@@ -1707,7 +1796,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"richmond ky\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/fremont",
@@ -1726,7 +1816,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"fremont ne\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "oklahoma/edmond",
@@ -1745,7 +1836,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "tennessee/murfreesboro",
@@ -1764,7 +1856,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/conway",
@@ -1783,7 +1876,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"conway ar\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "indiana/bloomington",
@@ -1802,7 +1896,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"bloomington in\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/council-bluffs",
@@ -1821,7 +1916,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/shawnee",
@@ -1840,7 +1936,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"shawnee ks\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/georgetown",
@@ -1859,7 +1956,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"georgetown ky\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/hastings",
@@ -1878,7 +1976,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"hastings ne\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "oklahoma/moore",
@@ -1897,7 +1996,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"moore ok\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/rogers",
@@ -1916,7 +2016,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"rogers ar\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "indiana/hammond",
@@ -1935,7 +2036,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"hammond in\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/ames",
@@ -1954,7 +2056,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/manhattan",
@@ -1973,7 +2076,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"manhattan ks\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/florence",
@@ -1992,7 +2096,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"florence ky\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/norfolk",
@@ -2011,7 +2116,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"norfolk ne\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "oklahoma/midwest-city",
@@ -2030,7 +2136,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "tennessee/johnson-city",
@@ -2049,7 +2156,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/pine-bluff",
@@ -2068,7 +2176,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "indiana/gary",
@@ -2087,7 +2196,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/west-des-moines",
@@ -2106,7 +2216,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/lenexa",
@@ -2125,7 +2236,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/hopkins-ville",
@@ -2144,7 +2256,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/columbus",
@@ -2163,7 +2276,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"columbus ne\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "oklahoma/enid",
@@ -2182,7 +2296,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "tennessee/bartlett",
@@ -2201,7 +2316,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"bartlett tn\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/bentonville",
@@ -2220,7 +2336,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "indiana/lafayette",
@@ -2239,7 +2356,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"lafayette in\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/dubuque",
@@ -2258,7 +2376,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/salina",
@@ -2277,7 +2396,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"salina ks\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/elizabethtown",
@@ -2296,7 +2416,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"elizabethtown ky\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/papillion",
@@ -2315,7 +2436,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "oklahoma/stillwater",
@@ -2334,7 +2456,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"stillwater ok\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "tennessee/hendersonville",
@@ -2353,7 +2476,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"hendersonville tn\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/hot-springs",
@@ -2372,7 +2496,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "indiana/muncie",
@@ -2391,7 +2516,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/ankeny",
@@ -2410,7 +2536,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/hutchinson",
@@ -2429,7 +2556,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/nicholasville",
@@ -2448,7 +2576,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/la-vista",
@@ -2467,7 +2596,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/fargo",
@@ -2486,7 +2616,8 @@
     "source": "Google Ads (this repo, 2026-09-22)",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "oklahoma/muskogee",
@@ -2505,7 +2636,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/sioux-falls",
@@ -2524,7 +2656,8 @@
     "source": "Google Ads (this repo, 2026-09-22)",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "tennessee/kingsport",
@@ -2543,7 +2676,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "alabama/montgomery",
@@ -2562,7 +2696,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/benton",
@@ -2581,7 +2716,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"benton ar\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "indiana/terre-haute",
@@ -2600,7 +2736,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/urbandale",
@@ -2619,7 +2756,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/leavenworth",
@@ -2638,7 +2776,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"leavenworth ks\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/henderson",
@@ -2657,7 +2796,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"henderson ky\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/gulfport",
@@ -2676,7 +2816,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/scottsbluff",
@@ -2695,7 +2836,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/bismarck",
@@ -2714,7 +2856,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "oklahoma/bartlesville",
@@ -2733,7 +2876,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/rapid-city",
@@ -2752,7 +2896,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "tennessee/collierville",
@@ -2771,7 +2916,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "alabama/huntsville",
@@ -2790,7 +2936,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/texarkana",
@@ -2809,7 +2956,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "indiana/kokomo",
@@ -2828,7 +2976,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/cedar-falls",
@@ -2847,7 +2996,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/leawood",
@@ -2866,7 +3016,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/jeffersontown",
@@ -2885,7 +3036,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/southaven",
@@ -2904,7 +3056,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/south-sioux-city",
@@ -2923,7 +3076,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/grand-forks",
@@ -2942,7 +3096,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "oklahoma/owasso",
@@ -2961,7 +3116,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/aberdeen",
@@ -2980,7 +3136,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"aberdeen sd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "tennessee/smyrna",
@@ -2999,7 +3156,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"smyrna tn\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/sherwood",
@@ -3018,7 +3176,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"sherwood ar\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "georgia/macon",
@@ -3037,7 +3196,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "indiana/greenwood",
@@ -3056,7 +3216,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"greenwood in\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/marion",
@@ -3075,7 +3236,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"marion ia\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/dodge-city",
@@ -3094,7 +3256,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/frankfort",
@@ -3113,7 +3276,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"frankfort ky\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "louisiana/metairie",
@@ -3132,7 +3296,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/hattiesburg",
@@ -3151,7 +3316,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/north-platte",
@@ -3170,7 +3336,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/minot",
@@ -3189,7 +3356,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "oklahoma/shawnee",
@@ -3208,7 +3376,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"shawnee ok\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/brookings",
@@ -3227,7 +3396,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "tennessee/cleveland",
@@ -3246,7 +3416,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"cleveland tn\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "alabama/tuscaloosa",
@@ -3265,7 +3436,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "arkansas/jacksonville",
@@ -3284,7 +3456,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"jacksonville ar\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "georgia/savannah",
@@ -3303,7 +3476,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "indiana/anderson",
@@ -3322,7 +3496,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"anderson in\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "iowa/bettendorf",
@@ -3341,7 +3516,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kansas/garden-city",
@@ -3360,7 +3536,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"garden city ks\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "kentucky/paducah",
@@ -3379,7 +3556,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/biloxi",
@@ -3398,7 +3576,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "nebraska/chalco",
@@ -3417,7 +3596,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/west-fargo",
@@ -3436,7 +3616,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "oklahoma/yukon",
@@ -3455,7 +3636,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/watertown",
@@ -3474,7 +3656,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"watertown sd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "tennessee/brentwood",
@@ -3493,7 +3676,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"brentwood tn\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "alabama/hoover",
@@ -3512,7 +3696,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "louisiana/lake-charles",
@@ -3531,7 +3716,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/meridian",
@@ -3550,7 +3736,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"meridian ms\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/mandan",
@@ -3569,7 +3756,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/mitchell",
@@ -3588,7 +3776,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"mitchell sd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "alabama/dothan",
@@ -3607,7 +3796,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "georgia/sandy-springs",
@@ -3626,7 +3816,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "louisiana/kenner",
@@ -3645,7 +3836,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/tupelo",
@@ -3664,7 +3856,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/dickinson",
@@ -3683,7 +3876,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"dickinson nd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/yankton",
@@ -3702,7 +3896,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "alabama/auburn",
@@ -3721,7 +3916,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"auburn al\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "georgia/roswell",
@@ -3740,7 +3936,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"roswell ga\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "louisiana/bossier-city",
@@ -3759,7 +3956,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/greenville",
@@ -3778,7 +3976,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"greenville ms\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/jamestown",
@@ -3797,7 +3996,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "Ambiguous name - queried with state suffix (\"jamestown nd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/pierre",
@@ -3816,7 +4016,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "alabama/decatur",
@@ -3835,7 +4036,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"decatur al\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/olive-branch",
@@ -3854,7 +4056,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/williston",
@@ -3873,7 +4076,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"williston nd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/huron",
@@ -3892,7 +4096,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"huron sd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "texas/plano",
@@ -3911,7 +4116,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "alabama/madison",
@@ -3930,7 +4136,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"madison al\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "georgia/johns-creek",
@@ -3949,7 +4156,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "louisiana/alexandria",
@@ -3968,7 +4176,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"alexandria la\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/horn-lake",
@@ -3987,7 +4196,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/wahpeton",
@@ -4006,7 +4216,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/spearfish",
@@ -4025,7 +4236,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "texas/laredo",
@@ -4044,7 +4256,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "alabama/florence",
@@ -4063,7 +4276,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"florence al\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "georgia/warner-robins",
@@ -4082,7 +4296,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "louisiana/prairieville",
@@ -4101,7 +4316,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/clinton",
@@ -4120,7 +4336,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"clinton ms\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/devils-lake",
@@ -4139,7 +4356,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/vermillion",
@@ -4158,7 +4376,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"vermillion sd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "alabama/gadsden",
@@ -4177,7 +4396,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "georgia/alpharetta",
@@ -4196,7 +4416,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "louisiana/new-iberia",
@@ -4215,7 +4436,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/pearl",
@@ -4234,7 +4456,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"pearl ms\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/grafton",
@@ -4253,7 +4476,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"grafton nd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/brandon",
@@ -4272,7 +4496,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"brandon sd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "texas/garland",
@@ -4291,7 +4516,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "alabama/vestavia-hills",
@@ -4310,7 +4536,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "louisiana/laplace",
@@ -4329,7 +4556,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/ridgeland",
@@ -4348,7 +4576,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/valley-city",
@@ -4367,7 +4596,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/sturgis",
@@ -4386,7 +4616,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"sturgis sd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "texas/irving",
@@ -4405,7 +4636,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "alabama/prattville",
@@ -4424,7 +4656,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "georgia/valdosta",
@@ -4443,7 +4676,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "louisiana/slidell",
@@ -4462,7 +4696,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/madison",
@@ -4481,7 +4716,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"madison ms\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/lincoln",
@@ -4500,7 +4736,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"lincoln nd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/box-elder",
@@ -4519,7 +4756,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"box elder sd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "alabama/phenix-city",
@@ -4538,7 +4776,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "georgia/smyrna",
@@ -4557,7 +4796,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"smyrna ga\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "louisiana/terrytown",
@@ -4576,7 +4816,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "mississippi/starkville",
@@ -4595,7 +4836,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "north-dakota/watford-city",
@@ -4614,7 +4856,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "south-dakota/harrisburg",
@@ -4633,7 +4876,8 @@
     "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
     "notes": "Ambiguous name - queried with state suffix (\"harrisburg sd\").",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   },
   {
     "slug": "texas/grand-prairie",
@@ -4652,6 +4896,7 @@
     "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
     "notes": "",
     "wave": null,
-    "rank": null
+    "rank": null,
+    "status": "backlog"
   }
 ]

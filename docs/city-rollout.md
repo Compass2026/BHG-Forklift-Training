@@ -4,7 +4,7 @@ Ranked list of the next city pages for bhgforklifttraining.com, built from measu
 
 ## Summary
 
-- **12 cities are live** (`src/lib/live-cities.ts`): Houston, Chicago, Memphis, Atlanta, San Antonio, Indianapolis, Dallas, Oklahoma City, Nashville, Tulsa, St. Louis and Kansas City. They were chosen from this same data: the top forklift-demand cities plus the home market.
+- **22 cities are live** (`src/lib/live-cities.ts`): the 12 launch cities plus all of Wave 1, published 2026-09-22. The launch cities are: Houston, Chicago, Memphis, Atlanta, San Antonio, Indianapolis, Dallas, Oklahoma City, Nashville, Tulsa, St. Louis and Kansas City. They were chosen from this same data: the top forklift-demand cities plus the home market.
 - **245 candidates scored** (below): the top 15 cities per state from `data/locations.json`, plus Hannibal, MO and Quincy, IL, minus the 12 live cities.
 - **30 candidates have measurable forklift demand** (at least one keyword at 10+ searches/month). The other 213 measured zero, including Hannibal and Quincy.
 - **Waves 1-4 hold 32 pages**: all 30 cities with demand, plus Hannibal and Quincy as home-area overrides. At 2-3 pages/week, that is about 12-14 weeks of publishing.
@@ -42,7 +42,7 @@ Volumes come in steps of 10 and tier + population add at most 8, so **demand dec
 
 Rank = suggested publish order. Demand = searches/month (US).
 
-### Wave 1: 10 pages
+### Wave 1: 10 pages (published 2026-09-22)
 
 | Rank | City | State | Slug | Demand | Top keyword | Tier | Notes |
 |---:|---|---|---|---:|---|:-:|---|
