@@ -217,7 +217,7 @@
     "notes": "",
     "wave": 2,
     "rank": 11,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "illinois/aurora",
@@ -237,7 +237,7 @@
     "notes": "Ambiguous name - queried with state suffix (\"aurora il\").",
     "wave": 2,
     "rank": 12,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "tennessee/knoxville",
@@ -257,7 +257,7 @@
     "notes": "",
     "wave": 2,
     "rank": 13,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "tennessee/jackson",
@@ -277,7 +277,7 @@
     "notes": "Ambiguous name - queried with state suffix (\"jackson tn\").",
     "wave": 2,
     "rank": 14,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "mississippi/jackson",
@@ -297,7 +297,7 @@
     "notes": "",
     "wave": 2,
     "rank": 15,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "georgia/columbus",
@@ -317,7 +317,7 @@
     "notes": "Ambiguous name - queried with state suffix (\"columbus ga\").",
     "wave": 2,
     "rank": 16,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "louisiana/shreveport",
@@ -337,7 +337,7 @@
     "notes": "",
     "wave": 2,
     "rank": 17,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "alabama/mobile",
@@ -357,7 +357,7 @@
     "notes": "Ambiguous name - queried with state suffix (\"mobile al\").",
     "wave": 2,
     "rank": 18,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "louisiana/lafayette",
@@ -377,7 +377,7 @@
     "notes": "Ambiguous name - queried with state suffix (\"lafayette la\").",
     "wave": 2,
     "rank": 19,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "georgia/albany",
@@ -397,7 +397,7 @@
     "notes": "Ambiguous name - queried with state suffix (\"albany ga\").",
     "wave": 2,
     "rank": 20,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "missouri/springfield",

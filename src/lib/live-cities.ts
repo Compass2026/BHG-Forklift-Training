@@ -40,21 +40,31 @@ export const STATE_SLUGS = [
 ] as const;
 
 // Launch set (12) chosen 2026-09-22 from measured forklift search demand, plus
-// Wave 1 of docs/city-rollout.md (10), published 2026-09-22.
+// Waves 1 and 2 of docs/city-rollout.md (10 each), published 2026-09-22.
 export const LIVE_CITY_SLUGS: readonly string[] = [
+  "alabama/birmingham",
+  "alabama/mobile",
+  "georgia/albany",
   "georgia/atlanta",
   "georgia/augusta",
+  "georgia/columbus",
+  "illinois/aurora",
   "illinois/chicago",
   "illinois/quincy",
   "indiana/indianapolis",
   "louisiana/baton-rouge",
+  "louisiana/lafayette",
   "louisiana/new-orleans",
+  "louisiana/shreveport",
+  "mississippi/jackson",
   "missouri/hannibal",
   "missouri/kansas-city",
   "missouri/st-louis",
   "nebraska/omaha",
   "oklahoma/oklahoma-city",
   "oklahoma/tulsa",
+  "tennessee/jackson",
+  "tennessee/knoxville",
   "tennessee/memphis",
   "tennessee/nashville",
   "texas/arlington",

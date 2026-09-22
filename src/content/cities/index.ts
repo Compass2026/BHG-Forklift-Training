@@ -1,19 +1,29 @@
 import type { CityContent } from "./types";
 import classesData from "../../../data/classes.json";
 
+import alabamaBirmingham from "./alabama--birmingham";
+import alabamaMobile from "./alabama--mobile";
+import georgiaAlbany from "./georgia--albany";
 import georgiaAtlanta from "./georgia--atlanta";
 import georgiaAugusta from "./georgia--augusta";
+import georgiaColumbus from "./georgia--columbus";
+import illinoisAurora from "./illinois--aurora";
 import illinoisChicago from "./illinois--chicago";
 import illinoisQuincy from "./illinois--quincy";
 import indianaIndianapolis from "./indiana--indianapolis";
 import louisianaBatonRouge from "./louisiana--baton-rouge";
+import louisianaLafayette from "./louisiana--lafayette";
 import louisianaNewOrleans from "./louisiana--new-orleans";
+import louisianaShreveport from "./louisiana--shreveport";
+import mississippiJackson from "./mississippi--jackson";
 import missouriHannibal from "./missouri--hannibal";
 import missouriKansasCity from "./missouri--kansas-city";
 import missouriStLouis from "./missouri--st-louis";
 import nebraskaOmaha from "./nebraska--omaha";
 import oklahomaOklahomaCity from "./oklahoma--oklahoma-city";
 import oklahomaTulsa from "./oklahoma--tulsa";
+import tennesseeJackson from "./tennessee--jackson";
+import tennesseeKnoxville from "./tennessee--knoxville";
 import tennesseeMemphis from "./tennessee--memphis";
 import tennesseeNashville from "./tennessee--nashville";
 import texasArlington from "./texas--arlington";
@@ -58,19 +68,29 @@ function validateCityContent(content: CityContent): string[] {
  */
 const cityContent: Record<string, CityContent> = Object.fromEntries(
   [
+    alabamaBirmingham,
+    alabamaMobile,
+    georgiaAlbany,
     georgiaAtlanta,
     georgiaAugusta,
+    georgiaColumbus,
+    illinoisAurora,
     illinoisChicago,
     illinoisQuincy,
     indianaIndianapolis,
     louisianaBatonRouge,
+    louisianaLafayette,
     louisianaNewOrleans,
+    louisianaShreveport,
+    mississippiJackson,
     missouriHannibal,
     missouriKansasCity,
     missouriStLouis,
     nebraskaOmaha,
     oklahomaOklahomaCity,
     oklahomaTulsa,
+    tennesseeJackson,
+    tennesseeKnoxville,
     tennesseeMemphis,
     tennesseeNashville,
     texasArlington,

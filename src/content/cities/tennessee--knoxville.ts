@@ -9,8 +9,8 @@ const content: CityContent = {
     "Knoxville sits where I-40 meets I-75 and where the Tennessee River's navigation channel begins, and the plants, terminals and warehouses around it depend on forklifts. BHG Forklift Training trains and evaluates your Knoxville operators at your own facility, on the trucks they run every shift.",
   intro: [
     "The Knoxville Chamber, which serves as the economic development organization for the City of Knoxville and Knox County, describes the city as positioned at the intersection of interstates 75 and 40 and within a day's drive of over 60 percent of the U.S. population. The chamber's transportation fact sheet adds a Norfolk Southern intermodal ramp in Knoxville, roughly 270 miles of railroad track across Knox County, and three active river terminals for barge freight at the head of the Tennessee River channel.",
-    "Much of the local forklift work is in food and beverage. The chamber's 2024-2025 list of major manufacturers includes Keurig Dr Pepper's coffee roasting and soft drink distribution operation on Water Plant Road, Bush Brothers, Custom Foods of America's frozen food plant, and Coca-Cola and Pepsi bottling and distribution. Those buildings run electric counterbalance trucks and pallet jacks through production, freezers and busy loading docks, while river terminals and scrap or aggregate yards rely on outdoor pneumatic-tire trucks.",
-    "BHG Forklift Training, part of the Disabled Veteran-Owned BHG Safety Partners LLC, travels from Hannibal, Missouri to your site. Operators get classroom instruction, hands-on practice on your own trucks and a workplace evaluation, and your company signs the certification. Training is available in English and Spanish.",
+    "Much of the local forklift work is in food and beverage. The chamber's 2024-2025 list of major manufacturers includes Keurig Dr Pepper's coffee roasting and soft drink distribution operation on Water Plant Road, Bush Brothers, Custom Foods of America's frozen food plant, and Coca-Cola and Pepsi bottling and distribution. Those buildings run electric counterbalance trucks and pallet jacks through production, freezers and busy loading docks, while the river terminals rely on outdoor pneumatic-tire trucks.",
+    "BHG Forklift Training, part of the Disabled Veteran-Owned BHG Safety Partners LLC, travels from Hannibal, Missouri to your site, whether that is a bottling line, a freezer warehouse or a river terminal. Operators get classroom instruction, hands-on practice on your own trucks and a workplace evaluation in the conditions they actually face, and your company signs the certification. Training is available in English and Spanish.",
   ],
   materialHandling: [
     {
@@ -21,7 +21,7 @@ const content: CityContent = {
     {
       name: "Tennessee River barge terminals",
       detail:
-        "The chamber's transportation fact sheet places Knoxville at the head of the Tennessee River navigation channel, with three active river terminals and a 9-foot channel depth. Loading and unloading bulk and bagged cargo on open terminal aprons calls for pneumatic-tire trucks, careful travel near the water's edge and attention to grade changes on ramps.",
+        "The chamber's transportation fact sheet places Knoxville at the head of the Tennessee River navigation channel, with three active river terminals and a 9-foot channel depth. Moving barge cargo across open terminal aprons calls for pneumatic-tire trucks, careful travel near the water's edge and attention to grade changes on ramps.",
     },
     {
       name: "Rail and intermodal freight",

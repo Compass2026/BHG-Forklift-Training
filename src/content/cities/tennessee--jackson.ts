@@ -4,19 +4,19 @@ const content: CityContent = {
   slug: "tennessee/jackson",
   updated: "2026-09-22",
   metaDescription:
-    "Onsite forklift training in Jackson, Tennessee for Madison County auto suppliers, steel, food plants and I-40 distribution centers, on your own trucks under TOSHA.",
+    "Onsite forklift training in Jackson, Tennessee for Madison County auto suppliers, steel, food plants and I-40 warehouses, on your own trucks under TOSHA.",
   lede:
-    "Jackson, Tennessee is West Tennessee's manufacturing and distribution center on I-40, halfway country between Memphis and Nashville. BHG Forklift Training comes to your Jackson-area plant or warehouse and trains and evaluates your operators on the trucks they actually use.",
+    "Jackson, Tennessee is West Tennessee's manufacturing and distribution center on I-40, between Memphis and Nashville. BHG Forklift Training comes to your Jackson-area plant or warehouse and trains and evaluates your operators on the trucks they actually use.",
   intro: [
-    "The Greater Jackson Chamber describes Jackson-Madison County as one of Tennessee's leading industrial and distribution centers. The city lies on Interstate 40 with ten interchanges, about 80 miles east of Memphis and 120 miles west of Nashville, and is served by two Class I railroads, CSX and Norfolk Southern, plus the West Tennessee Railroad short line. The chamber's 2023 industry guide lists more than a dozen Madison County manufacturers and distributors with several hundred or more employees each.",
-    "That list is unusually varied for a city of Jackson's size. It runs from Toyota's aluminum die-casting plant and Toyota Boshoku's seat-component stamping to Gerdau's steel mill, Delta Faucet, Stanley Black & Decker power tools and a Kellogg snack plant, alongside distribution centers for Kirkland's, Ingram Content Group and Ryder. A single week of forklift work in Madison County can mean steel bundles on a mill yard, stamped parts feeding an assembly line and cased food moving to a trailer.",
-    "BHG Forklift Training, a service of the Disabled Veteran-Owned BHG Safety Partners LLC in Hannibal, Missouri, comes to you. We deliver formal instruction, hands-on training on your trucks and a workplace evaluation of each operator, and your company then certifies them. Training is offered in English and Spanish.",
+    "The Greater Jackson Chamber describes Jackson-Madison County as one of Tennessee's leading industrial and distribution centers. The city lies on Interstate 40 with ten interchanges, about 80 miles east of Memphis and 120 miles west of Nashville, and is served by two Class I railroads, CSX and Norfolk Southern, plus the West Tennessee Railroad short line. The chamber's 2023 industry guide lists more than a dozen Madison County manufacturers and distributors with 250 or more employees each.",
+    "That list is unusually varied for a city of Jackson's size. It runs from Toyota's engine-block die-casting plant and Toyota Boshoku's seat-component stamping to Gerdau's steel mill, Delta Faucet, Stanley Black & Decker power tools and a Kellogg cracker plant (listed by the chamber today under Kellanova), alongside distribution centers for Kirkland's, Ingram Content Group and Ryder. A single week of forklift work in Madison County can mean steel bundles on a mill yard, stamped parts feeding an assembly line and cased food moving to a trailer.",
+    "BHG Forklift Training, a service of the Disabled Veteran-Owned BHG Safety Partners LLC in Hannibal, Missouri, comes to you, so the training happens where the work does. We deliver formal instruction, hands-on training on the trucks your operators drive and a workplace evaluation of each operator, covering whichever of the seven OSHA truck classes you run, from mill-yard trucks to walkie pallet jacks. Your company then certifies them. Training is offered in English and Spanish.",
   ],
   materialHandling: [
     {
       name: "Automotive parts plants",
       detail:
-        "The chamber lists Toyota Motor Manufacturing Tennessee's die-cast engine block plant on James Lawrence Road, which it says can produce up to 1.79 million engine blocks and 729,000 transmission cases and housings a year, as well as Toyota Boshoku (515 employees), Pacific Manufacturing's metal stamping plant (451) and UGN (345). Moving castings, stampings and returnable racks around presses and assembly lines means heavy, awkward loads, tight aisles and constant pedestrian crossings.",
+        "The chamber lists Toyota Motor Manufacturing Tennessee's die-cast engine block plant on James Lawrence Road, which it says produces up to 1.79 million engine blocks and 729,000 transmission cases and housings a year, as well as Toyota Boshoku (515 employees), Pacific Manufacturing's metal stamping plant (451) and UGN (345). Moving castings, stampings and returnable racks around presses and assembly lines means heavy, awkward loads, tight aisles and constant pedestrian crossings.",
     },
     {
       name: "Gerdau's Jackson steel mill",
@@ -26,7 +26,7 @@ const content: CityContent = {
     {
       name: "Food production and cold storage",
       detail:
-        "The guide lists Kellogg's Highway 70 Bypass plant (1,164 employees, crackers and potato crisps), Conagra Brands' frozen food plant on Pinnacle Drive (293), Butts Foods' protein and food service distribution (151) and an American Cold Storage warehouse on Lee Street. Pallet jacks and electric forklifts moving between freezers, coolers and docks face condensation, frost and reduced traction.",
+        "The guide lists the Kellogg plant on the Highway 70 Bypass (1,164 employees, crackers and potato crisps), Conagra Brands' frozen food plant on Pinnacle Drive (293), Butts Foods' protein and food service distribution (151) and an American Cold Storage warehouse on Lee Street. Pallet jacks and electric forklifts moving between freezers, coolers and docks face condensation, frost and reduced traction.",
     },
     {
       name: "I-40 distribution centers",
@@ -57,7 +57,7 @@ const content: CityContent = {
     "Lexington",
     "Alamo",
   ],
-  featuredClasses: ["class-1-forklift", "class-3-forklift", "class-5-forklift", "class-2-forklift"],
+  featuredClasses: ["class-1-forklift", "class-2-forklift", "class-3-forklift", "class-5-forklift"],
   faqs: [
     {
       question: "Does TOSHA or federal OSHA cover our Jackson, Tennessee facility?",
