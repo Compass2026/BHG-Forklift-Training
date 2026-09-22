@@ -10,6 +10,7 @@ const navLinks = [
   { label: "About Us",         href: "/about" },
   { label: "Forklift Classes", href: "/classes" },
   { label: "Locations",        href: "/locations", isDropdown: true },
+  { label: "Blog",             href: "/blog" },
   { label: "Contact",          href: "/contact" },
 ];
 

@@ -11,6 +11,7 @@ const classLinks = [
   { label: "Class 5: Pneumatic Tire", href: "/classes/class-5-forklift" },
   { label: "Class 6: Tow Tractors", href: "/classes/class-6-forklift" },
   { label: "Class 7: Rough Terrain", href: "/classes/class-7-forklift" },
+  { label: "Forklift Safety Blog", href: "/blog" },
 ];
 
 const areasServed = [

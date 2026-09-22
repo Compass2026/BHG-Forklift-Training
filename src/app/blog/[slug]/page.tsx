@@ -1,6 +1,6 @@
 import { getAllPosts, getPostBySlug, postTitle } from "@/lib/mdx";
 import Schema from "@/components/Schema";
-import { breadcrumbSchema } from "@/lib/schema";
+import { blogPostingSchema, breadcrumbSchema } from "@/lib/schema";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -76,6 +76,7 @@ export default async function BlogPostPage({
           { name: post.title, path: `/blog/${post.slug}` },
         ])}
       />
+      <Schema data={blogPostingSchema(post)} />
       {/* ── Article Header ─────────────────────────────────────── */}
       <header className="bg-bhg-black py-16 px-6">
         <div className="max-w-3xl mx-auto">
@@ -138,6 +139,36 @@ export default async function BlogPostPage({
           <PostContent />
         </div>
 
+        {/* ── CTA ──────────────────────────────────────────────── */}
+        <aside
+          className="mt-14 rounded-2xl bg-bhg-black p-8 text-white"
+          aria-labelledby="post-cta-heading"
+        >
+          <h2 id="post-cta-heading" className="text-2xl font-bold">
+            Need your operators trained and evaluated?
+          </h2>
+          <p className="mt-3 text-gray-400 leading-relaxed">
+            BHG Forklift Training comes to your facility and trains on your own
+            trucks, for all seven OSHA classes.
+          </p>
+          <div className="mt-6 flex flex-col sm:flex-row gap-3">
+            <Link
+              href="/classes"
+              id="post-cta-classes"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-bhg-orange text-white font-semibold hover:bg-orange-500 transition-colors"
+            >
+              See Forklift Classes
+            </Link>
+            <Link
+              href="/contact"
+              id="post-cta-contact"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg border border-white/20 text-white font-semibold hover:border-bhg-orange hover:text-bhg-orange transition-colors"
+            >
+              Request Training
+            </Link>
+          </div>
+        </aside>
+
         {/* ── Back link ────────────────────────────────────────── */}
         <div className="mt-14 pt-8 border-t border-gray-100">
           <Link
@@ -156,7 +187,7 @@ export default async function BlogPostPage({
             >
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
             </svg>
-            Back to Insights
+            Back to Blog
           </Link>
         </div>
       </article>
