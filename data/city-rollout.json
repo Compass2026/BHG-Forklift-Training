@@ -1,0 +1,4657 @@
+[
+  {
+    "slug": "missouri/hannibal",
+    "city": "Hannibal",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 24,
+    "demand": {
+      "forklift training hannibal mo": null,
+      "forklift certification hannibal mo": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 5.0,
+    "source": "Google Ads (this repo, 2026-09-22)",
+    "notes": "Home base (BHG HQ). Home-area override: in Wave 1 whatever its measured demand. Queried as \"hannibal mo\".",
+    "wave": 1,
+    "rank": 1
+  },
+  {
+    "slug": "illinois/quincy",
+    "city": "Quincy",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 45,
+    "demand": {
+      "forklift training quincy il": null,
+      "forklift certification quincy il": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 5.0,
+    "source": "Google Ads (this repo, 2026-09-22)",
+    "notes": "Home area, across the river from Hannibal. Home-area override. Queried as \"quincy il\" (Quincy, MA is larger).",
+    "wave": 1,
+    "rank": 2
+  },
+  {
+    "slug": "texas/el-paso",
+    "city": "El Paso",
+    "state": "TX",
+    "tier": 3,
+    "populationRank": 6,
+    "demand": {
+      "forklift training el paso": 40,
+      "forklift certification el paso": 210
+    },
+    "demandTotal": 250,
+    "grouped": false,
+    "topKeyword": "forklift certification el paso (210)",
+    "score": 252.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Most \"forklift certification el paso\" volume is flagged as partly Spanish-language search.",
+    "wave": 1,
+    "rank": 3
+  },
+  {
+    "slug": "texas/fort-worth",
+    "city": "Fort Worth",
+    "state": "TX",
+    "tier": 3,
+    "populationRank": 5,
+    "demand": {
+      "forklift training fort worth": 50,
+      "forklift certification fort worth": 40
+    },
+    "demandTotal": 90,
+    "grouped": false,
+    "topKeyword": "forklift training fort worth (50)",
+    "score": 92.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": 1,
+    "rank": 4
+  },
+  {
+    "slug": "louisiana/new-orleans",
+    "city": "New Orleans",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 1,
+    "demand": {
+      "forklift training new orleans": 30,
+      "forklift certification new orleans": 20
+    },
+    "demandTotal": 50,
+    "grouped": false,
+    "topKeyword": "forklift training new orleans (30)",
+    "score": 53.0,
+    "source": "Google Ads (this repo, 2026-09-22)",
+    "notes": "",
+    "wave": 1,
+    "rank": 5
+  },
+  {
+    "slug": "texas/austin",
+    "city": "Austin",
+    "state": "TX",
+    "tier": 3,
+    "populationRank": 4,
+    "demand": {
+      "forklift training austin": 10,
+      "forklift certification austin": 40
+    },
+    "demandTotal": 50,
+    "grouped": false,
+    "topKeyword": "forklift certification austin (40)",
+    "score": 52.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": 1,
+    "rank": 6
+  },
+  {
+    "slug": "nebraska/omaha",
+    "city": "Omaha",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 1,
+    "demand": {
+      "forklift training omaha": 20,
+      "forklift certification omaha": 20
+    },
+    "demandTotal": 40,
+    "grouped": false,
+    "topKeyword": "forklift training omaha (20)",
+    "score": 45.0,
+    "source": "Google Ads (this repo, 2026-09-22)",
+    "notes": "",
+    "wave": 1,
+    "rank": 7
+  },
+  {
+    "slug": "georgia/augusta",
+    "city": "Augusta",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 2,
+    "demand": {
+      "forklift training augusta ga": 20,
+      "forklift certification augusta ga": 20
+    },
+    "demandTotal": 40,
+    "grouped": false,
+    "topKeyword": "forklift training augusta ga (20)",
+    "score": 42.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"augusta ga\").",
+    "wave": 1,
+    "rank": 8
+  },
+  {
+    "slug": "louisiana/baton-rouge",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 2,
+    "demand": {
+      "forklift training baton rouge": 20,
+      "forklift certification baton rouge": 20
+    },
+    "demandTotal": 40,
+    "grouped": false,
+    "topKeyword": "forklift training baton rouge (20)",
+    "score": 42.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": 1,
+    "rank": 9
+  },
+  {
+    "slug": "texas/arlington",
+    "city": "Arlington",
+    "state": "TX",
+    "tier": 3,
+    "populationRank": 7,
+    "demand": {
+      "forklift training arlington tx": 30,
+      "forklift certification arlington tx": 10
+    },
+    "demandTotal": 40,
+    "grouped": false,
+    "topKeyword": "forklift training arlington tx (30)",
+    "score": 41.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"arlington tx\").",
+    "wave": 1,
+    "rank": 10
+  },
+  {
+    "slug": "alabama/birmingham",
+    "city": "Birmingham",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 1,
+    "demand": {
+      "forklift training birmingham al": 20,
+      "forklift certification birmingham al": 10
+    },
+    "demandTotal": 30,
+    "grouped": false,
+    "topKeyword": "forklift training birmingham al (20)",
+    "score": 33.0,
+    "source": "Google Ads (this repo, 2026-09-22)",
+    "notes": "",
+    "wave": 2,
+    "rank": 11
+  },
+  {
+    "slug": "illinois/aurora",
+    "city": "Aurora",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 2,
+    "demand": {
+      "forklift training aurora il": 10,
+      "forklift certification aurora il": 10
+    },
+    "demandTotal": 20,
+    "grouped": false,
+    "topKeyword": "forklift training aurora il (10)",
+    "score": 27.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"aurora il\").",
+    "wave": 2,
+    "rank": 12
+  },
+  {
+    "slug": "tennessee/knoxville",
+    "city": "Knoxville",
+    "state": "TN",
+    "tier": 2,
+    "populationRank": 3,
+    "demand": {
+      "forklift training knoxville": 10,
+      "forklift certification knoxville": 10
+    },
+    "demandTotal": 20,
+    "grouped": false,
+    "topKeyword": "forklift training knoxville (10)",
+    "score": 24.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": 2,
+    "rank": 13
+  },
+  {
+    "slug": "tennessee/jackson",
+    "city": "Jackson",
+    "state": "TN",
+    "tier": 2,
+    "populationRank": 7,
+    "demand": {
+      "forklift training jackson tn": 20,
+      "forklift certification jackson tn": null
+    },
+    "demandTotal": 20,
+    "grouped": false,
+    "topKeyword": "forklift training jackson tn (20)",
+    "score": 23.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"jackson tn\").",
+    "wave": 2,
+    "rank": 14
+  },
+  {
+    "slug": "mississippi/jackson",
+    "city": "Jackson",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 1,
+    "demand": {
+      "forklift training jackson ms": 10,
+      "forklift certification jackson ms": 10
+    },
+    "demandTotal": 20,
+    "grouped": false,
+    "topKeyword": "forklift training jackson ms (10)",
+    "score": 23.0,
+    "source": "Google Ads (this repo, 2026-09-22)",
+    "notes": "",
+    "wave": 2,
+    "rank": 15
+  },
+  {
+    "slug": "georgia/columbus",
+    "city": "Columbus",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 3,
+    "demand": {
+      "forklift training columbus ga": 10,
+      "forklift certification columbus ga": 10
+    },
+    "demandTotal": 20,
+    "grouped": false,
+    "topKeyword": "forklift training columbus ga (10)",
+    "score": 22.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"columbus ga\").",
+    "wave": 2,
+    "rank": 16
+  },
+  {
+    "slug": "louisiana/shreveport",
+    "city": "Shreveport",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 3,
+    "demand": {
+      "forklift training shreveport": null,
+      "forklift certification shreveport": 20
+    },
+    "demandTotal": 20,
+    "grouped": false,
+    "topKeyword": "forklift certification shreveport (20)",
+    "score": 22.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": 2,
+    "rank": 17
+  },
+  {
+    "slug": "alabama/mobile",
+    "city": "Mobile",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 4,
+    "demand": {
+      "forklift training mobile al": 10,
+      "forklift certification mobile al": 10
+    },
+    "demandTotal": 20,
+    "grouped": false,
+    "topKeyword": "forklift training mobile al (10)",
+    "score": 22.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"mobile al\").",
+    "wave": 2,
+    "rank": 18
+  },
+  {
+    "slug": "louisiana/lafayette",
+    "city": "Lafayette",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 5,
+    "demand": {
+      "forklift training lafayette la": 10,
+      "forklift certification lafayette la": 10
+    },
+    "demandTotal": 20,
+    "grouped": false,
+    "topKeyword": "forklift training lafayette la (10)",
+    "score": 22.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"lafayette la\").",
+    "wave": 2,
+    "rank": 19
+  },
+  {
+    "slug": "georgia/albany",
+    "city": "Albany",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 9,
+    "demand": {
+      "forklift training albany ga": 10,
+      "forklift certification albany ga": 10
+    },
+    "demandTotal": 20,
+    "grouped": false,
+    "topKeyword": "forklift training albany ga (10)",
+    "score": 21.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"albany ga\").",
+    "wave": 2,
+    "rank": 20
+  },
+  {
+    "slug": "missouri/springfield",
+    "city": "Springfield",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 3,
+    "demand": {
+      "forklift training springfield mo": 10,
+      "forklift certification springfield mo": null
+    },
+    "demandTotal": 10,
+    "grouped": false,
+    "topKeyword": "forklift training springfield mo (10)",
+    "score": 17.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"springfield mo\").",
+    "wave": 3,
+    "rank": 21
+  },
+  {
+    "slug": "illinois/elgin",
+    "city": "Elgin",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 6,
+    "demand": {
+      "forklift training elgin": 10,
+      "forklift certification elgin": null
+    },
+    "demandTotal": 10,
+    "grouped": false,
+    "topKeyword": "forklift training elgin (10)",
+    "score": 17.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": 3,
+    "rank": 22
+  },
+  {
+    "slug": "illinois/peoria",
+    "city": "Peoria",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 7,
+    "demand": {
+      "forklift training peoria il": 10,
+      "forklift certification peoria il": null
+    },
+    "demandTotal": 10,
+    "grouped": false,
+    "topKeyword": "forklift training peoria il (10)",
+    "score": 16.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"peoria il\").",
+    "wave": 3,
+    "rank": 23
+  },
+  {
+    "slug": "iowa/des-moines",
+    "city": "Des Moines",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 1,
+    "demand": {
+      "forklift training des moines": 10,
+      "forklift certification des moines": null
+    },
+    "demandTotal": 10,
+    "grouped": false,
+    "topKeyword": "forklift training des moines (10)",
+    "score": 15.0,
+    "source": "Google Ads (this repo, 2026-09-22)",
+    "notes": "",
+    "wave": 3,
+    "rank": 24
+  },
+  {
+    "slug": "indiana/fort-wayne",
+    "city": "Fort Wayne",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 2,
+    "demand": {
+      "forklift training fort wayne": 10,
+      "forklift certification fort wayne": null
+    },
+    "demandTotal": 10,
+    "grouped": false,
+    "topKeyword": "forklift training fort wayne (10)",
+    "score": 14.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": 3,
+    "rank": 25
+  },
+  {
+    "slug": "kentucky/lexington",
+    "city": "Lexington",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 2,
+    "demand": {
+      "forklift training lexington": 10,
+      "forklift certification lexington": null
+    },
+    "demandTotal": 10,
+    "grouped": false,
+    "topKeyword": "forklift training lexington (10)",
+    "score": 14.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": 3,
+    "rank": 26
+  },
+  {
+    "slug": "georgia/athens",
+    "city": "Athens",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 6,
+    "demand": {
+      "forklift training athens ga": 10,
+      "forklift certification athens ga": null
+    },
+    "demandTotal": 10,
+    "grouped": false,
+    "topKeyword": "forklift training athens ga (10)",
+    "score": 12.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"athens ga\").",
+    "wave": 3,
+    "rank": 27
+  },
+  {
+    "slug": "texas/corpus-christi",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "tier": 3,
+    "populationRank": 8,
+    "demand": {
+      "forklift training corpus christi": null,
+      "forklift certification corpus christi": 10
+    },
+    "demandTotal": 10,
+    "grouped": false,
+    "topKeyword": "forklift certification corpus christi (10)",
+    "score": 11.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": 3,
+    "rank": 28
+  },
+  {
+    "slug": "louisiana/monroe",
+    "city": "Monroe",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 9,
+    "demand": {
+      "forklift training monroe la": null,
+      "forklift certification monroe la": 10
+    },
+    "demandTotal": 10,
+    "grouped": false,
+    "topKeyword": "forklift certification monroe la (10)",
+    "score": 11.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"monroe la\").",
+    "wave": 3,
+    "rank": 29
+  },
+  {
+    "slug": "texas/lubbock",
+    "city": "Lubbock",
+    "state": "TX",
+    "tier": 3,
+    "populationRank": 11,
+    "demand": {
+      "forklift training lubbock": 10,
+      "forklift certification lubbock": null
+    },
+    "demandTotal": 10,
+    "grouped": false,
+    "topKeyword": "forklift training lubbock (10)",
+    "score": 11.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": 3,
+    "rank": 30
+  },
+  {
+    "slug": "georgia/marietta",
+    "city": "Marietta",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 13,
+    "demand": {
+      "forklift training marietta ga": 10,
+      "forklift certification marietta ga": null
+    },
+    "demandTotal": 10,
+    "grouped": false,
+    "topKeyword": "forklift training marietta ga (10)",
+    "score": 10.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"marietta ga\").",
+    "wave": 4,
+    "rank": 31
+  },
+  {
+    "slug": "texas/amarillo",
+    "city": "Amarillo",
+    "state": "TX",
+    "tier": 3,
+    "populationRank": 14,
+    "demand": {
+      "forklift training amarillo": 10,
+      "forklift certification amarillo": null
+    },
+    "demandTotal": 10,
+    "grouped": false,
+    "topKeyword": "forklift training amarillo (10)",
+    "score": 10.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": 4,
+    "rank": 32
+  },
+  {
+    "slug": "illinois/joliet",
+    "city": "Joliet",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 3,
+    "demand": {
+      "forklift training joliet": null,
+      "forklift certification joliet": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 7.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "illinois/rockford",
+    "city": "Rockford",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 4,
+    "demand": {
+      "forklift training rockford": null,
+      "forklift certification rockford": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 7.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "missouri/columbia",
+    "city": "Columbia",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 4,
+    "demand": {
+      "forklift training columbia mo": null,
+      "forklift certification columbia mo": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 7.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"columbia mo\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "illinois/springfield",
+    "city": "Springfield",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 5,
+    "demand": {
+      "forklift training springfield il": null,
+      "forklift certification springfield il": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 7.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"springfield il\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "missouri/independence",
+    "city": "Independence",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 5,
+    "demand": {
+      "forklift training independence mo": null,
+      "forklift certification independence mo": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 7.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"independence mo\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "missouri/lee-s-summit",
+    "city": "Lee's Summit",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 6,
+    "demand": {
+      "forklift training lees summit": null,
+      "forklift certification lees summit": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 7.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "missouri/o-fallon",
+    "city": "O'Fallon",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 7,
+    "demand": {
+      "forklift training ofallon mo": null,
+      "forklift certification ofallon mo": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 6.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"ofallon mo\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "illinois/champaign",
+    "city": "Champaign",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 8,
+    "demand": {
+      "forklift training champaign": null,
+      "forklift certification champaign": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 6.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "missouri/st-joseph",
+    "city": "St. Joseph",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 8,
+    "demand": {
+      "forklift training st joseph mo": null,
+      "forklift certification st joseph mo": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 6.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"st joseph mo\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "illinois/waukegan",
+    "city": "Waukegan",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 9,
+    "demand": {
+      "forklift training waukegan": null,
+      "forklift certification waukegan": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 6.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "missouri/st-charles",
+    "city": "St. Charles",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 9,
+    "demand": {
+      "forklift training st charles mo": null,
+      "forklift certification st charles mo": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 6.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"st charles mo\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "illinois/cicero",
+    "city": "Cicero",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 10,
+    "demand": {
+      "forklift training cicero il": null,
+      "forklift certification cicero il": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 6.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"cicero il\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "missouri/blue-springs",
+    "city": "Blue Springs",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 10,
+    "demand": {
+      "forklift training blue springs": null,
+      "forklift certification blue springs": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 6.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "illinois/bloomington",
+    "city": "Bloomington",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 11,
+    "demand": {
+      "forklift training bloomington il": null,
+      "forklift certification bloomington il": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 6.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"bloomington il\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "missouri/joplin",
+    "city": "Joplin",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 11,
+    "demand": {
+      "forklift training joplin": null,
+      "forklift certification joplin": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 6.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "illinois/naperville",
+    "city": "Naperville",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 12,
+    "demand": {
+      "forklift training naperville": null,
+      "forklift certification naperville": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 5.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "missouri/chesterfield",
+    "city": "Chesterfield",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 12,
+    "demand": {
+      "forklift training chesterfield mo": null,
+      "forklift certification chesterfield mo": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 5.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "illinois/evanston",
+    "city": "Evanston",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 13,
+    "demand": {
+      "forklift training evanston": null,
+      "forklift certification evanston": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 5.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "missouri/jefferson-city",
+    "city": "Jefferson City",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 13,
+    "demand": {
+      "forklift training jefferson city mo": null,
+      "forklift certification jefferson city mo": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 5.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"jefferson city mo\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "illinois/decatur",
+    "city": "Decatur",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 14,
+    "demand": {
+      "forklift training decatur il": null,
+      "forklift certification decatur il": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 5.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"decatur il\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "missouri/cape-girardeau",
+    "city": "Cape Girardeau",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 14,
+    "demand": {
+      "forklift training cape girardeau": null,
+      "forklift certification cape girardeau": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 5.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "illinois/schaumburg",
+    "city": "Schaumburg",
+    "state": "IL",
+    "tier": 1,
+    "populationRank": 15,
+    "demand": {
+      "forklift training schaumburg": null,
+      "forklift certification schaumburg": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 5.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "missouri/florissant",
+    "city": "Florissant",
+    "state": "MO",
+    "tier": 1,
+    "populationRank": 15,
+    "demand": {
+      "forklift training florissant": null,
+      "forklift certification florissant": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 5.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/little-rock",
+    "city": "Little Rock",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 1,
+    "demand": {
+      "forklift training little rock": null,
+      "forklift certification little rock": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 5.0,
+    "source": "Google Ads (this repo, 2026-09-22)",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/wichita",
+    "city": "Wichita",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 1,
+    "demand": {
+      "forklift training wichita": null,
+      "forklift certification wichita": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 5.0,
+    "source": "Google Ads (this repo, 2026-09-22)",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 1,
+    "demand": {
+      "forklift training louisville": null,
+      "forklift certification louisville": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 5.0,
+    "source": "Google Ads (this repo, 2026-09-22)",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/fort-smith",
+    "city": "Fort Smith",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 2,
+    "demand": {
+      "forklift training fort smith": null,
+      "forklift certification fort smith": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/cedar-rapids",
+    "city": "Cedar Rapids",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 2,
+    "demand": {
+      "forklift training cedar rapids": null,
+      "forklift certification cedar rapids": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/overland-park",
+    "city": "Overland Park",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 2,
+    "demand": {
+      "forklift training overland park": null,
+      "forklift certification overland park": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/lincoln",
+    "city": "Lincoln",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 2,
+    "demand": {
+      "forklift training lincoln ne": null,
+      "forklift certification lincoln ne": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"lincoln ne\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/fayetteville",
+    "city": "Fayetteville",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 3,
+    "demand": {
+      "forklift training fayetteville ar": null,
+      "forklift certification fayetteville ar": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"fayetteville ar\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "indiana/evansville",
+    "city": "Evansville",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 3,
+    "demand": {
+      "forklift training evansville": null,
+      "forklift certification evansville": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/davenport",
+    "city": "Davenport",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 3,
+    "demand": {
+      "forklift training davenport": null,
+      "forklift certification davenport": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/kansas-city",
+    "city": "Kansas City",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 3,
+    "demand": {
+      "forklift training kansas city ks": null,
+      "forklift certification kansas city ks": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"kansas city ks\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/bowling-green",
+    "city": "Bowling Green",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 3,
+    "demand": {
+      "forklift training bowling green": null,
+      "forklift certification bowling green": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/bellevue",
+    "city": "Bellevue",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 3,
+    "demand": {
+      "forklift training bellevue ne": null,
+      "forklift certification bellevue ne": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"bellevue ne\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "oklahoma/norman",
+    "city": "Norman",
+    "state": "OK",
+    "tier": 2,
+    "populationRank": 3,
+    "demand": {
+      "forklift training norman ok": null,
+      "forklift certification norman ok": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"norman ok\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/springdale",
+    "city": "Springdale",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 4,
+    "demand": {
+      "forklift training springdale ar": null,
+      "forklift certification springdale ar": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"springdale ar\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "indiana/south-bend",
+    "city": "South Bend",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 4,
+    "demand": {
+      "forklift training south bend": null,
+      "forklift certification south bend": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/sioux-city",
+    "city": "Sioux City",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 4,
+    "demand": {
+      "forklift training sioux city": null,
+      "forklift certification sioux city": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/olathe",
+    "city": "Olathe",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 4,
+    "demand": {
+      "forklift training olathe": null,
+      "forklift certification olathe": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/owensboro",
+    "city": "Owensboro",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 4,
+    "demand": {
+      "forklift training owensboro": null,
+      "forklift certification owensboro": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/grand-island",
+    "city": "Grand Island",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 4,
+    "demand": {
+      "forklift training grand island": null,
+      "forklift certification grand island": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "oklahoma/broken-arrow",
+    "city": "Broken Arrow",
+    "state": "OK",
+    "tier": 2,
+    "populationRank": 4,
+    "demand": {
+      "forklift training broken arrow": null,
+      "forklift certification broken arrow": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "tennessee/chattanooga",
+    "city": "Chattanooga",
+    "state": "TN",
+    "tier": 2,
+    "populationRank": 4,
+    "demand": {
+      "forklift training chattanooga": null,
+      "forklift certification chattanooga": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/jonesboro",
+    "city": "Jonesboro",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 5,
+    "demand": {
+      "forklift training jonesboro": null,
+      "forklift certification jonesboro": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "indiana/carmel",
+    "city": "Carmel",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 5,
+    "demand": {
+      "forklift training carmel in": null,
+      "forklift certification carmel in": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"carmel in\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/iowa-city",
+    "city": "Iowa City",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 5,
+    "demand": {
+      "forklift training iowa city": null,
+      "forklift certification iowa city": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/topeka",
+    "city": "Topeka",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 5,
+    "demand": {
+      "forklift training topeka": null,
+      "forklift certification topeka": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/covington",
+    "city": "Covington",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 5,
+    "demand": {
+      "forklift training covington ky": null,
+      "forklift certification covington ky": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"covington ky\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/kearney",
+    "city": "Kearney",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 5,
+    "demand": {
+      "forklift training kearney ne": null,
+      "forklift certification kearney ne": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"kearney ne\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "oklahoma/lawton",
+    "city": "Lawton",
+    "state": "OK",
+    "tier": 2,
+    "populationRank": 5,
+    "demand": {
+      "forklift training lawton": null,
+      "forklift certification lawton": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "tennessee/clarksville",
+    "city": "Clarksville",
+    "state": "TN",
+    "tier": 2,
+    "populationRank": 5,
+    "demand": {
+      "forklift training clarksville": null,
+      "forklift certification clarksville": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/north-little-rock",
+    "city": "North Little Rock",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 6,
+    "demand": {
+      "forklift training north little rock": null,
+      "forklift certification north little rock": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "indiana/fishers",
+    "city": "Fishers",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 6,
+    "demand": {
+      "forklift training fishers": null,
+      "forklift certification fishers": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/waterloo",
+    "city": "Waterloo",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 6,
+    "demand": {
+      "forklift training waterloo ia": null,
+      "forklift certification waterloo ia": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"waterloo ia\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/lawrence",
+    "city": "Lawrence",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 6,
+    "demand": {
+      "forklift training lawrence ks": null,
+      "forklift certification lawrence ks": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"lawrence ks\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/richmond",
+    "city": "Richmond",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 6,
+    "demand": {
+      "forklift training richmond ky": null,
+      "forklift certification richmond ky": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"richmond ky\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/fremont",
+    "city": "Fremont",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 6,
+    "demand": {
+      "forklift training fremont ne": null,
+      "forklift certification fremont ne": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"fremont ne\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "oklahoma/edmond",
+    "city": "Edmond",
+    "state": "OK",
+    "tier": 2,
+    "populationRank": 6,
+    "demand": {
+      "forklift training edmond": null,
+      "forklift certification edmond": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "tennessee/murfreesboro",
+    "city": "Murfreesboro",
+    "state": "TN",
+    "tier": 2,
+    "populationRank": 6,
+    "demand": {
+      "forklift training murfreesboro": null,
+      "forklift certification murfreesboro": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 4.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/conway",
+    "city": "Conway",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 7,
+    "demand": {
+      "forklift training conway ar": null,
+      "forklift certification conway ar": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"conway ar\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "indiana/bloomington",
+    "city": "Bloomington",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 7,
+    "demand": {
+      "forklift training bloomington in": null,
+      "forklift certification bloomington in": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"bloomington in\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/council-bluffs",
+    "city": "Council Bluffs",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 7,
+    "demand": {
+      "forklift training council bluffs": null,
+      "forklift certification council bluffs": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/shawnee",
+    "city": "Shawnee",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 7,
+    "demand": {
+      "forklift training shawnee ks": null,
+      "forklift certification shawnee ks": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"shawnee ks\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/georgetown",
+    "city": "Georgetown",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 7,
+    "demand": {
+      "forklift training georgetown ky": null,
+      "forklift certification georgetown ky": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"georgetown ky\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/hastings",
+    "city": "Hastings",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 7,
+    "demand": {
+      "forklift training hastings ne": null,
+      "forklift certification hastings ne": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"hastings ne\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "oklahoma/moore",
+    "city": "Moore",
+    "state": "OK",
+    "tier": 2,
+    "populationRank": 7,
+    "demand": {
+      "forklift training moore ok": null,
+      "forklift certification moore ok": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"moore ok\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/rogers",
+    "city": "Rogers",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 8,
+    "demand": {
+      "forklift training rogers ar": null,
+      "forklift certification rogers ar": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"rogers ar\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "indiana/hammond",
+    "city": "Hammond",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 8,
+    "demand": {
+      "forklift training hammond in": null,
+      "forklift certification hammond in": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"hammond in\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/ames",
+    "city": "Ames",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 8,
+    "demand": {
+      "forklift training ames": null,
+      "forklift certification ames": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/manhattan",
+    "city": "Manhattan",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 8,
+    "demand": {
+      "forklift training manhattan ks": null,
+      "forklift certification manhattan ks": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"manhattan ks\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/florence",
+    "city": "Florence",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 8,
+    "demand": {
+      "forklift training florence ky": null,
+      "forklift certification florence ky": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"florence ky\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/norfolk",
+    "city": "Norfolk",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 8,
+    "demand": {
+      "forklift training norfolk ne": null,
+      "forklift certification norfolk ne": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"norfolk ne\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "oklahoma/midwest-city",
+    "city": "Midwest City",
+    "state": "OK",
+    "tier": 2,
+    "populationRank": 8,
+    "demand": {
+      "forklift training midwest city": null,
+      "forklift certification midwest city": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "tennessee/johnson-city",
+    "city": "Johnson City",
+    "state": "TN",
+    "tier": 2,
+    "populationRank": 8,
+    "demand": {
+      "forklift training johnson city": null,
+      "forklift certification johnson city": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/pine-bluff",
+    "city": "Pine Bluff",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 9,
+    "demand": {
+      "forklift training pine bluff": null,
+      "forklift certification pine bluff": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "indiana/gary",
+    "city": "Gary",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 9,
+    "demand": {
+      "forklift training gary": null,
+      "forklift certification gary": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/west-des-moines",
+    "city": "West Des Moines",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 9,
+    "demand": {
+      "forklift training west des moines": null,
+      "forklift certification west des moines": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/lenexa",
+    "city": "Lenexa",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 9,
+    "demand": {
+      "forklift training lenexa": null,
+      "forklift certification lenexa": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/hopkins-ville",
+    "city": "Hopkins Ville",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 9,
+    "demand": {
+      "forklift training hopkinsville": null,
+      "forklift certification hopkinsville": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/columbus",
+    "city": "Columbus",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 9,
+    "demand": {
+      "forklift training columbus ne": null,
+      "forklift certification columbus ne": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"columbus ne\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "oklahoma/enid",
+    "city": "Enid",
+    "state": "OK",
+    "tier": 2,
+    "populationRank": 9,
+    "demand": {
+      "forklift training enid": null,
+      "forklift certification enid": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "tennessee/bartlett",
+    "city": "Bartlett",
+    "state": "TN",
+    "tier": 2,
+    "populationRank": 9,
+    "demand": {
+      "forklift training bartlett tn": null,
+      "forklift certification bartlett tn": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"bartlett tn\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/bentonville",
+    "city": "Bentonville",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 10,
+    "demand": {
+      "forklift training bentonville": null,
+      "forklift certification bentonville": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "indiana/lafayette",
+    "city": "Lafayette",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 10,
+    "demand": {
+      "forklift training lafayette in": null,
+      "forklift certification lafayette in": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"lafayette in\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/dubuque",
+    "city": "Dubuque",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 10,
+    "demand": {
+      "forklift training dubuque": null,
+      "forklift certification dubuque": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/salina",
+    "city": "Salina",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 10,
+    "demand": {
+      "forklift training salina ks": null,
+      "forklift certification salina ks": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"salina ks\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/elizabethtown",
+    "city": "Elizabethtown",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 10,
+    "demand": {
+      "forklift training elizabethtown ky": null,
+      "forklift certification elizabethtown ky": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"elizabethtown ky\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/papillion",
+    "city": "Papillion",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 10,
+    "demand": {
+      "forklift training papillion": null,
+      "forklift certification papillion": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "oklahoma/stillwater",
+    "city": "Stillwater",
+    "state": "OK",
+    "tier": 2,
+    "populationRank": 10,
+    "demand": {
+      "forklift training stillwater ok": null,
+      "forklift certification stillwater ok": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"stillwater ok\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "tennessee/hendersonville",
+    "city": "Hendersonville",
+    "state": "TN",
+    "tier": 2,
+    "populationRank": 10,
+    "demand": {
+      "forklift training hendersonville tn": null,
+      "forklift certification hendersonville tn": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"hendersonville tn\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/hot-springs",
+    "city": "Hot Springs",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 11,
+    "demand": {
+      "forklift training hot springs": null,
+      "forklift certification hot springs": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "indiana/muncie",
+    "city": "Muncie",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 11,
+    "demand": {
+      "forklift training muncie": null,
+      "forklift certification muncie": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/ankeny",
+    "city": "Ankeny",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 11,
+    "demand": {
+      "forklift training ankeny": null,
+      "forklift certification ankeny": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/hutchinson",
+    "city": "Hutchinson",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 11,
+    "demand": {
+      "forklift training hutchinson": null,
+      "forklift certification hutchinson": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/nicholasville",
+    "city": "Nicholasville",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 11,
+    "demand": {
+      "forklift training nicholasville": null,
+      "forklift certification nicholasville": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/la-vista",
+    "city": "La Vista",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 11,
+    "demand": {
+      "forklift training la vista": null,
+      "forklift certification la vista": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/fargo",
+    "city": "Fargo",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 1,
+    "demand": {
+      "forklift training fargo": null,
+      "forklift certification fargo": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.0,
+    "source": "Google Ads (this repo, 2026-09-22)",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "oklahoma/muskogee",
+    "city": "Muskogee",
+    "state": "OK",
+    "tier": 2,
+    "populationRank": 11,
+    "demand": {
+      "forklift training muskogee": null,
+      "forklift certification muskogee": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/sioux-falls",
+    "city": "Sioux Falls",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 1,
+    "demand": {
+      "forklift training sioux falls": null,
+      "forklift certification sioux falls": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.0,
+    "source": "Google Ads (this repo, 2026-09-22)",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "tennessee/kingsport",
+    "city": "Kingsport",
+    "state": "TN",
+    "tier": 2,
+    "populationRank": 11,
+    "demand": {
+      "forklift training kingsport": null,
+      "forklift certification kingsport": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 3.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "alabama/montgomery",
+    "city": "Montgomery",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 2,
+    "demand": {
+      "forklift training montgomery": null,
+      "forklift certification montgomery": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/benton",
+    "city": "Benton",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 12,
+    "demand": {
+      "forklift training benton ar": null,
+      "forklift certification benton ar": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"benton ar\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "indiana/terre-haute",
+    "city": "Terre Haute",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 12,
+    "demand": {
+      "forklift training terre haute": null,
+      "forklift certification terre haute": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/urbandale",
+    "city": "Urbandale",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 12,
+    "demand": {
+      "forklift training urbandale": null,
+      "forklift certification urbandale": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/leavenworth",
+    "city": "Leavenworth",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 12,
+    "demand": {
+      "forklift training leavenworth ks": null,
+      "forklift certification leavenworth ks": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"leavenworth ks\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/henderson",
+    "city": "Henderson",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 12,
+    "demand": {
+      "forklift training henderson ky": null,
+      "forklift certification henderson ky": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"henderson ky\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/gulfport",
+    "city": "Gulfport",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 2,
+    "demand": {
+      "forklift training gulfport": null,
+      "forklift certification gulfport": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/scottsbluff",
+    "city": "Scottsbluff",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 12,
+    "demand": {
+      "forklift training scottsbluff": null,
+      "forklift certification scottsbluff": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/bismarck",
+    "city": "Bismarck",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 2,
+    "demand": {
+      "forklift training bismarck": null,
+      "forklift certification bismarck": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "oklahoma/bartlesville",
+    "city": "Bartlesville",
+    "state": "OK",
+    "tier": 2,
+    "populationRank": 12,
+    "demand": {
+      "forklift training bartlesville": null,
+      "forklift certification bartlesville": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/rapid-city",
+    "city": "Rapid City",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 2,
+    "demand": {
+      "forklift training rapid city": null,
+      "forklift certification rapid city": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "tennessee/collierville",
+    "city": "Collierville",
+    "state": "TN",
+    "tier": 2,
+    "populationRank": 12,
+    "demand": {
+      "forklift training collierville": null,
+      "forklift certification collierville": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "alabama/huntsville",
+    "city": "Huntsville",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 3,
+    "demand": {
+      "forklift training huntsville": null,
+      "forklift certification huntsville": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/texarkana",
+    "city": "Texarkana",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 13,
+    "demand": {
+      "forklift training texarkana": null,
+      "forklift certification texarkana": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "indiana/kokomo",
+    "city": "Kokomo",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 13,
+    "demand": {
+      "forklift training kokomo": null,
+      "forklift certification kokomo": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/cedar-falls",
+    "city": "Cedar Falls",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 13,
+    "demand": {
+      "forklift training cedar falls": null,
+      "forklift certification cedar falls": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/leawood",
+    "city": "Leawood",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 13,
+    "demand": {
+      "forklift training leawood": null,
+      "forklift certification leawood": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/jeffersontown",
+    "city": "Jeffersontown",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 13,
+    "demand": {
+      "forklift training jeffersontown": null,
+      "forklift certification jeffersontown": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/southaven",
+    "city": "Southaven",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 3,
+    "demand": {
+      "forklift training southaven": null,
+      "forklift certification southaven": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/south-sioux-city",
+    "city": "South Sioux City",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 13,
+    "demand": {
+      "forklift training south sioux city": null,
+      "forklift certification south sioux city": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/grand-forks",
+    "city": "Grand Forks",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 3,
+    "demand": {
+      "forklift training grand forks": null,
+      "forklift certification grand forks": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "oklahoma/owasso",
+    "city": "Owasso",
+    "state": "OK",
+    "tier": 2,
+    "populationRank": 13,
+    "demand": {
+      "forklift training owasso": null,
+      "forklift certification owasso": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/aberdeen",
+    "city": "Aberdeen",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 3,
+    "demand": {
+      "forklift training aberdeen sd": null,
+      "forklift certification aberdeen sd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"aberdeen sd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "tennessee/smyrna",
+    "city": "Smyrna",
+    "state": "TN",
+    "tier": 2,
+    "populationRank": 13,
+    "demand": {
+      "forklift training smyrna tn": null,
+      "forklift certification smyrna tn": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"smyrna tn\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/sherwood",
+    "city": "Sherwood",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 14,
+    "demand": {
+      "forklift training sherwood ar": null,
+      "forklift certification sherwood ar": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"sherwood ar\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "georgia/macon",
+    "city": "Macon",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 4,
+    "demand": {
+      "forklift training macon": null,
+      "forklift certification macon": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "indiana/greenwood",
+    "city": "Greenwood",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 14,
+    "demand": {
+      "forklift training greenwood in": null,
+      "forklift certification greenwood in": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"greenwood in\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/marion",
+    "city": "Marion",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 14,
+    "demand": {
+      "forklift training marion ia": null,
+      "forklift certification marion ia": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"marion ia\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/dodge-city",
+    "city": "Dodge City",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 14,
+    "demand": {
+      "forklift training dodge city": null,
+      "forklift certification dodge city": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/frankfort",
+    "city": "Frankfort",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 14,
+    "demand": {
+      "forklift training frankfort ky": null,
+      "forklift certification frankfort ky": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"frankfort ky\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "louisiana/metairie",
+    "city": "Metairie",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 4,
+    "demand": {
+      "forklift training metairie": null,
+      "forklift certification metairie": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/hattiesburg",
+    "city": "Hattiesburg",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 4,
+    "demand": {
+      "forklift training hattiesburg": null,
+      "forklift certification hattiesburg": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/north-platte",
+    "city": "North Platte",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 14,
+    "demand": {
+      "forklift training north platte": null,
+      "forklift certification north platte": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/minot",
+    "city": "Minot",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 4,
+    "demand": {
+      "forklift training minot": null,
+      "forklift certification minot": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "oklahoma/shawnee",
+    "city": "Shawnee",
+    "state": "OK",
+    "tier": 2,
+    "populationRank": 14,
+    "demand": {
+      "forklift training shawnee ok": null,
+      "forklift certification shawnee ok": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"shawnee ok\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/brookings",
+    "city": "Brookings",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 4,
+    "demand": {
+      "forklift training brookings": null,
+      "forklift certification brookings": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "tennessee/cleveland",
+    "city": "Cleveland",
+    "state": "TN",
+    "tier": 2,
+    "populationRank": 14,
+    "demand": {
+      "forklift training cleveland tn": null,
+      "forklift certification cleveland tn": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"cleveland tn\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "alabama/tuscaloosa",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 5,
+    "demand": {
+      "forklift training tuscaloosa": null,
+      "forklift certification tuscaloosa": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "arkansas/jacksonville",
+    "city": "Jacksonville",
+    "state": "AR",
+    "tier": 2,
+    "populationRank": 15,
+    "demand": {
+      "forklift training jacksonville ar": null,
+      "forklift certification jacksonville ar": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"jacksonville ar\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "georgia/savannah",
+    "city": "Savannah",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 5,
+    "demand": {
+      "forklift training savannah": null,
+      "forklift certification savannah": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "indiana/anderson",
+    "city": "Anderson",
+    "state": "IN",
+    "tier": 2,
+    "populationRank": 15,
+    "demand": {
+      "forklift training anderson in": null,
+      "forklift certification anderson in": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"anderson in\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "iowa/bettendorf",
+    "city": "Bettendorf",
+    "state": "IA",
+    "tier": 2,
+    "populationRank": 15,
+    "demand": {
+      "forklift training bettendorf": null,
+      "forklift certification bettendorf": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kansas/garden-city",
+    "city": "Garden City",
+    "state": "KS",
+    "tier": 2,
+    "populationRank": 15,
+    "demand": {
+      "forklift training garden city ks": null,
+      "forklift certification garden city ks": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"garden city ks\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "kentucky/paducah",
+    "city": "Paducah",
+    "state": "KY",
+    "tier": 2,
+    "populationRank": 15,
+    "demand": {
+      "forklift training paducah": null,
+      "forklift certification paducah": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/biloxi",
+    "city": "Biloxi",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 5,
+    "demand": {
+      "forklift training biloxi": null,
+      "forklift certification biloxi": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "nebraska/chalco",
+    "city": "Chalco",
+    "state": "NE",
+    "tier": 2,
+    "populationRank": 15,
+    "demand": {
+      "forklift training chalco": null,
+      "forklift certification chalco": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/west-fargo",
+    "city": "West Fargo",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 5,
+    "demand": {
+      "forklift training west fargo": null,
+      "forklift certification west fargo": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "oklahoma/yukon",
+    "city": "Yukon",
+    "state": "OK",
+    "tier": 2,
+    "populationRank": 15,
+    "demand": {
+      "forklift training yukon": null,
+      "forklift certification yukon": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/watertown",
+    "city": "Watertown",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 5,
+    "demand": {
+      "forklift training watertown sd": null,
+      "forklift certification watertown sd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"watertown sd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "tennessee/brentwood",
+    "city": "Brentwood",
+    "state": "TN",
+    "tier": 2,
+    "populationRank": 15,
+    "demand": {
+      "forklift training brentwood tn": null,
+      "forklift certification brentwood tn": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"brentwood tn\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "alabama/hoover",
+    "city": "Hoover",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 6,
+    "demand": {
+      "forklift training hoover": null,
+      "forklift certification hoover": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "louisiana/lake-charles",
+    "city": "Lake Charles",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 6,
+    "demand": {
+      "forklift training lake charles": null,
+      "forklift certification lake charles": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/meridian",
+    "city": "Meridian",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 6,
+    "demand": {
+      "forklift training meridian ms": null,
+      "forklift certification meridian ms": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"meridian ms\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/mandan",
+    "city": "Mandan",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 6,
+    "demand": {
+      "forklift training mandan": null,
+      "forklift certification mandan": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/mitchell",
+    "city": "Mitchell",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 6,
+    "demand": {
+      "forklift training mitchell sd": null,
+      "forklift certification mitchell sd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 2.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"mitchell sd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "alabama/dothan",
+    "city": "Dothan",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 7,
+    "demand": {
+      "forklift training dothan": null,
+      "forklift certification dothan": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "georgia/sandy-springs",
+    "city": "Sandy Springs",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 7,
+    "demand": {
+      "forklift training sandy springs": null,
+      "forklift certification sandy springs": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "louisiana/kenner",
+    "city": "Kenner",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 7,
+    "demand": {
+      "forklift training kenner": null,
+      "forklift certification kenner": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/tupelo",
+    "city": "Tupelo",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 7,
+    "demand": {
+      "forklift training tupelo": null,
+      "forklift certification tupelo": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/dickinson",
+    "city": "Dickinson",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 7,
+    "demand": {
+      "forklift training dickinson nd": null,
+      "forklift certification dickinson nd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"dickinson nd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/yankton",
+    "city": "Yankton",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 7,
+    "demand": {
+      "forklift training yankton": null,
+      "forklift certification yankton": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "alabama/auburn",
+    "city": "Auburn",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 8,
+    "demand": {
+      "forklift training auburn al": null,
+      "forklift certification auburn al": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"auburn al\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "georgia/roswell",
+    "city": "Roswell",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 8,
+    "demand": {
+      "forklift training roswell ga": null,
+      "forklift certification roswell ga": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"roswell ga\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "louisiana/bossier-city",
+    "city": "Bossier City",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 8,
+    "demand": {
+      "forklift training bossier city": null,
+      "forklift certification bossier city": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/greenville",
+    "city": "Greenville",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 8,
+    "demand": {
+      "forklift training greenville ms": null,
+      "forklift certification greenville ms": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"greenville ms\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/jamestown",
+    "city": "Jamestown",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 8,
+    "demand": {
+      "forklift training jamestown nd": null,
+      "forklift certification jamestown nd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "Ambiguous name - queried with state suffix (\"jamestown nd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/pierre",
+    "city": "Pierre",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 8,
+    "demand": {
+      "forklift training pierre": null,
+      "forklift certification pierre": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "alabama/decatur",
+    "city": "Decatur",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 9,
+    "demand": {
+      "forklift training decatur al": null,
+      "forklift certification decatur al": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"decatur al\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/olive-branch",
+    "city": "Olive Branch",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 9,
+    "demand": {
+      "forklift training olive branch": null,
+      "forklift certification olive branch": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/williston",
+    "city": "Williston",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 9,
+    "demand": {
+      "forklift training williston nd": null,
+      "forklift certification williston nd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"williston nd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/huron",
+    "city": "Huron",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 9,
+    "demand": {
+      "forklift training huron sd": null,
+      "forklift certification huron sd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"huron sd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "texas/plano",
+    "city": "Plano",
+    "state": "TX",
+    "tier": 3,
+    "populationRank": 9,
+    "demand": {
+      "forklift training plano": null,
+      "forklift certification plano": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "alabama/madison",
+    "city": "Madison",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 10,
+    "demand": {
+      "forklift training madison al": null,
+      "forklift certification madison al": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"madison al\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "georgia/johns-creek",
+    "city": "Johns Creek",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 10,
+    "demand": {
+      "forklift training johns creek": null,
+      "forklift certification johns creek": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "louisiana/alexandria",
+    "city": "Alexandria",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 10,
+    "demand": {
+      "forklift training alexandria la": null,
+      "forklift certification alexandria la": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"alexandria la\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/horn-lake",
+    "city": "Horn Lake",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 10,
+    "demand": {
+      "forklift training horn lake": null,
+      "forklift certification horn lake": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/wahpeton",
+    "city": "Wahpeton",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 10,
+    "demand": {
+      "forklift training wahpeton": null,
+      "forklift certification wahpeton": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/spearfish",
+    "city": "Spearfish",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 10,
+    "demand": {
+      "forklift training spearfish": null,
+      "forklift certification spearfish": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "texas/laredo",
+    "city": "Laredo",
+    "state": "TX",
+    "tier": 3,
+    "populationRank": 10,
+    "demand": {
+      "forklift training laredo": null,
+      "forklift certification laredo": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "alabama/florence",
+    "city": "Florence",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 11,
+    "demand": {
+      "forklift training florence al": null,
+      "forklift certification florence al": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"florence al\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "georgia/warner-robins",
+    "city": "Warner Robins",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 11,
+    "demand": {
+      "forklift training warner robins": null,
+      "forklift certification warner robins": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "louisiana/prairieville",
+    "city": "Prairieville",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 11,
+    "demand": {
+      "forklift training prairieville": null,
+      "forklift certification prairieville": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/clinton",
+    "city": "Clinton",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 11,
+    "demand": {
+      "forklift training clinton ms": null,
+      "forklift certification clinton ms": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"clinton ms\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/devils-lake",
+    "city": "Devils Lake",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 11,
+    "demand": {
+      "forklift training devils lake": null,
+      "forklift certification devils lake": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/vermillion",
+    "city": "Vermillion",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 11,
+    "demand": {
+      "forklift training vermillion sd": null,
+      "forklift certification vermillion sd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 1.0,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"vermillion sd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "alabama/gadsden",
+    "city": "Gadsden",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 12,
+    "demand": {
+      "forklift training gadsden": null,
+      "forklift certification gadsden": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "georgia/alpharetta",
+    "city": "Alpharetta",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 12,
+    "demand": {
+      "forklift training alpharetta": null,
+      "forklift certification alpharetta": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "louisiana/new-iberia",
+    "city": "New Iberia",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 12,
+    "demand": {
+      "forklift training new iberia": null,
+      "forklift certification new iberia": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/pearl",
+    "city": "Pearl",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 12,
+    "demand": {
+      "forklift training pearl ms": null,
+      "forklift certification pearl ms": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"pearl ms\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/grafton",
+    "city": "Grafton",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 12,
+    "demand": {
+      "forklift training grafton nd": null,
+      "forklift certification grafton nd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"grafton nd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/brandon",
+    "city": "Brandon",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 12,
+    "demand": {
+      "forklift training brandon sd": null,
+      "forklift certification brandon sd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"brandon sd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "texas/garland",
+    "city": "Garland",
+    "state": "TX",
+    "tier": 3,
+    "populationRank": 12,
+    "demand": {
+      "forklift training garland": null,
+      "forklift certification garland": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.8,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "alabama/vestavia-hills",
+    "city": "Vestavia Hills",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 13,
+    "demand": {
+      "forklift training vestavia hills": null,
+      "forklift certification vestavia hills": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "louisiana/laplace",
+    "city": "Laplace",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 13,
+    "demand": {
+      "forklift training laplace": null,
+      "forklift certification laplace": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/ridgeland",
+    "city": "Ridgeland",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 13,
+    "demand": {
+      "forklift training ridgeland": null,
+      "forklift certification ridgeland": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/valley-city",
+    "city": "Valley City",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 13,
+    "demand": {
+      "forklift training valley city": null,
+      "forklift certification valley city": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/sturgis",
+    "city": "Sturgis",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 13,
+    "demand": {
+      "forklift training sturgis sd": null,
+      "forklift certification sturgis sd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"sturgis sd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "texas/irving",
+    "city": "Irving",
+    "state": "TX",
+    "tier": 3,
+    "populationRank": 13,
+    "demand": {
+      "forklift training irving": null,
+      "forklift certification irving": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.6,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "alabama/prattville",
+    "city": "Prattville",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 14,
+    "demand": {
+      "forklift training prattville": null,
+      "forklift certification prattville": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "georgia/valdosta",
+    "city": "Valdosta",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 14,
+    "demand": {
+      "forklift training valdosta": null,
+      "forklift certification valdosta": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "louisiana/slidell",
+    "city": "Slidell",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 14,
+    "demand": {
+      "forklift training slidell": null,
+      "forklift certification slidell": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/madison",
+    "city": "Madison",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 14,
+    "demand": {
+      "forklift training madison ms": null,
+      "forklift certification madison ms": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"madison ms\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/lincoln",
+    "city": "Lincoln",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 14,
+    "demand": {
+      "forklift training lincoln nd": null,
+      "forklift certification lincoln nd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"lincoln nd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/box-elder",
+    "city": "Box Elder",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 14,
+    "demand": {
+      "forklift training box elder sd": null,
+      "forklift certification box elder sd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.4,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"box elder sd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "alabama/phenix-city",
+    "city": "Phenix City",
+    "state": "AL",
+    "tier": 3,
+    "populationRank": 15,
+    "demand": {
+      "forklift training phenix city": null,
+      "forklift certification phenix city": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "georgia/smyrna",
+    "city": "Smyrna",
+    "state": "GA",
+    "tier": 3,
+    "populationRank": 15,
+    "demand": {
+      "forklift training smyrna ga": null,
+      "forklift certification smyrna ga": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"smyrna ga\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "louisiana/terrytown",
+    "city": "Terrytown",
+    "state": "LA",
+    "tier": 3,
+    "populationRank": 15,
+    "demand": {
+      "forklift training terrytown": null,
+      "forklift certification terrytown": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "mississippi/starkville",
+    "city": "Starkville",
+    "state": "MS",
+    "tier": 3,
+    "populationRank": 15,
+    "demand": {
+      "forklift training starkville": null,
+      "forklift certification starkville": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "north-dakota/watford-city",
+    "city": "Watford City",
+    "state": "ND",
+    "tier": 3,
+    "populationRank": 15,
+    "demand": {
+      "forklift training watford city": null,
+      "forklift certification watford city": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "south-dakota/harrisburg",
+    "city": "Harrisburg",
+    "state": "SD",
+    "tier": 3,
+    "populationRank": 15,
+    "demand": {
+      "forklift training harrisburg sd": null,
+      "forklift certification harrisburg sd": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): DataForSEO Labs only",
+    "notes": "Ambiguous name - queried with state suffix (\"harrisburg sd\").",
+    "wave": null,
+    "rank": null
+  },
+  {
+    "slug": "texas/grand-prairie",
+    "city": "Grand Prairie",
+    "state": "TX",
+    "tier": 3,
+    "populationRank": 15,
+    "demand": {
+      "forklift training grand prairie": null,
+      "forklift certification grand prairie": null
+    },
+    "demandTotal": 0,
+    "grouped": false,
+    "topKeyword": null,
+    "score": 0.2,
+    "source": "bhgsafety.com rollout data (2026-09-22): Google Ads (training/certification/osha training) + DataForSEO Labs",
+    "notes": "",
+    "wave": null,
+    "rank": null
+  }
+]
