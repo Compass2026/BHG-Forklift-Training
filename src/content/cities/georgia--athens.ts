@@ -4,24 +4,24 @@ const content: CityContent = {
   slug: "georgia/athens",
   updated: "2026-09-22",
   metaDescription:
-    "Forklift training at your Athens, GA plant: Caterpillar, Pilgrim's, Carrier Transicold and Athens-Clarke County manufacturers, on your trucks, federal OSHA rules.",
+    "Forklift training at your Athens, GA plant for food processors, equipment makers and Athens-Clarke County manufacturers, on your trucks, under federal OSHA.",
   lede:
-    "Athens, Georgia is best known for the university, but Athens-Clarke County also has a manufacturing base that runs on forklifts, from a Caterpillar equipment plant to food processing and industrial parks served by rail. BHG Forklift Training comes to your Athens-area facility and trains and evaluates your operators on your own trucks.",
+    "Athens, Georgia is home to the University of Georgia, and Athens-Clarke County also has a manufacturing base that runs on forklifts, from a Caterpillar equipment plant to food processing and industrial parks served by rail. BHG Forklift Training comes to your Athens-area facility and trains and evaluates your operators on your own trucks.",
   intro: [
-    "The Athens-Clarke County Economic Development Department's list of private employers puts Pilgrim's at 1,350 jobs and the Caterpillar Athens Plant at 1,100, ahead of Boehringer Ingelheim Animal Health, Power Partners, Carrier Transicold and ABB. Georgia's Innovation Corridor Joint Development Authority sums up the county's industrial history as food processing, pharmaceuticals, plastics and now Caterpillar machines, with CSX and Norfolk Southern lines running into the Athena Industrial Park. Every one of those plants receives, stores and ships material by forklift.",
-    "Georgia does not run an OSHA State Plan for private employers, so Athens plants fall under federal OSHA and the powered industrial truck standard, 29 CFR 1910.178, applies as written. OSHA assigns Clarke County, and the neighboring counties most Athens employers draw from, to its Atlanta East Area Office. There is no separate Georgia forklift rule to reconcile.",
+    "The Athens-Clarke County Economic Development Department's list of private employers puts Pilgrim's at 1,350 jobs and the Caterpillar Athens Plant at 1,100, ahead of Boehringer Ingelheim Animal Health, Power Partners, Carrier Transicold and ABB. Georgia's Innovation Corridor Joint Development Authority sums up the county's industrial history as food processing, pharmaceuticals, plastics and now Caterpillar bulldozers, with CSX and Norfolk Southern lines running into the Athena Industrial Park. Every one of those plants receives, stores and ships material by forklift.",
+    "Georgia does not run an OSHA State Plan for private employers, so Athens plants fall under federal OSHA and the powered industrial truck standard, 29 CFR 1910.178, applies as written. OSHA assigns Clarke County, along with neighboring Oconee, Jackson, Madison, Oglethorpe and Barrow counties, to its Atlanta East Area Office. There is no separate Georgia forklift rule to reconcile.",
     "BHG Forklift Training belongs to BHG Safety Partners LLC, a Disabled Veteran-Owned company in Hannibal, Missouri, and does its work at the client's site. For an Athens plant that means classroom sessions, hands-on practice and an evaluation of each operator on your own trucks and floor, with training available in English or Spanish. Your company certifies the operators once they are evaluated.",
   ],
   materialHandling: [
     {
       name: "Caterpillar Athens Plant",
       detail:
-        "When Caterpillar chose a site near Athens in 2012, it said the plant would build small track-type tractors and mini hydraulic excavators. Heavy weldments, engines and finished machines move through a plant like this, so capacity plates, load center, attachments and travel near assembly stations are the main training points.",
+        "When Caterpillar chose a site near Athens in 2012, it said the plant would build small track-type tractors and mini hydraulic excavators. Heavy frames, components and finished machines move through a plant like this, so capacity plates, load center, attachments and travel near assembly stations are the main training points.",
     },
     {
       name: "Food processing",
       detail:
-        "Pilgrim's is the largest private manufacturer on the Athens-Clarke County employer list, with 1,350 jobs. Food plants combine electric forklifts and pallet jacks with wet, washed-down floors and refrigerated rooms, so traction, cold exposure and travel between coolers and warm docks need to be part of hands-on training.",
+        "Pilgrim's, the chicken producer, lists Athens, GA among its North American facilities, and its 1,350 jobs put it first among non-health-care companies on the county's private employer list. Food plants combine electric forklifts and pallet jacks with wet, washed-down floors and refrigerated rooms, so traction, cold exposure and travel between coolers and warm docks need to be part of hands-on training.",
     },
     {
       name: "Equipment, electrical and refrigeration manufacturing",
@@ -31,7 +31,7 @@ const content: CityContent = {
     {
       name: "Rail-served industrial parks",
       detail:
-        "According to the Georgia's Innovation Corridor Joint Development Authority, CSX and Norfolk Southern provide freight service into Athens, with lines running directly to the Athena Industrial Park. Loading boxcars and trailers puts operators on bridge plates and dock edges, where wheel chocks, trailer restraints and plate capacity have to be checked every time.",
+        "According to Georgia's Innovation Corridor Joint Development Authority, CSX and Norfolk Southern provide freight service into Athens, with lines running directly to the Athena Industrial Park. Loading boxcars and trailers puts operators on bridge plates and dock edges, where wheel chocks, trailer restraints and plate capacity have to be checked every time.",
     },
   ],
   oshaOffice: {
@@ -90,6 +90,10 @@ const content: CityContent = {
     {
       label: "Athens-Clarke County Economic Development Department: Advanced Manufacturing",
       url: "https://investathensga.com/target-sectors/advanced-manufacturing/",
+    },
+    {
+      label: "Pilgrim's: Facilities and locations (sustainability report)",
+      url: "https://sustainability.pilgrims.com/chapters/who-we-are/facilities-and-locations/",
     },
     {
       label: "Georgia's Innovation Corridor Joint Development Authority: Athens-Clarke County",
