@@ -4,7 +4,7 @@ Ranked list of the next city pages for bhgforklifttraining.com, built from measu
 
 ## Summary
 
-- **32 cities are live** (`src/lib/live-cities.ts`): the 12 launch cities plus all of Waves 1 and 2, published 2026-09-22. The launch cities are: Houston, Chicago, Memphis, Atlanta, San Antonio, Indianapolis, Dallas, Oklahoma City, Nashville, Tulsa, St. Louis and Kansas City. They were chosen from this same data: the top forklift-demand cities plus the home market.
+- **44 cities are live** (`src/lib/live-cities.ts`): the 12 launch cities plus all of Waves 1-4 (every candidate with measured demand), published 2026-09-22 and 2026-09-23. Further pages should come from Search Console data (see the zero-demand list below). The launch cities are: Houston, Chicago, Memphis, Atlanta, San Antonio, Indianapolis, Dallas, Oklahoma City, Nashville, Tulsa, St. Louis and Kansas City. They were chosen from this same data: the top forklift-demand cities plus the home market.
 - **245 candidates scored** (below): the top 15 cities per state from `data/locations.json`, plus Hannibal, MO and Quincy, IL, minus the 12 live cities.
 - **30 candidates have measurable forklift demand** (at least one keyword at 10+ searches/month). The other 213 measured zero, including Hannibal and Quincy.
 - **Waves 1-4 hold 32 pages**: all 30 cities with demand, plus Hannibal and Quincy as home-area overrides. At 2-3 pages/week, that is about 12-14 weeks of publishing.
@@ -72,7 +72,7 @@ Rank = suggested publish order. Demand = searches/month (US).
 | 19 | Lafayette | LA | `louisiana/lafayette` | 20 | forklift training lafayette la (10) | 3 | Ambiguous name - queried with state suffix ("lafayette la"). |
 | 20 | Albany | GA | `georgia/albany` | 20 | forklift training albany ga (10) | 3 | Ambiguous name - queried with state suffix ("albany ga"). |
 
-### Wave 3: 10 pages
+### Wave 3: 10 pages (published 2026-09-23)
 
 | Rank | City | State | Slug | Demand | Top keyword | Tier | Notes |
 |---:|---|---|---|---:|---|:-:|---|
@@ -87,7 +87,7 @@ Rank = suggested publish order. Demand = searches/month (US).
 | 29 | Monroe | LA | `louisiana/monroe` | 10 | forklift certification monroe la (10) | 3 | Ambiguous name - queried with state suffix ("monroe la"). |
 | 30 | Lubbock | TX | `texas/lubbock` | 10 | forklift training lubbock (10) | 3 |  |
 
-### Wave 4: 2 pages
+### Wave 4: 2 pages (published 2026-09-23)
 
 | Rank | City | State | Slug | Demand | Top keyword | Tier | Notes |
 |---:|---|---|---|---:|---|:-:|---|

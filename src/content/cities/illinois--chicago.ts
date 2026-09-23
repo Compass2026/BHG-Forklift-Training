@@ -2,7 +2,7 @@ import type { CityContent } from "./types";
 
 const content: CityContent = {
   slug: "illinois/chicago",
-  updated: "2026-09-22",
+  updated: "2026-09-23",
   metaDescription:
     "Onsite forklift training in Chicago for food plants, O'Hare cargo warehouses, Joliet/Elwood intermodal parks and Calumet port terminals, on your own trucks.",
   lede:
@@ -37,7 +37,7 @@ const content: CityContent = {
   oshaOffice: {
     name: "OSHA Chicago North Area Office or Chicago South Area Office",
     location:
-      "Chicago North: 2020 S. Arlington Heights Road, Suite 102, Arlington Heights, IL 60005. Chicago South: 8505 W. 183rd Street, Suite C, Tinley Park, IL 60487",
+      "Chicago South: 8505 W. 183rd Street, Suite C, Tinley Park, IL 60487. Chicago North: see OSHA's Illinois directory for its current address",
     url: "https://www.osha.gov/contactus/bystate/IL/areaoffice",
     note: "OSHA's Illinois directory lists Cook County under both the Chicago North and Chicago South area offices and does not publish the dividing line, so confirm which one covers your address. Will County (Joliet and Elwood) is assigned to Chicago South, Lake County to Chicago North, and DuPage County to the Naperville Area Office.",
   },
@@ -68,7 +68,7 @@ const content: CityContent = {
     {
       question: "Which OSHA office covers our Chicago warehouse, and does IL OSHA apply?",
       answer:
-        "Private employers in Chicago fall under federal OSHA. OSHA's directory splits Cook County between the Chicago North Area Office in Arlington Heights and the Chicago South Area Office in Tinley Park, so check which covers your address. Will County sites, including Joliet and Elwood, go to Chicago South. IL OSHA covers state and local government employers only.",
+        "Private employers in Chicago fall under federal OSHA. OSHA's directory splits Cook County between the Chicago North Area Office and the Chicago South Area Office in Tinley Park, so check which covers your address. Will County sites, including Joliet and Elwood, go to Chicago South. IL OSHA covers state and local government employers only.",
     },
     {
       question: "Can you train operators at our distribution building in the Joliet/Elwood intermodal park?",

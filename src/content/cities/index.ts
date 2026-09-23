@@ -4,20 +4,29 @@ import classesData from "../../../data/classes.json";
 import alabamaBirmingham from "./alabama--birmingham";
 import alabamaMobile from "./alabama--mobile";
 import georgiaAlbany from "./georgia--albany";
+import georgiaAthens from "./georgia--athens";
 import georgiaAtlanta from "./georgia--atlanta";
 import georgiaAugusta from "./georgia--augusta";
 import georgiaColumbus from "./georgia--columbus";
+import georgiaMarietta from "./georgia--marietta";
 import illinoisAurora from "./illinois--aurora";
 import illinoisChicago from "./illinois--chicago";
+import illinoisElgin from "./illinois--elgin";
+import illinoisPeoria from "./illinois--peoria";
 import illinoisQuincy from "./illinois--quincy";
+import indianaFortWayne from "./indiana--fort-wayne";
 import indianaIndianapolis from "./indiana--indianapolis";
+import iowaDesMoines from "./iowa--des-moines";
+import kentuckyLexington from "./kentucky--lexington";
 import louisianaBatonRouge from "./louisiana--baton-rouge";
 import louisianaLafayette from "./louisiana--lafayette";
+import louisianaMonroe from "./louisiana--monroe";
 import louisianaNewOrleans from "./louisiana--new-orleans";
 import louisianaShreveport from "./louisiana--shreveport";
 import mississippiJackson from "./mississippi--jackson";
 import missouriHannibal from "./missouri--hannibal";
 import missouriKansasCity from "./missouri--kansas-city";
+import missouriSpringfield from "./missouri--springfield";
 import missouriStLouis from "./missouri--st-louis";
 import nebraskaOmaha from "./nebraska--omaha";
 import oklahomaOklahomaCity from "./oklahoma--oklahoma-city";
@@ -26,12 +35,15 @@ import tennesseeJackson from "./tennessee--jackson";
 import tennesseeKnoxville from "./tennessee--knoxville";
 import tennesseeMemphis from "./tennessee--memphis";
 import tennesseeNashville from "./tennessee--nashville";
+import texasAmarillo from "./texas--amarillo";
 import texasArlington from "./texas--arlington";
 import texasAustin from "./texas--austin";
+import texasCorpusChristi from "./texas--corpus-christi";
 import texasDallas from "./texas--dallas";
 import texasElPaso from "./texas--el-paso";
 import texasFortWorth from "./texas--fort-worth";
 import texasHouston from "./texas--houston";
+import texasLubbock from "./texas--lubbock";
 import texasSanAntonio from "./texas--san-antonio";
 
 const classSlugs = new Set(classesData.map((c) => c.slug));
@@ -71,20 +83,29 @@ const cityContent: Record<string, CityContent> = Object.fromEntries(
     alabamaBirmingham,
     alabamaMobile,
     georgiaAlbany,
+    georgiaAthens,
     georgiaAtlanta,
     georgiaAugusta,
     georgiaColumbus,
+    georgiaMarietta,
     illinoisAurora,
     illinoisChicago,
+    illinoisElgin,
+    illinoisPeoria,
     illinoisQuincy,
+    indianaFortWayne,
     indianaIndianapolis,
+    iowaDesMoines,
+    kentuckyLexington,
     louisianaBatonRouge,
     louisianaLafayette,
+    louisianaMonroe,
     louisianaNewOrleans,
     louisianaShreveport,
     mississippiJackson,
     missouriHannibal,
     missouriKansasCity,
+    missouriSpringfield,
     missouriStLouis,
     nebraskaOmaha,
     oklahomaOklahomaCity,
@@ -93,12 +114,15 @@ const cityContent: Record<string, CityContent> = Object.fromEntries(
     tennesseeKnoxville,
     tennesseeMemphis,
     tennesseeNashville,
+    texasAmarillo,
     texasArlington,
     texasAustin,
+    texasCorpusChristi,
     texasDallas,
     texasElPaso,
     texasFortWorth,
     texasHouston,
+    texasLubbock,
     texasSanAntonio,
   ].map((content) => {
     const errors = validateCityContent(content);
