@@ -43,7 +43,7 @@ export default function HeroGlass({
     </span>
   ),
   subheadline = "On-Site, Hands On, OSHA Certified Forklift Training. Tailored to your team and industry.",
-  body = "With over 45 years of combined experience, BHG Forklift Training trains and evaluates forklift operators at your facility, in English or Spanish, for employers across 17 states in the Midwest and South.",
+  body = "With over 65 years of combined experience, BHG Forklift Training trains and evaluates forklift operators at your facility, in English or Spanish, for employers across 17 states in the Midwest and South.",
   ctaPrimary = { href: "/contact", label: "Request Training" },
   ctaSecondary = { href: "/classes", label: "View Forklift Classes" },
   showScrollNudge = true,

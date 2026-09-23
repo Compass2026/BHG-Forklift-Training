@@ -50,7 +50,7 @@ export default function Testimonial() {
             </div>
             {/* Floating stat badge */}
             <div className="absolute -bottom-6 -right-4 md:right-4 bg-bhg-orange rounded-2xl px-6 py-4 shadow-xl shadow-bhg-orange/30 flex items-center gap-4">
-              <span className="text-3xl font-extrabold text-white">45+</span>
+              <span className="text-3xl font-extrabold text-white">65+</span>
               <span className="text-xs font-semibold text-white/85 leading-tight max-w-[80px]">
                 Years of Combined Experience
               </span>
