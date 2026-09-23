@@ -417,7 +417,7 @@
     "notes": "Ambiguous name - queried with state suffix (\"springfield mo\").",
     "wave": 3,
     "rank": 21,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "illinois/elgin",
@@ -437,7 +437,7 @@
     "notes": "",
     "wave": 3,
     "rank": 22,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "illinois/peoria",
@@ -457,7 +457,7 @@
     "notes": "Ambiguous name - queried with state suffix (\"peoria il\").",
     "wave": 3,
     "rank": 23,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "iowa/des-moines",
@@ -477,7 +477,7 @@
     "notes": "",
     "wave": 3,
     "rank": 24,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "indiana/fort-wayne",
@@ -497,7 +497,7 @@
     "notes": "",
     "wave": 3,
     "rank": 25,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "kentucky/lexington",
@@ -517,7 +517,7 @@
     "notes": "",
     "wave": 3,
     "rank": 26,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "georgia/athens",
@@ -537,7 +537,7 @@
     "notes": "Ambiguous name - queried with state suffix (\"athens ga\").",
     "wave": 3,
     "rank": 27,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "texas/corpus-christi",
@@ -557,7 +557,7 @@
     "notes": "",
     "wave": 3,
     "rank": 28,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "louisiana/monroe",
@@ -577,7 +577,7 @@
     "notes": "Ambiguous name - queried with state suffix (\"monroe la\").",
     "wave": 3,
     "rank": 29,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "texas/lubbock",
@@ -597,7 +597,7 @@
     "notes": "",
     "wave": 3,
     "rank": 30,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "georgia/marietta",
@@ -617,7 +617,7 @@
     "notes": "Ambiguous name - queried with state suffix (\"marietta ga\").",
     "wave": 4,
     "rank": 31,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "texas/amarillo",
@@ -637,7 +637,7 @@
     "notes": "",
     "wave": 4,
     "rank": 32,
-    "status": "planned"
+    "status": "live"
   },
   {
     "slug": "illinois/joliet",

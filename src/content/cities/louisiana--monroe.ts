@@ -8,9 +8,9 @@ const content: CityContent = {
   lede:
     "In Monroe, Louisiana, forklifts move paperboard rolls and finished cartons along I-20, stack rolls of plastic film and load trailers in Ouachita Parish warehouses. BHG Forklift Training comes to your Monroe facility and trains and evaluates your operators on your own trucks.",
   intro: [
-    "The Monroe Chamber of Commerce credits Interstate 20 with making Monroe a shipping point for northeast Louisiana, and says food processing, chemicals, plastics and paper products carry much of the local manufacturing economy. Louisiana Economic Development's announcements show what that looks like on the ground. There is a 1.27 million-square-foot folding carton plant and logistics center on Millhaven Road, a polyethylene film maker that has expanded again and again, and South Monroe Industrial Park, picked in 2026 as one of the state's first FastSites for future industrial and logistics projects.",
-    "Forklift work in these plants varies a lot. Paperboard arrives in heavy rolls that need clamp attachments and careful handling. Finished cartons and film leave on pallets stacked in high racking and loaded into trailers at a steady pace. Some buildings run automated guided vehicles alongside forklifts, so operators need to know how the robots move and where people walk. OSHA expects each operator to be trained on the truck they use and evaluated in their actual workplace.",
-    "BHG Forklift Training belongs to BHG Safety Partners LLC, a Disabled Veteran-Owned company in Hannibal, Missouri, and we bring the training to Ouachita Parish instead of sending your people away. Classroom instruction, hands-on practice and each operator's evaluation all happen at your site, on your trucks and with your loads. Your company then certifies the operators who pass.",
+    "The Monroe Chamber of Commerce points to Interstate 20 as the corridor that gives Monroe manufacturers efficient shipping to major markets, and names food processing, chemicals, plastics and paper products as the core of local manufacturing. Louisiana Economic Development's announcements show what that looks like on the ground. There is a 1.27 million-square-foot folding carton plant and logistics center on Millhaven Road, a polyethylene film maker that has expanded several times, and South Monroe Industrial Park, picked in 2026 as one of the state's first FastSites for future industrial and logistics projects.",
+    "Forklift work in these plants varies a lot. Paperboard arrives in heavy rolls, often moved with roll clamps, and has to be handled carefully. Finished cartons and film leave on pallets stacked in high racking and loaded into trailers at a steady pace. Some buildings run automated guided vehicles alongside forklifts, so operators need to know how the robots move and where people walk. OSHA expects each operator to be trained on the truck they use and evaluated in their actual workplace.",
+    "BHG Forklift Training belongs to BHG Safety Partners LLC, a Disabled Veteran-Owned company in Hannibal, Missouri, and we bring the training to Ouachita Parish instead of sending your people away. Classroom instruction, hands-on practice and each operator's evaluation all happen at your site, on your trucks and with your loads. Your company then certifies the operators who pass. Training can be delivered in English or Spanish.",
   ],
   materialHandling: [
     {
@@ -21,7 +21,7 @@ const content: CityContent = {
     {
       name: "Mid South Extrusion film and bag plant",
       detail:
-        "LED reports that Mid South Extrusion is installing two new blown film lines, bringing its Monroe operation to 14 production lines in 350,000 square feet with more than 200 employees. Rolls and pallets of film are heavy for their size and can slide off smooth forks, and moving them all day means frequent trips between production lines and trailers.",
+        "LED reported that Mid South Extrusion's $17 million expansion adds two blown film lines, bringing its Monroe operation to 14 production lines in 350,000 square feet with more than 200 employees. Rolls and pallets of film are heavy for their size and can slide off smooth forks, and moving them all day means frequent trips between production lines and trailers.",
     },
     {
       name: "Pecanland and South Monroe industrial sites",

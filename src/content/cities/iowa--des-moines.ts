@@ -42,7 +42,7 @@ const content: CityContent = {
   },
   localConsiderations: [
     "Iowa's State Plan covers private sector workplaces across the state, and OSHA notes that Iowa OSHA has adopted OSHA's standards. That means the operator training requirements in 29 CFR 1910.178(l) apply in Des Moines as they do elsewhere, but inspections, citations and complaints go through Iowa OSHA at 6200 Park Avenue.",
-    "Iowa OSHA requires employers to report a work-related death within eight hours and an in-patient hospitalization, amputation or loss of an eye within 24 hours, through its 24-hour fatality line or online incident form. A serious forklift incident in Des Moines is reported to the state program, not to a federal area office.",
+    "Under Iowa OSHA's reporting rules, a work-related death has to be reported within eight hours, and an in-patient hospitalization, amputation or eye loss within 24 hours, by the state's 24-hour fatality line or its incident form. A serious forklift incident in Des Moines is reported to the state program, not to a federal area office.",
     "Central Iowa winters are long for dock and yard crews. NOAA's 1991-2020 normals for Des Moines International Airport show 36.5 inches of snow a year, 127.9 days with a low at or below freezing, 45.5 days when the high stays at or below freezing and 10.4 nights at or below zero. Ice on dock plates and ramps, snow tracked into trailers, and cold-weather battery and propane performance belong in training.",
     "Summer adds heat: the same normals show 22 days a year reaching 90 degrees or more. Operators working in trailers or on outdoor yards need water and breaks, and propane cylinders should be stored out of direct sun.",
   ],

@@ -40,25 +40,35 @@ export const STATE_SLUGS = [
 ] as const;
 
 // Launch set (12) chosen 2026-09-22 from measured forklift search demand, plus
-// Waves 1 and 2 of docs/city-rollout.md (10 each), published 2026-09-22.
+// Waves 1-4 of docs/city-rollout.md (all 32 demand-backed cities), published
+// 2026-09-22 and 2026-09-23.
 export const LIVE_CITY_SLUGS: readonly string[] = [
   "alabama/birmingham",
   "alabama/mobile",
   "georgia/albany",
+  "georgia/athens",
   "georgia/atlanta",
   "georgia/augusta",
   "georgia/columbus",
+  "georgia/marietta",
   "illinois/aurora",
   "illinois/chicago",
+  "illinois/elgin",
+  "illinois/peoria",
   "illinois/quincy",
+  "indiana/fort-wayne",
   "indiana/indianapolis",
+  "iowa/des-moines",
+  "kentucky/lexington",
   "louisiana/baton-rouge",
   "louisiana/lafayette",
+  "louisiana/monroe",
   "louisiana/new-orleans",
   "louisiana/shreveport",
   "mississippi/jackson",
   "missouri/hannibal",
   "missouri/kansas-city",
+  "missouri/springfield",
   "missouri/st-louis",
   "nebraska/omaha",
   "oklahoma/oklahoma-city",
@@ -67,12 +77,15 @@ export const LIVE_CITY_SLUGS: readonly string[] = [
   "tennessee/knoxville",
   "tennessee/memphis",
   "tennessee/nashville",
+  "texas/amarillo",
   "texas/arlington",
   "texas/austin",
+  "texas/corpus-christi",
   "texas/dallas",
   "texas/el-paso",
   "texas/fort-worth",
   "texas/houston",
+  "texas/lubbock",
   "texas/san-antonio",
 ];
 
