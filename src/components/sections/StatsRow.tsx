@@ -9,7 +9,7 @@ const stats = [
   },
   {
     id: "stat-experience",
-    value: "45+",
+    value: "65+",
     label: "Years of Experience",
     detail: "In material handling safety",
   },

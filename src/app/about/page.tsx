@@ -103,7 +103,7 @@ export default function AboutPage() {
                 <p>
                   BHG Forklift Training was born from a simple, non-negotiable
                   belief: workplace safety is not a compliance checkbox — it is a
-                  moral obligation. Specialized in forklift and material handling operations, we provide on-site, OSHA-compliant safety training across the nation. Founded by industry veterans with more than 45 years of combined logistics and safety experience, our firm has grown into one of the industry&apos;s most trusted partners.
+                  moral obligation. Specialized in forklift and material handling operations, we provide on-site, OSHA-compliant safety training across the nation. Founded by industry veterans with more than 65 years of combined logistics and safety experience, our firm has grown into one of the industry&apos;s most trusted partners.
                 </p>
                 <p>
                   Our roots are in the field. Our safety instructors spent decades managing logistics yards, driving heavy equipment on active construction sites, and supervising busy distribution warehouses before stepping into the classroom. That real-world, hands-on experience shapes every class and operator evaluation we deliver.
