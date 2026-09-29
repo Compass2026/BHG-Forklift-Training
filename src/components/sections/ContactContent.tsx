@@ -149,11 +149,10 @@ export default function ContactContent() {
             className="bg-bhg-gray-light rounded-2xl border border-gray-100 shadow-sm p-8 md:p-10"
           >
             <h3 className="text-xl font-bold text-bhg-black mb-1">
-              Request a Custom Quote
+              Send Us a Message
             </h3>
             <p className="text-sm text-bhg-gray-dark mb-7">
-              Fill out the form below and we&apos;ll be in touch within one business
-              day.
+              Fill out the form and we&apos;ll be in touch within one business day.
             </p>
 
             <form aria-label="Contact form" action={formAction} className="space-y-4">
@@ -168,13 +167,34 @@ export default function ContactContent() {
                 className="hidden"
               />
 
-              {/* Full Name */}
+              {/* Company Name */}
+              <div>
+                <label
+                  htmlFor="contact-company"
+                  className="block text-sm font-semibold text-bhg-black mb-1.5"
+                >
+                  Company Name
+                </label>
+                <input
+                  id="contact-company"
+                  name="company"
+                  type="text"
+                  autoComplete="organization"
+                  disabled={pending}
+                  placeholder="Acme Industries"
+                  className={inputClass("company")}
+                  onFocus={() => setFocused("company")}
+                  onBlur={() => setFocused(null)}
+                />
+              </div>
+
+              {/* Your Name */}
               <div>
                 <label
                   htmlFor="contact-name"
-                  className="block text-xs font-semibold text-bhg-black mb-1.5 tracking-wide uppercase"
+                  className="block text-sm font-semibold text-bhg-black mb-1.5"
                 >
-                  Full Name
+                  Your Name
                 </label>
                 <input
                   id="contact-name"
@@ -196,32 +216,11 @@ export default function ContactContent() {
                 )}
               </div>
 
-              {/* Company Name */}
-              <div>
-                <label
-                  htmlFor="contact-company"
-                  className="block text-xs font-semibold text-bhg-black mb-1.5 tracking-wide uppercase"
-                >
-                  Company Name
-                </label>
-                <input
-                  id="contact-company"
-                  name="company"
-                  type="text"
-                  autoComplete="organization"
-                  disabled={pending}
-                  placeholder="Acme Industries"
-                  className={inputClass("company")}
-                  onFocus={() => setFocused("company")}
-                  onBlur={() => setFocused(null)}
-                />
-              </div>
-
               {/* Email Address */}
               <div>
                 <label
                   htmlFor="contact-email-input"
-                  className="block text-xs font-semibold text-bhg-black mb-1.5 tracking-wide uppercase"
+                  className="block text-sm font-semibold text-bhg-black mb-1.5"
                 >
                   Email Address
                 </label>
@@ -249,7 +248,7 @@ export default function ContactContent() {
               <div>
                 <label
                   htmlFor="contact-phone-input"
-                  className="block text-xs font-semibold text-bhg-black mb-1.5 tracking-wide uppercase"
+                  className="block text-sm font-semibold text-bhg-black mb-1.5"
                 >
                   Phone Number
                 </label>
@@ -266,57 +265,13 @@ export default function ContactContent() {
                 />
               </div>
 
-              {/* Training Location (Dropdown) */}
-              <div>
-                <label
-                  htmlFor="contact-location"
-                  className="block text-xs font-semibold text-bhg-black mb-1.5 tracking-wide uppercase"
-                >
-                  Training Location
-                </label>
-                <select
-                  id="contact-location"
-                  name="location"
-                  disabled={pending}
-                  className={`${inputClass("location")} appearance-none`}
-                  onFocus={() => setFocused("location")}
-                  onBlur={() => setFocused(null)}
-                  defaultValue=""
-                >
-                  <option value="" disabled>Select training location...</option>
-                  <option value="On-Site at Our Facility">On-Site at Our Facility</option>
-                  <option value="At a BHG Training Center">At a BHG Training Center</option>
-                </select>
-              </div>
-
-              {/* Estimated Operators to Train (Number) */}
-              <div>
-                <label
-                  htmlFor="contact-operators"
-                  className="block text-xs font-semibold text-bhg-black mb-1.5 tracking-wide uppercase"
-                >
-                  Estimated Number of Operators to Train
-                </label>
-                <input
-                  id="contact-operators"
-                  name="operators"
-                  type="number"
-                  min="1"
-                  disabled={pending}
-                  placeholder="e.g. 10"
-                  className={inputClass("operators")}
-                  onFocus={() => setFocused("operators")}
-                  onBlur={() => setFocused(null)}
-                />
-              </div>
-
               {/* Message */}
               <div>
                 <label
                   htmlFor="contact-message"
-                  className="block text-xs font-semibold text-bhg-black mb-1.5 tracking-wide uppercase"
+                  className="block text-sm font-semibold text-bhg-black mb-1.5"
                 >
-                  Message / Special Requirements
+                  Message
                 </label>
                 <textarea
                   id="contact-message"
@@ -342,9 +297,9 @@ export default function ContactContent() {
                 type="submit"
                 id="contact-submit"
                 disabled={pending}
-                className="w-full py-3.5 rounded-xl bg-bhg-orange hover:bg-bhg-orange/95 text-white font-black text-sm shadow-md shadow-bhg-orange/20 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 mt-2 uppercase tracking-wider disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:translate-y-0"
+                className="w-full py-3.5 rounded-xl bg-bhg-orange hover:bg-bhg-orange/95 text-white font-semibold text-base shadow-md shadow-bhg-orange/20 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 mt-2 disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:translate-y-0"
               >
-                {pending ? "Sending…" : "Request Quote"}
+                {pending ? "Sending…" : "Send Message"}
               </button>
 
               {/* Submission status */}
