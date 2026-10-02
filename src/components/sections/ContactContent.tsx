@@ -258,7 +258,7 @@ export default function ContactContent() {
                   type="tel"
                   autoComplete="tel"
                   disabled={pending}
-                  placeholder="(555) 000-0000"
+                  placeholder="Phone number"
                   className={inputClass("phone")}
                   onFocus={() => setFocused("phone")}
                   onBlur={() => setFocused(null)}
