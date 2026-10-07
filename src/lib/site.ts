@@ -27,9 +27,9 @@ export const PARENT_SITE = {
 
 export const CONTACT = {
   email: "info@bhgsafety.com",
-  phone: "(573) 822-6448",
-  phoneHref: "tel:+15738226448",
-  phoneE164: "+15738226448",
+  phone: "888-823-3778",
+  phoneHref: "tel:+18888233778",
+  phoneE164: "+18888233778",
   street: "11325 Dove Ridge Road",
   city: "Hannibal",
   region: "MO",
