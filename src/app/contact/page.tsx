@@ -8,11 +8,11 @@ import ContactContent from "@/components/sections/ContactContent";
 export const metadata: Metadata = {
   title: "Contact BHG Forklift Training | Schedule Onsite Training",
   description:
-    "Call (573) 822-6448, email info@bhgsafety.com or send the form to schedule onsite forklift operator training and evaluations for your team.",
+    "Call 888-823-3778, email info@bhgsafety.com or send the form to schedule onsite forklift operator training and evaluations for your team.",
   openGraph: {
     title: "Contact BHG Forklift Training | Schedule Onsite Training",
     description:
-      "Call (573) 822-6448, email info@bhgsafety.com or send the form to schedule onsite forklift operator training and evaluations for your team.",
+      "Call 888-823-3778, email info@bhgsafety.com or send the form to schedule onsite forklift operator training and evaluations for your team.",
     type: "website",
   },
   alternates: {
