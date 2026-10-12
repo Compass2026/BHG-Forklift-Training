@@ -144,3 +144,17 @@ export function renderInquiryHtml(
   )} — reply directly to this email to reach the sender.</p>
 </div>`;
 }
+
+
+// Retain attribution only for this site's production and preview hosts.
+export function pickPageUrl(posted: string, referer: string | null): string {
+  for (const candidate of [posted, referer ?? ""]) {
+    try {
+      const url = new URL(candidate);
+      if (url.protocol === "https:" && (url.hostname === "bhgforklifttraining.com" || url.hostname === "www.bhgforklifttraining.com" || url.hostname.endsWith(".vercel.app"))) {
+        return url.toString().slice(0, 500);
+      }
+    } catch { /* Try the referer next. */ }
+  }
+  return "unknown";
+}

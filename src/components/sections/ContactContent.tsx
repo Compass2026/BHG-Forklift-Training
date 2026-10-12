@@ -2,10 +2,9 @@
 
 import { CONTACT } from "@/lib/site";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-import { useActionState, useState } from "react";
+import { useState } from "react";
 
-import { submitContactForm } from "@/app/actions/contact";
-import { initialContactFormState } from "@/lib/contact-email";
+import { useInquiryAction } from "@/lib/use-inquiry-action";
 
 // ─── Contact Info ─────────────────────────────────────────────────────────────
 
@@ -44,10 +43,7 @@ const contactDetails = [
 
 export default function ContactContent() {
   const [focused, setFocused] = useState<string | null>(null);
-  const [state, formAction, pending] = useActionState(
-    submitContactForm,
-    initialContactFormState,
-  );
+  const [state, formAction, pending] = useInquiryAction();
 
   const inputClass = (name: string) =>
     `w-full px-4 py-3 rounded-xl border text-sm text-bhg-black placeholder-gray-400 bg-white outline-none transition-all duration-200 ${
@@ -323,3 +319,4 @@ export default function ContactContent() {
     </section>
   );
 }
+
