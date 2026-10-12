@@ -24,7 +24,7 @@ export async function generateMetadata({
   const post = getPostBySlug(slug);
 
   return {
-    title: postTitle(post),
+    title: post.metaTitle ? { absolute: post.metaTitle } : postTitle(post),
     description: post.excerpt,
     alternates: {
       canonical: `/blog/${post.slug}`,
@@ -68,7 +68,7 @@ export default async function BlogPostPage({
   );
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen" data-compass-release={post.compassRelease}>
       <Schema
         data={breadcrumbSchema([
           { name: "Home", path: "/" },
@@ -118,7 +118,7 @@ export default async function BlogPostPage({
 
           {/* Title */}
           <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-            {post.title}
+            {post.h1 ?? post.title}
           </h1>
 
           {/* Excerpt */}
@@ -140,7 +140,7 @@ export default async function BlogPostPage({
         </div>
 
         {/* ── CTA ──────────────────────────────────────────────── */}
-        <aside
+        {!post.compassRelease && <aside
           className="mt-14 rounded-2xl bg-bhg-black p-8 text-white"
           aria-labelledby="post-cta-heading"
         >
@@ -167,7 +167,7 @@ export default async function BlogPostPage({
               Request Training
             </Link>
           </div>
-        </aside>
+        </aside>}
 
         {/* ── Back link ────────────────────────────────────────── */}
         <div className="mt-14 pt-8 border-t border-gray-100">
