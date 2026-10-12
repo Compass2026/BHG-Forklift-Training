@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -38,6 +39,17 @@ export default function RootLayout({
         <main className="flex-1 pt-[100px]">{children}</main>
         <Footer />
         <MobileQuoteButton />
+        <Script id="compass-ga4" strategy="afterInteractive">{`(function () {
+  if (!["bhgforklifttraining.com","www.bhgforklifttraining.com"].includes(window.location.hostname)) return;
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+  window.gtag('js', new Date());
+  window.gtag('config', 'G-KX0T01CER5');
+  var script = document.createElement('script');
+  script.async = true;
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=G-KX0T01CER5';
+  document.head.appendChild(script);
+})();`}</Script>
       </body>
     </html>
   );
