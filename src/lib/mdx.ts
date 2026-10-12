@@ -14,6 +14,10 @@ export interface PostMeta {
   updated: string;
   /** Optional <title> override when the headline is too long for 65 characters. */
   seoTitle?: string;
+  metaTitle?: string;
+  h1?: string;
+  compassRelease?: string;
+  keywordId?: string;
 }
 
 function toMeta(slug: string, data: Record<string, unknown>): PostMeta {
@@ -21,6 +25,10 @@ function toMeta(slug: string, data: Record<string, unknown>): PostMeta {
   const date = str(data.date);
   return {
     slug,
+    metaTitle: str(data.meta_title) || undefined,
+    h1: str(data.h1) || undefined,
+    compassRelease: str(data.compass_release_hash) || undefined,
+    keywordId: str(data.keyword_id) || undefined,
     title: str(data.title) || slug,
     date,
     excerpt: str(data.excerpt),
@@ -75,6 +83,7 @@ export function getPostBySlug(slug: string): PostMeta {
 
 /** The post's <title>: the headline plus as much branding as fits in 65 characters. */
 export function postTitle(post: PostMeta): string {
+  if (post.metaTitle) return post.metaTitle;
   if (post.seoTitle) return post.seoTitle;
   const candidates = [`${post.title} | BHG Forklift Training`, `${post.title} | BHG`];
   return candidates.find((t) => t.length <= 65) ?? post.title;
